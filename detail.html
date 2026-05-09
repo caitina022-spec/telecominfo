@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>情报详情 - 中国电信系统部</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="detail-shell">
+      <aside class="detail-sidebar" aria-label="详情导航">
+        <a class="back-link" href="./index.html">返回首页</a>
+        <div class="brand detail-brand">
+          <div class="brand-mark">CT</div>
+          <div>
+            <strong>中国电信系统部</strong>
+            <span id="detailNavHint">详情工作台</span>
+          </div>
+        </div>
+        <nav class="nav-list detail-nav" id="detailNav"></nav>
+      </aside>
+
+      <main class="detail-main">
+        <header class="detail-hero">
+          <p class="eyebrow" id="detailEyebrow">Detail</p>
+          <h1 id="detailTitle">情报详情</h1>
+          <p id="detailSummary"></p>
+          <div class="detail-meta" id="detailMeta"></div>
+        </header>
+
+        <section class="detail-grid">
+          <article class="detail-panel primary-detail-panel">
+            <div class="section-title-row">
+              <div>
+                <p class="eyebrow">Key Items</p>
+                <h2 id="primaryPanelTitle">重点内容</h2>
+              </div>
+            </div>
+            <div class="detail-item-list" id="detailItems"></div>
+          </article>
+
+          <aside class="detail-panel">
+            <div class="section-title-row">
+              <div>
+                <p class="eyebrow">Actions</p>
+                <h2>建议动作</h2>
+              </div>
+            </div>
+            <div class="detail-action-list" id="detailActions"></div>
+          </aside>
+        </section>
+
+        <section class="section-block">
+          <div class="section-title-row">
+            <div>
+              <p class="eyebrow">Related Intelligence</p>
+              <h2>相关情报</h2>
+            </div>
+            <span class="result-count" id="relatedCount"></span>
+          </div>
+          <div class="news-grid" id="relatedNews"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./detail.js"></script>
+  </body>
+</html>

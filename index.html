@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>中国电信系统部情报门户</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="主导航">
+        <div class="brand">
+          <div class="brand-mark">CT</div>
+          <div>
+            <strong>中国电信系统部</strong>
+            <span>每日情报与客户经营门户</span>
+          </div>
+        </div>
+
+        <nav class="nav-list" id="navList"></nav>
+
+        <section class="status-panel">
+          <span class="status-dot"></span>
+          <div>
+            <strong>08:00 自动刷新</strong>
+            <p>信息源抓取、去重、AI摘要、分类入库</p>
+          </div>
+        </section>
+      </aside>
+
+      <main class="workspace">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">华为中国电信系统部情报门户</p>
+            <h1>每日情报与客户经营作战台</h1>
+          </div>
+          <div class="topbar-actions">
+            <div class="refresh-pill">
+              <span>今日</span>
+              <strong id="todayLabel">2026-05-09</strong>
+              <small>08:00 已更新</small>
+            </div>
+            <button class="icon-button" id="shareButton" title="复制分享链接" aria-label="复制分享链接">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M16 5l3 3-3 3M19 8H9a5 5 0 0 0 0 10h1M8 19l-3-3 3-3M5 16h10a5 5 0 0 0 0-10h-1" />
+              </svg>
+            </button>
+            <button class="text-button" id="copyBriefButton">复制日报</button>
+          </div>
+        </header>
+
+        <section class="control-row" aria-label="搜索与筛选">
+          <label class="search-box">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m21 21-4.35-4.35M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z" />
+            </svg>
+            <input id="searchInput" type="search" placeholder="搜索厂商、关键词、部门、标签" />
+          </label>
+          <div class="filter-tabs" id="priorityTabs" aria-label="重要级别筛选"></div>
+        </section>
+
+        <section class="section-block first-section" id="daily">
+          <div class="section-title-row">
+            <div>
+              <p class="eyebrow">Daily Briefing</p>
+              <h2>今日日报</h2>
+            </div>
+          </div>
+          <div class="hero-grid">
+          <article class="briefing-panel primary-panel">
+            <div class="section-heading">
+              <p>今日情报摘要</p>
+              <h2>最值得行动的 5 条</h2>
+            </div>
+            <div class="top-five" id="topFive"></div>
+          </article>
+
+          <article class="briefing-panel">
+            <div class="section-heading">
+              <p>对系统部影响</p>
+              <h2>3 个判断</h2>
+            </div>
+            <div class="insight-list" id="impactList"></div>
+          </article>
+
+          <article class="briefing-panel risk-panel">
+            <div class="section-heading">
+              <p>风险预警</p>
+              <h2>需要盯住的 3 件事</h2>
+            </div>
+            <div class="risk-list" id="riskList"></div>
+          </article>
+
+          <article class="briefing-panel">
+            <div class="section-heading">
+              <p>机会建议</p>
+              <h2>建议跟进的 3 个机会</h2>
+            </div>
+            <div class="opportunity-list" id="opportunityList"></div>
+          </article>
+          </div>
+        </section>
+
+        <section class="section-block" id="china-telecom">
+          <div class="section-title-row">
+            <div>
+              <p class="eyebrow">China Telecom Focus</p>
+              <h2>中国电信专区</h2>
+            </div>
+            <div class="metric-strip">
+              <span>天翼云</span>
+              <span>星辰大模型</span>
+              <span>云网融合</span>
+              <span>5G-A</span>
+            </div>
+          </div>
+          <div class="telecom-grid" id="telecomFocus"></div>
+        </section>
+
+        <section class="section-block" id="news-flow">
+          <div class="section-title-row">
+            <div>
+              <p class="eyebrow">Daily Intelligence</p>
+              <h2>八大情报板块</h2>
+            </div>
+            <span class="result-count" id="resultCount"></span>
+          </div>
+          <div class="category-tabs" id="categoryTabs"></div>
+          <div class="news-grid" id="newsGrid"></div>
+        </section>
+
+        <section class="section-block" id="departments">
+          <div class="section-title-row">
+            <div>
+              <p class="eyebrow">Department Channels</p>
+              <h2>部门频道</h2>
+            </div>
+          </div>
+          <div class="department-grid" id="departmentGrid"></div>
+        </section>
+
+        <section class="section-block" id="specials">
+          <div class="section-title-row">
+            <div>
+              <p class="eyebrow">Special Topics</p>
+              <h2>专题洞察</h2>
+            </div>
+          </div>
+          <div class="special-grid" id="specialGrid"></div>
+        </section>
+
+        <section class="section-block" id="trends">
+          <div class="section-title-row">
+            <div>
+              <p class="eyebrow">Signals</p>
+              <h2>热点趋势</h2>
+            </div>
+          </div>
+          <div class="analytics-grid">
+            <article class="analytics-panel">
+              <h3>关键词热度</h3>
+              <div class="bar-chart" id="keywordChart"></div>
+            </article>
+            <article class="analytics-panel">
+              <h3>厂商动态排行</h3>
+              <div class="vendor-list" id="vendorRank"></div>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite">分享链接已复制</div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
