@@ -10,13 +10,10 @@ const categories = [
   "其他行业热点",
 ];
 
-const departments = ["Marketing", "客户线", "无线", "核心网", "固网", "服务", "算力"];
-
 const navItems = [
   ["daily", "今日日报", "M5 12h14M12 5v14M19 12H5"],
   ["china-telecom", "中国电信专区", "M4 20V8l8-4 8 4v12M9 20v-6h6v6"],
   ["news-flow", "八大情报板块", "M4 6h16M4 12h16M4 18h16"],
-  ["departments", "部门频道", "M4 7h7v7H4zM13 7h7v7h-7zM4 16h7v4H4zM13 16h7v4h-7z"],
   ["specials", "专题洞察", "M4 5h16v14H4zM8 9h8M8 13h8M8 17h5"],
   ["trends", "热点趋势", "M4 19V5M4 19h16M8 15l3-4 3 2 4-7"],
 ];
@@ -222,10 +219,6 @@ const news = [
 
 const specialTopics = [
   {
-    title: "高层交流",
-    items: ["集团战略讲话", "客户拜访纪要", "生态合作发布", "省公司重点议题"],
-  },
-  {
     title: "展会洞察",
     items: ["WAIC", "MWC", "世界互联网大会", "算力大会", "运营商大会"],
   },
@@ -371,32 +364,6 @@ function renderSpecials() {
           <div class="tag-row">
             ${topic.items.map((item) => `<span class="tag">${item}</span>`).join("")}
           </div>
-        </a>
-      `,
-    )
-    .join("");
-}
-
-function renderDepartments() {
-  const departmentActions = {
-    Marketing: ["提炼AI、智算、5G-A对外客户话题", "准备友商标杆和行业趋势材料", "维护日报推送版摘要"],
-    客户线: ["识别中国电信项目线索和高层议题", "按省份和客户群沉淀跟进行动", "关注服务舆情与客户痛点"],
-    无线: ["跟踪5G-A、低空经济、AI终端连接需求", "整理竞品无线合同和方案差异", "准备商用案例"],
-    核心网: ["跟踪核心网云化、自动化和安全动态", "关注海外标杆项目", "形成中国电信演进建议"],
-    固网: ["沉淀全光网、家庭入口、政企专线机会", "关注宽带体验舆情", "联动边缘云方案"],
-    服务: ["监测投诉、网络故障和客服风险", "包装AI客服与AIOps能力", "沉淀服务改进闭环"],
-    算力: ["跟踪智算中心、国产芯片、液冷和互联", "识别天翼云与星辰大模型机会", "维护算力生态竞品图谱"],
-  };
-
-  $("#departmentGrid").innerHTML = departments
-    .map(
-      (department) => `
-        <a class="department-card card-link" href="${detailUrl("department", department)}">
-          <strong>${department}</strong>
-          <p>今日建议关注：</p>
-          <ul>
-            ${departmentActions[department].map((action) => `<li>${action}</li>`).join("")}
-          </ul>
         </a>
       `,
     )
@@ -594,7 +561,6 @@ function boot() {
   renderDaily();
   renderTelecomFocus();
   renderSpecials();
-  renderDepartments();
   renderTrends();
   renderNews();
   bindEvents();

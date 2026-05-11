@@ -504,7 +504,6 @@ h3 {
 }
 
 .telecom-grid,
-.department-grid,
 .special-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -512,7 +511,6 @@ h3 {
 }
 
 .focus-card,
-.department-card,
 .special-card {
   display: block;
   min-height: 150px;
@@ -536,15 +534,13 @@ h3 {
 }
 
 .focus-card strong,
-.department-card strong,
 .special-card strong {
   display: block;
   margin-bottom: 8px;
   font-size: 16px;
 }
 
-.focus-card p,
-.department-card p {
+.focus-card p {
   margin: 0;
   color: var(--muted);
   font-size: 13px;
@@ -557,20 +553,6 @@ h3 {
 
 .special-card .tag-row {
   margin-top: 16px;
-}
-
-.department-card ul {
-  display: grid;
-  gap: 8px;
-  margin: 10px 0 0;
-  padding: 0;
-  list-style: none;
-}
-
-.department-card li {
-  color: var(--muted);
-  font-size: 13px;
-  line-height: 1.45;
 }
 
 .analytics-grid {
@@ -882,7 +864,6 @@ h3 {
   }
 
   .telecom-grid,
-  .department-grid,
   .special-grid,
   .news-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -924,7 +905,6 @@ h3 {
   .detail-grid,
   .analytics-grid,
   .telecom-grid,
-  .department-grid,
   .special-grid,
   .news-grid {
     grid-template-columns: 1fr;

@@ -2,7 +2,6 @@ const detailNavItems = [
   ["index.html#daily", "今日日报", "M5 12h14M12 5v14M19 12H5"],
   ["index.html#china-telecom", "中国电信专区", "M4 20V8l8-4 8 4v12M9 20v-6h6v6"],
   ["index.html#news-flow", "八大情报板块", "M4 6h16M4 12h16M4 18h16"],
-  ["index.html#departments", "部门频道", "M4 7h7v7H4zM13 7h7v7h-7zM4 16h7v4H4zM13 16h7v4h-7z"],
   ["index.html#specials", "专题洞察", "M4 5h16v14H4zM8 9h8M8 13h8M8 17h5"],
   ["index.html#trends", "热点趋势", "M4 19V5M4 19h16M8 15l3-4 3 2 4-7"],
 ];
@@ -30,50 +29,6 @@ const detailNews = [
 }));
 
 const detailContent = {
-  department: {
-    Marketing: {
-      eyebrow: "Department Channel",
-      summary: "面向客户交流和市场材料的行业情报频道，沉淀趋势判断、竞品案例、展会观点和日报推送素材。",
-      items: ["AI、智算、5G-A客户话题包", "友商标杆案例与对比材料", "展会洞察、传播口径和一页纸素材"],
-      actions: ["每周整理3条可复用客户观点", "把高优情报转成客户拜访材料", "维护对外叙事标签和案例库"],
-    },
-    客户线: {
-      eyebrow: "Department Channel",
-      summary: "围绕中国电信集团、省公司和政企客户，识别高层议题、项目线索和客户痛点。",
-      items: ["中国电信集团战略与省公司动态", "重点客户拜访纪要和高层交流", "政企云、算力、5G-A项目线索"],
-      actions: ["按省份和客户群沉淀机会清单", "标注需要客户经理跟进的情报", "把舆情与服务风险同步到客户口径"],
-    },
-    无线: {
-      eyebrow: "Department Channel",
-      summary: "聚焦5G-A、低空经济、AI终端连接和海外无线竞品项目。",
-      items: ["5G-A商用案例和频谱政策", "低空通信感知一体化场景", "AI终端、物联和边缘连接需求"],
-      actions: ["沉淀5G-A价值场景", "跟踪Ericsson/Nokia无线项目", "准备无线方案差异化材料"],
-    },
-    核心网: {
-      eyebrow: "Department Channel",
-      summary: "跟踪核心网云化、自动化、网络安全和海外标杆合同。",
-      items: ["5GC、IMS和核心网云化", "网络自动化与AI运维", "安全、可靠性和容灾能力"],
-      actions: ["维护核心网演进路线材料", "梳理友商案例和客户疑问", "联动服务团队补充运维价值"],
-    },
-    固网: {
-      eyebrow: "Department Channel",
-      summary: "关注全光网、家庭入口、政企专线、宽带体验和绿色网络。",
-      items: ["FTTR、PON和全光园区", "政企精品专线和云网融合", "宽带体验舆情和服务闭环"],
-      actions: ["提炼全光品质专线价值", "跟踪宽带投诉和体验指标", "联合算力频道包装边缘云场景"],
-    },
-    服务: {
-      eyebrow: "Department Channel",
-      summary: "聚焦网络保障、客户体验、投诉舆情、AI客服和AIOps服务方案。",
-      items: ["网络故障、投诉和负面舆情", "AI客服与AIOps案例", "重大项目交付和服务复盘"],
-      actions: ["建立风险分级和闭环清单", "沉淀服务改进案例", "把高频问题转成客户沟通口径"],
-    },
-    算力: {
-      eyebrow: "Department Channel",
-      summary: "跟踪智算中心、国产芯片、液冷、集群互联、天翼云和星辰大模型机会。",
-      items: ["智算中心建设和CAPEX动向", "国产AI芯片与液冷服务器", "云、网、算一体化方案"],
-      actions: ["维护算力生态竞品图谱", "识别天翼云和星辰机会", "输出智算集群成本与能效观点"],
-    },
-  },
   telecom: {
     中国电信今日动态: {
       eyebrow: "China Telecom Focus",
@@ -101,12 +56,6 @@ const detailContent = {
     },
   },
   special: {
-    高层交流: {
-      eyebrow: "Special Topic",
-      summary: "沉淀集团战略讲话、客户拜访纪要、生态合作发布和省公司重点议题。",
-      items: ["高层讲话摘要", "客户拜访纪要", "生态合作与签约", "省公司重点议题"],
-      actions: ["按客户和时间归档", "提炼可复用交流观点", "标记需要后续跟进的机会"],
-    },
     展会洞察: {
       eyebrow: "Special Topic",
       summary: "覆盖WAIC、MWC、世界互联网大会、算力大会和运营商大会的观点、竞品和客户议题。",
@@ -161,8 +110,8 @@ const $ = (selector) => document.querySelector(selector);
 function getParams() {
   const params = new URLSearchParams(window.location.search);
   return {
-    type: params.get("type") || "department",
-    value: params.get("value") || "Marketing",
+    type: params.get("type") || "telecom",
+    value: params.get("value") || "中国电信今日动态",
   };
 }
 
@@ -193,7 +142,7 @@ function getDetail(type, value) {
     };
   }
 
-  const bucket = detailContent[type] || detailContent.department;
+  const bucket = detailContent[type] || detailContent.telecom;
   const content = bucket[value] || Object.values(bucket)[0];
   return {
     eyebrow: content.eyebrow,
@@ -206,9 +155,6 @@ function getDetail(type, value) {
 }
 
 function relatedNews(type, value) {
-  if (type === "department") {
-    return detailNews.filter((item) => item.channels.includes(value));
-  }
   if (type === "telecom") {
     return detailNews.filter((item) => item.title.includes("中国电信") || item.vendors.includes("中国电信"));
   }
@@ -261,7 +207,6 @@ function renderDetail() {
 
 function typeLabel(type) {
   return {
-    department: "部门频道",
     telecom: "中国电信专区",
     special: "专题洞察",
     category: "情报板块",
