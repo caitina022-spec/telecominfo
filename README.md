@@ -22,12 +22,14 @@
 页面内容已经集中到 `data/portal-data.js`：
 
 - `news`：日报和八大情报板块新闻
+- `categoryProfiles`：八大情报板块的说明、建议动作、关键词和重点厂商词表
 - `dailyBriefing`：今日日报里的影响判断、风险预警、机会建议
 - `specialTopics`：专题洞察卡片
 - `detailContent`：中国电信专区和专题详情页内容
-- `categoryDescriptions` / `categoryActions`：八大情报板块详情页说明和建议动作
 
 每条 `news` 都有稳定 `id`，首页新闻卡片会进入单条情报详情页。后续接自动抓取或数据库时，建议继续使用这个 `id` 作为详情页和去重的基础字段。
+
+`categoryProfiles` 可以作为后续自动抓取和AI分类的第一版词表：抓取服务先按关键词和重点厂商命中候选内容，再由AI摘要、分类和评分生成日报。
 
 后续改内容优先改这个数据文件，`app.js` 和 `detail.js` 主要保留页面渲染逻辑。
 

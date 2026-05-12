@@ -1,4 +1,5 @@
-const { categories, navItems, dailyBriefing, news, specialTopics, detailContent } = window.portalData;
+const { categoryProfiles, navItems, dailyBriefing, news, specialTopics, detailContent } = window.portalData;
+const categories = ["全部", ...Object.keys(categoryProfiles)];
 
 function detailUrl(type, value) {
   return `./detail.html?type=${encodeURIComponent(type)}&value=${encodeURIComponent(value)}`;

@@ -1,4 +1,4 @@
-const { detailNavItems, news: detailNews, detailContent, categoryDescriptions, categoryActions } = window.portalData;
+const { detailNavItems, news: detailNews, detailContent, categoryProfiles } = window.portalData;
 
 const levelClass = {
   高: "level-high",
@@ -48,14 +48,15 @@ function getDetail(type, value) {
   }
 
   if (type === "category") {
+    const profile = categoryProfiles[value] || {};
     return {
       eyebrow: "Intelligence Category",
       title: value,
-      summary: categoryDescriptions[value] || "按专题聚合相关情报、重点判断和建议动作。",
+      summary: profile.description || "按专题聚合相关情报、重点判断和建议动作。",
       items: detailNews
         .filter((item) => item.category === value)
         .map((item) => `${item.title}：${item.summary}`),
-      actions: categoryActions[value] || ["筛选高优情报", "沉淀客户材料", "同步相关部门"],
+      actions: profile.actions || ["筛选高优情报", "沉淀客户材料", "同步相关部门"],
       related: detailNews.filter((item) => item.category === value),
     };
   }
