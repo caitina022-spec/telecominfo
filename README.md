@@ -63,6 +63,14 @@ node scripts/normalize-news.js
 
 脚本会在 `reports/normalized-news.json` 输出标准化 JSON，后续真实抓取脚本可以复用这个结构。
 
+也可以直接运行完整日报流水线：
+
+```bash
+node scripts/run-daily-pipeline.js
+```
+
+它会依次完成数据校验、新闻标准化和 Markdown 日报生成。
+
 ## 后续接入自动化
 
 建议服务端按以下链路接入：
