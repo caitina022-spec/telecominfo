@@ -1,4 +1,4 @@
-const { categories, navItems, news, specialTopics } = window.portalData;
+const { categories, navItems, dailyBriefing, news, specialTopics, detailContent } = window.portalData;
 
 function detailUrl(type, value) {
   return `./detail.html?type=${encodeURIComponent(type)}&value=${encodeURIComponent(value)}`;
@@ -71,23 +71,9 @@ function renderDaily() {
     )
     .join("");
 
-  renderMiniList("#impactList", [
-    ["智算建设窗口打开", "中国电信智算、云网融合和行业AI项目将成为近期客户经营高频议题。"],
-    ["AI从模型竞争转入工作流竞争", "服务商动态显示智能体、客服、运维和企业助手正在成为运营商AI落地抓手。"],
-    ["5G-A与边缘能力需要场景牵引", "AI终端、低空经济和行业大模型都在把连接、边缘和云拉成一体化需求。"],
-  ]);
-
-  renderMiniList("#riskList", [
-    ["客户服务舆情", "宽带体验、套餐解释和客服响应需要持续监测，避免局部事件外溢。"],
-    ["政策合规变化", "AI监管和数据跨境规则可能影响政企AI与云服务部署口径。"],
-    ["友商标杆挤压", "海外5G-A、核心网和智算案例会被客户用于路线比较，需要提前准备材料。"],
-  ]);
-
-  renderMiniList("#opportunityList", [
-    ["中国电信智算中心", "打包昇腾、数据中心网络、云服务和运维服务的组合方案。"],
-    ["行业AI解决方案", "围绕金融、制造、政务形成专线、云和算力一体化话题。"],
-    ["AI终端连接入口", "把AI眼镜、AI手机、家庭终端转化为5G、固网和边缘AI机会。"],
-  ]);
+  renderMiniList("#impactList", dailyBriefing.impacts);
+  renderMiniList("#riskList", dailyBriefing.risks);
+  renderMiniList("#opportunityList", dailyBriefing.opportunities);
 }
 
 function renderMiniList(selector, items) {
@@ -104,19 +90,12 @@ function renderMiniList(selector, items) {
 }
 
 function renderTelecomFocus() {
-  const focus = [
-    ["中国电信今日动态", "优先沉淀集团战略、天翼云、星辰大模型、云网融合、5G-A与政企业务新闻。"],
-    ["经营数据与CAPEX", "跟踪财报、资本开支、政企收入、云收入和重点省份经营变化。"],
-    ["近期高层交流", "记录集团领导讲话、展会发布、生态合作和客户高层互动。"],
-    ["负面舆情与服务风险", "按风险等级、传播范围、涉及地区和建议口径进行闭环跟踪。"],
-  ];
-
-  $("#telecomFocus").innerHTML = focus
+  $("#telecomFocus").innerHTML = Object.entries(detailContent.telecom)
     .map(
-      ([title, body]) => `
+      ([title, content]) => `
         <a class="focus-card card-link" href="${detailUrl("telecom", title)}">
           <strong>${title}</strong>
-          <p>${body}</p>
+          <p>${content.summary}</p>
         </a>
       `,
     )

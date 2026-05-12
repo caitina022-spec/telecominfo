@@ -22,6 +22,7 @@
 页面内容已经集中到 `data/portal-data.js`：
 
 - `news`：日报和八大情报板块新闻
+- `dailyBriefing`：今日日报里的影响判断、风险预警、机会建议
 - `specialTopics`：专题洞察卡片
 - `detailContent`：中国电信专区和专题详情页内容
 - `categoryDescriptions` / `categoryActions`：八大情报板块详情页说明和建议动作
