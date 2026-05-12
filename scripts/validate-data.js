@@ -1,4 +1,5 @@
 const portalData = require("../data/portal-data.js");
+const sourceConfig = require("../data/source-config.js");
 
 const requiredNewsFields = [
   "id",
@@ -88,10 +89,49 @@ function validateDetailContent() {
   });
 }
 
+function validateSourceConfig() {
+  assert(sourceConfig.refresh?.timezone === "Asia/Shanghai", "sourceConfig.refresh.timezone must be Asia/Shanghai.");
+  assert(Array.isArray(sourceConfig.sourceGroups) && sourceConfig.sourceGroups.length > 0, "sourceConfig.sourceGroups must be non-empty.");
+
+  const profiles = portalData.categoryProfiles || {};
+  const sourceGroupIds = new Set();
+
+  sourceConfig.sourceGroups.forEach((group, groupIndex) => {
+    assert(group.id, `sourceGroups[${groupIndex}] is missing id.`);
+    assert(!sourceGroupIds.has(group.id), `Duplicate source group id: ${group.id}.`);
+    sourceGroupIds.add(group.id);
+
+    assert(group.name, `${group.id} is missing name.`);
+    assert(group.trustLevel, `${group.id} is missing trustLevel.`);
+    assert(group.cadence, `${group.id} is missing cadence.`);
+    assert(Array.isArray(group.categories) && group.categories.length > 0, `${group.id} must include categories.`);
+    assert(Array.isArray(group.sources) && group.sources.length > 0, `${group.id} must include sources.`);
+
+    group.categories.forEach((category) => {
+      const isTelecomFocus = category === "中国电信专区";
+      assert(profiles[category] || isTelecomFocus, `${group.id} references unknown category: ${category}.`);
+    });
+
+    group.sources.forEach((source, sourceIndex) => {
+      assert(source.name, `${group.id}.sources[${sourceIndex}] is missing name.`);
+      assert(/^https:\/\//.test(source.homepage || ""), `${group.id}.${source.name} homepage must be an HTTPS URL.`);
+      assert(Array.isArray(source.vendors) && source.vendors.length > 0, `${group.id}.${source.name} must include vendors.`);
+    });
+  });
+
+  ["highPrioritySignals", "mediumPrioritySignals", "negativeSignals"].forEach((ruleName) => {
+    assert(
+      Array.isArray(sourceConfig.scoringRules?.[ruleName]) && sourceConfig.scoringRules[ruleName].length > 0,
+      `sourceConfig.scoringRules.${ruleName} must be non-empty.`,
+    );
+  });
+}
+
 validateCategoryProfiles();
 validateNews();
 validateDailyBriefing();
 validateDetailContent();
+validateSourceConfig();
 
 if (errors.length > 0) {
   console.error(`Data validation failed with ${errors.length} issue(s):`);
@@ -99,4 +139,6 @@ if (errors.length > 0) {
   process.exit(1);
 }
 
-console.log(`Data validation passed: ${portalData.news.length} news items, ${Object.keys(portalData.categoryProfiles).length} categories.`);
+console.log(
+  `Data validation passed: ${portalData.news.length} news items, ${Object.keys(portalData.categoryProfiles).length} categories, ${sourceConfig.sourceGroups.length} source groups.`,
+);
