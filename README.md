@@ -87,6 +87,15 @@ node scripts/run-daily-pipeline.js
 
 它会依次完成数据校验、原始新闻转换、新闻标准化和 Markdown 日报生成。
 
+需要真实联网抓取来源页面时运行：
+
+```bash
+node scripts/fetch-live-news.js
+node scripts/run-live-pipeline.js
+```
+
+`fetch-live-news.js` 会读取 `data/source-config.js` 中的来源 URL，抓取公开网页标题、摘要和候选链接，输出 `reports/fetched-raw-news.json`。`run-live-pipeline.js` 会在此基础上继续完成入库转换、标准化和日报生成。部分官网可能因为反爬、地区访问或页面脚本渲染失败，失败项会写入 `reports/fetch-failures.json`。
+
 ## 后续接入自动化
 
 建议服务端按以下链路接入：
