@@ -73,6 +73,12 @@ node scripts/ingest-raw-news.js
 
 脚本会在 `reports/ingested-news.json` 输出已分类、打标签、补齐频道和优先级的候选新闻。
 
+如果要转换一份外部原始新闻 JSON，可以参考 `templates/raw-news-input.example.json` 的格式，然后运行：
+
+```bash
+node scripts/ingest-raw-news.js path/to/raw-news.json
+```
+
 也可以直接运行完整日报流水线：
 
 ```bash

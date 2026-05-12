@@ -131,9 +131,22 @@ function ingestRawNews(rawItems = rawNewsSample) {
   return rawItems.map(toPortalNews);
 }
 
-function writeIngestedNews() {
+function readRawNewsInput(inputPath) {
+  if (!inputPath) return rawNewsSample;
+
+  const resolvedPath = path.resolve(process.cwd(), inputPath);
+  const raw = JSON.parse(fs.readFileSync(resolvedPath, "utf8"));
+
+  if (!Array.isArray(raw)) {
+    throw new Error("Raw news input must be a JSON array.");
+  }
+
+  return raw;
+}
+
+function writeIngestedNews(rawItems = rawNewsSample) {
   const outputPath = path.join(outputDir, "ingested-news.json");
-  const ingested = ingestRawNews();
+  const ingested = ingestRawNews(rawItems);
 
   fs.mkdirSync(outputDir, { recursive: true });
   fs.writeFileSync(outputPath, `${JSON.stringify(ingested, null, 2)}\n`, "utf8");
@@ -142,13 +155,20 @@ function writeIngestedNews() {
 }
 
 if (require.main === module) {
-  const outputPath = writeIngestedNews();
-  console.log(`Ingested news generated: ${outputPath}`);
+  try {
+    const rawItems = readRawNewsInput(process.argv[2]);
+    const outputPath = writeIngestedNews(rawItems);
+    console.log(`Ingested news generated: ${outputPath}`);
+  } catch (error) {
+    console.error(`Raw news ingestion failed: ${error.message}`);
+    process.exit(1);
+  }
 }
 
 module.exports = {
   ingestRawNews,
   toPortalNews,
   inferCategory,
+  readRawNewsInput,
   writeIngestedNews,
 };
