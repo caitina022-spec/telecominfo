@@ -17,6 +17,17 @@
 - 搜索和筛选：按关键词、厂商、标签、部门、重要级别过滤
 - 热点趋势：关键词热度与厂商动态排行
 
+## 内容维护
+
+页面内容已经集中到 `data/portal-data.js`：
+
+- `news`：日报和八大情报板块新闻
+- `specialTopics`：专题洞察卡片
+- `detailContent`：中国电信专区和专题详情页内容
+- `categoryDescriptions` / `categoryActions`：八大情报板块详情页说明和建议动作
+
+后续改内容优先改这个数据文件，`app.js` 和 `detail.js` 主要保留页面渲染逻辑。
+
 ## 后续接入自动化
 
 建议服务端按以下链路接入：
@@ -31,4 +42,4 @@
 → 推送企业微信/飞书/邮件摘要
 ```
 
-前端可以把 `app.js` 里的示例 `news` 数据替换为接口返回，例如 `/api/daily?date=YYYY-MM-DD`。
+前端可以把 `data/portal-data.js` 里的示例 `news` 数据替换为接口返回，例如 `/api/daily?date=YYYY-MM-DD`。
