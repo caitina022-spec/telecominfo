@@ -33,6 +33,8 @@
 
 `data/source-config.js` 是后续自动抓取的来源配置，包含运营商、AI服务商、IT/CT设备商、宏观政策和展会来源，以及重要性评分信号。当前页面不会联网抓取，它只是为下一步后端/脚本接入准备统一入口。
 
+`data/raw-news-sample.js` 是抓取结果样例，代表 RSS、官网或手工录入进来的原始新闻。`scripts/ingest-raw-news.js` 会把这些原始新闻转换成门户可用的新闻字段。
+
 后续改内容优先改这个数据文件，`app.js` 和 `detail.js` 主要保留页面渲染逻辑。
 
 ## 本地检查
@@ -63,13 +65,21 @@ node scripts/normalize-news.js
 
 脚本会在 `reports/normalized-news.json` 输出标准化 JSON，后续真实抓取脚本可以复用这个结构。
 
+需要测试原始新闻入库转换时运行：
+
+```bash
+node scripts/ingest-raw-news.js
+```
+
+脚本会在 `reports/ingested-news.json` 输出已分类、打标签、补齐频道和优先级的候选新闻。
+
 也可以直接运行完整日报流水线：
 
 ```bash
 node scripts/run-daily-pipeline.js
 ```
 
-它会依次完成数据校验、新闻标准化和 Markdown 日报生成。
+它会依次完成数据校验、原始新闻转换、新闻标准化和 Markdown 日报生成。
 
 ## 后续接入自动化
 

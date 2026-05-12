@@ -5,6 +5,7 @@ const rootDir = path.join(__dirname, "..");
 
 const steps = [
   ["Validate portal data", "scripts/validate-data.js"],
+  ["Ingest raw news sample", "scripts/ingest-raw-news.js"],
   ["Normalize news records", "scripts/normalize-news.js"],
   ["Generate daily report", "scripts/generate-daily-report.js"],
 ];
