@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const portalData = require("../data/portal-data.js");
+const { normalizeNews } = require("./normalize-news.js");
 
 const outputDir = path.join(__dirname, "..", "reports");
 
@@ -16,18 +17,10 @@ function beijingDateLabel(date = new Date()) {
 }
 
 function topNewsItems(limit = 5) {
-  const levelWeight = {
-    高: 3,
-    中: 2,
-    低: 1,
-  };
-
-  return [...portalData.news]
-    .sort((a, b) => {
-      const byLevel = levelWeight[b.level] - levelWeight[a.level];
-      return byLevel || a.time.localeCompare(b.time);
-    })
-    .slice(0, limit);
+  const newsById = new Map(portalData.news.map((item) => [item.id, item]));
+  return normalizeNews()
+    .slice(0, limit)
+    .map((item) => newsById.get(item.id));
 }
 
 function sectionList(items) {

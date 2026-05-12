@@ -55,6 +55,14 @@ node scripts/generate-daily-report.js
 
 脚本会在 `reports/` 目录下生成当天的 `YYYY-MM-DD-daily-report.md`，内容来自当前 `data/portal-data.js`。
 
+需要查看标准化后的新闻结构和优先级评分时运行：
+
+```bash
+node scripts/normalize-news.js
+```
+
+脚本会在 `reports/normalized-news.json` 输出标准化 JSON，后续真实抓取脚本可以复用这个结构。
+
 ## 后续接入自动化
 
 建议服务端按以下链路接入：
