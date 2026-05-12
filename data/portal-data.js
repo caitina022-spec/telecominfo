@@ -19,6 +19,7 @@ window.portalData = {
 ],
   news: [
   {
+    id: "ct-cloud-network-intelligence",
     title: "中国电信发布新一轮云网融合与智算中心建设动向",
     category: "运营商动态",
     source: "运营商官网",
@@ -33,6 +34,7 @@ window.portalData = {
     level: "高",
   },
   {
+    id: "operator-ai-customer-service",
     title: "海外主流运营商扩大AI客服与网络智能化投入",
     category: "运营商动态",
     source: "行业媒体",
@@ -47,6 +49,7 @@ window.portalData = {
     level: "高",
   },
   {
+    id: "multimodal-agent-models",
     title: "新一代多模态模型强化实时语音与智能体能力",
     category: "AI服务商动态",
     source: "公司Blog",
@@ -61,6 +64,7 @@ window.portalData = {
     level: "高",
   },
   {
+    id: "domestic-ai-chip-liquid-cooling",
     title: "国产AI芯片和液冷服务器供给加速，智算集群成本成为竞争焦点",
     category: "AI/算力设备商动态",
     source: "科技媒体",
@@ -75,6 +79,7 @@ window.portalData = {
     level: "高",
   },
   {
+    id: "ai-glasses-phone-edge",
     title: "AI眼镜与AI手机新品密集预热，端云协同需求升温",
     category: "AI产品商品",
     source: "消费电子媒体",
@@ -89,6 +94,7 @@ window.portalData = {
     level: "中",
   },
   {
+    id: "overseas-5ga-core-contract",
     title: "海外设备商获得5G-A与核心网升级合同",
     category: "CT设备商动态",
     source: "公司Newsroom",
@@ -103,6 +109,7 @@ window.portalData = {
     level: "中",
   },
   {
+    id: "ai-regulation-data-compliance",
     title: "AI监管与数据跨境政策持续收紧，企业部署更重视可信与合规",
     category: "全球宏观热点",
     source: "政策网站",
@@ -117,6 +124,7 @@ window.portalData = {
     level: "中",
   },
   {
+    id: "telecom-service-sentiment-risk",
     title: "通信服务投诉在社交平台扩散，网络体验与客服响应成为舆情焦点",
     category: "舆情和负面信息",
     source: "舆情监测",
@@ -131,6 +139,7 @@ window.portalData = {
     level: "高",
   },
   {
+    id: "industry-model-finance-manufacturing",
     title: "金融与制造企业加速落地行业大模型，专线、云和算力需求同步增长",
     category: "其他行业热点",
     source: "行业研究",
@@ -145,6 +154,7 @@ window.portalData = {
     level: "中",
   },
   {
+    id: "low-altitude-integrated-sensing",
     title: "低空经济试点扩大，通信感知一体与边缘算力成为基础设施议题",
     category: "全球宏观热点",
     source: "政府公告",
@@ -159,6 +169,7 @@ window.portalData = {
     level: "中",
   },
   {
+    id: "ai-ad-automation",
     title: "AI广告投放自动化继续压缩制作与投放周期",
     category: "其他行业热点",
     source: "科技媒体",
@@ -173,6 +184,7 @@ window.portalData = {
     level: "低",
   },
   {
+    id: "all-optical-green-network",
     title: "全光网与绿色节能成为新一轮网络升级高频关键词",
     category: "CT设备商动态",
     source: "行业媒体",
@@ -187,6 +199,7 @@ window.portalData = {
     level: "中",
   },
   {
+    id: "mwc-waic-ai-native-network",
     title: "MWC与WAIC议题前瞻集中指向AI原生网络和智能终端",
     category: "全球宏观热点",
     source: "展会观察",
@@ -201,6 +214,7 @@ window.portalData = {
     level: "中",
   },
   {
+    id: "operator-foundation-model-competition",
     title: "三大运营商大模型进入行业应用比拼阶段",
     category: "AI服务商动态",
     source: "行业媒体",

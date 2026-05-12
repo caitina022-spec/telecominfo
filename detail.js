@@ -30,6 +30,23 @@ function renderDetailNav() {
 }
 
 function getDetail(type, value) {
+  if (type === "item") {
+    const item = detailNews.find((newsItem) => newsItem.id === value) || detailNews[0];
+    return {
+      eyebrow: "Intelligence Detail",
+      title: item.title,
+      summary: item.summary,
+      items: [`为什么重要：${item.why}`, `对中国电信/华为的影响：${item.impact}`, `来源信息：${item.source} / ${item.time} / ${item.region}`],
+      actions: item.channels.map((channel) => `${channel}：跟进${item.category}相关机会和风险`),
+      related: detailNews.filter((newsItem) => newsItem.category === item.category && newsItem.id !== item.id).slice(0, 4),
+      meta: [
+        ["频道类型", "单条情报"],
+        ["情报板块", item.category],
+        ["重要级别", item.level],
+      ],
+    };
+  }
+
   if (type === "category") {
     return {
       eyebrow: "Intelligence Category",
@@ -52,6 +69,11 @@ function getDetail(type, value) {
     items: content.items,
     actions: content.actions,
     related: relatedNews(type, value),
+    meta: [
+      ["频道类型", typeLabel(type)],
+      ["当前主题", value],
+      ["更新节奏", "随日报同步"],
+    ],
   };
 }
 
@@ -77,11 +99,11 @@ function renderDetail() {
   $("#detailSummary").textContent = detail.summary;
   $("#detailNavHint").textContent = detail.title;
   $("#primaryPanelTitle").textContent = type === "category" ? "重点情报" : "重点内容";
-  $("#detailMeta").innerHTML = [
+  $("#detailMeta").innerHTML = (detail.meta || [
     ["频道类型", typeLabel(type)],
     ["当前主题", detail.title],
     ["更新节奏", "随日报同步"],
-  ]
+  ])
     .map(([label, valueText]) => `<span><strong>${label}</strong>${valueText}</span>`)
     .join("");
 
@@ -108,6 +130,7 @@ function renderDetail() {
 
 function typeLabel(type) {
   return {
+    item: "单条情报",
     telecom: "中国电信专区",
     special: "专题洞察",
     category: "情报板块",

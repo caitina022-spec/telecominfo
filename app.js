@@ -221,7 +221,7 @@ function renderNews() {
 
 function newsCardTemplate(item) {
   return `
-    <a class="news-card card-link" href="${detailUrl("category", item.category)}">
+    <a class="news-card card-link" href="${detailUrl("item", item.id)}">
       <div class="news-card-header">
         <h3>${item.title}</h3>
         ${levelBadge(item.level)}
