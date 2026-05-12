@@ -280,18 +280,21 @@ function buildDailyBrief() {
     "今日必看：",
     ...highItems.map((item, index) => `${index + 1}. ${item.title}｜${item.summary}`),
     "",
-    "风险预警：",
-    "- 客户服务舆情：宽带体验、套餐解释和客服响应需要持续监测。",
-    "- 政策合规变化：AI监管和数据跨境规则可能影响政企AI与云服务部署。",
-    "- 友商标杆挤压：5G-A、核心网和智算案例需要提前准备对比材料。",
+    "影响判断：",
+    ...briefSectionLines(dailyBriefing.impacts),
     "",
-    "建议行动：",
-    "- 客户线：识别中国电信项目线索和高层议题。",
-    "- 算力：跟踪智算中心、国产芯片、液冷和互联。",
-    "- Marketing：提炼AI、智算、5G-A对外客户话题。",
+    "风险预警：",
+    ...briefSectionLines(dailyBriefing.risks),
+    "",
+    "机会建议：",
+    ...briefSectionLines(dailyBriefing.opportunities),
   ];
 
   return lines.join("\n");
+}
+
+function briefSectionLines(items) {
+  return items.map(([title, body]) => `- ${title}：${body}`);
 }
 
 function showToast(message) {
