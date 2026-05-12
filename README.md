@@ -33,6 +33,18 @@
 
 后续改内容优先改这个数据文件，`app.js` 和 `detail.js` 主要保留页面渲染逻辑。
 
+## 本地检查
+
+内容改完后可以运行：
+
+```bash
+node scripts/validate-data.js
+node --check app.js
+node --check detail.js
+```
+
+`scripts/validate-data.js` 会检查新闻 ID 是否重复、新闻分类是否存在、日报摘要和详情内容是否缺字段。后续接自动抓取时，也可以把它作为入库前的轻量校验。
+
 ## 后续接入自动化
 
 建议服务端按以下链路接入：
