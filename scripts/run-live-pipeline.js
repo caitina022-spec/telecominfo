@@ -18,7 +18,8 @@ function run(label, args) {
 function runLivePipeline() {
   run("Validate portal data", ["scripts/validate-data.js"]);
   run("Fetch live source pages", ["scripts/fetch-live-news.js"]);
-  run("Ingest fetched raw news", ["scripts/ingest-raw-news.js", "reports/fetched-raw-news.json"]);
+  run("Search web news", ["scripts/search-web-news.js"]);
+  run("Ingest raw news", ["scripts/ingest-raw-news.js", "reports/fetched-raw-news.json", "reports/searched-raw-news.json"]);
   run("Normalize news records", ["scripts/normalize-news.js"]);
   run("Generate daily report", ["scripts/generate-daily-report.js"]);
   console.log("\nLive daily pipeline completed.");

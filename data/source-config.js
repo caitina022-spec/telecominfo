@@ -90,6 +90,61 @@ const sourceConfig = {
     mediumPrioritySignals: ["运营商AI", "大模型", "智能体", "核心网", "全光网", "AI终端", "液冷", "国产算力"],
     negativeSignals: ["投诉", "故障", "处罚", "泄露", "中断", "负面", "风险"],
   },
+  webSearch: {
+    provider: "gdelt",
+    lookbackDays: 2,
+    maxRecordsPerQuery: 8,
+    queries: [
+      {
+        id: "china-telecom-cloud-ai",
+        name: "中国电信云网算与AI",
+        query: "\"China Telecom\"",
+        categoryBias: "运营商动态",
+      },
+      {
+        id: "operator-ai-network",
+        name: "运营商AI与网络智能化",
+        query: "\"operator AI\" OR AIOps OR \"network automation\"",
+        categoryBias: "运营商动态",
+      },
+      {
+        id: "frontier-model-agents",
+        name: "大模型与智能体",
+        query: "OpenAI OR Gemini OR Anthropic OR DeepSeek OR Llama",
+        categoryBias: "AI服务商动态",
+      },
+      {
+        id: "ai-devices-robots",
+        name: "AI终端与机器人",
+        query: "\"AI glasses\" OR \"AI phone\" OR \"humanoid robot\"",
+        categoryBias: "AI产品商品",
+      },
+      {
+        id: "ai-compute-infrastructure",
+        name: "智算与AI芯片",
+        query: "NVIDIA OR AMD OR TPU OR Trainium",
+        categoryBias: "AI/算力设备商动态",
+      },
+      {
+        id: "ct-vendors-network",
+        name: "CT设备商与网络演进",
+        query: "Ericsson OR Nokia OR Cisco OR Ciena OR Infinera",
+        categoryBias: "CT设备商动态",
+      },
+      {
+        id: "telecom-sentiment-risk",
+        name: "通信舆情与负面风险",
+        query: "\"China Telecom\" complaint OR telecom outage OR data breach",
+        categoryBias: "舆情和负面信息",
+      },
+      {
+        id: "ai-industry-impact",
+        name: "AI赋能传统行业",
+        query: "\"AI finance\" OR \"AI manufacturing\" OR \"AI advertising\" OR \"AI video\"",
+        categoryBias: "其他行业热点",
+      },
+    ],
+  },
 };
 
 if (typeof window !== "undefined") {

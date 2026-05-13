@@ -125,6 +125,14 @@ function validateSourceConfig() {
       `sourceConfig.scoringRules.${ruleName} must be non-empty.`,
     );
   });
+
+  assert(Array.isArray(sourceConfig.webSearch?.queries) && sourceConfig.webSearch.queries.length > 0, "sourceConfig.webSearch.queries must be non-empty.");
+  sourceConfig.webSearch.queries.forEach((query, index) => {
+    assert(query.id, `webSearch.queries[${index}] is missing id.`);
+    assert(query.name, `${query.id} is missing name.`);
+    assert(query.query, `${query.id} is missing query.`);
+    assert(profiles[query.categoryBias], `${query.id} references unknown categoryBias: ${query.categoryBias}.`);
+  });
 }
 
 validateCategoryProfiles();

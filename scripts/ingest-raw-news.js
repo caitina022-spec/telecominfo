@@ -131,17 +131,20 @@ function ingestRawNews(rawItems = rawNewsSample) {
   return rawItems.map(toPortalNews);
 }
 
-function readRawNewsInput(inputPath) {
-  if (!inputPath) return rawNewsSample;
-
+function readOneRawNewsInput(inputPath) {
   const resolvedPath = path.resolve(process.cwd(), inputPath);
   const raw = JSON.parse(fs.readFileSync(resolvedPath, "utf8"));
 
   if (!Array.isArray(raw)) {
-    throw new Error("Raw news input must be a JSON array.");
+    throw new Error(`${inputPath} must be a JSON array.`);
   }
 
   return raw;
+}
+
+function readRawNewsInput(inputPaths) {
+  if (!inputPaths || inputPaths.length === 0) return rawNewsSample;
+  return inputPaths.flatMap(readOneRawNewsInput);
 }
 
 function writeIngestedNews(rawItems = rawNewsSample) {
@@ -156,7 +159,7 @@ function writeIngestedNews(rawItems = rawNewsSample) {
 
 if (require.main === module) {
   try {
-    const rawItems = readRawNewsInput(process.argv[2]);
+    const rawItems = readRawNewsInput(process.argv.slice(2));
     const outputPath = writeIngestedNews(rawItems);
     console.log(`Ingested news generated: ${outputPath}`);
   } catch (error) {

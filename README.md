@@ -91,10 +91,27 @@ node scripts/run-daily-pipeline.js
 
 ```bash
 node scripts/fetch-live-news.js
+node scripts/search-web-news.js
 node scripts/run-live-pipeline.js
 ```
 
-`fetch-live-news.js` 会读取 `data/source-config.js` 中的来源 URL，抓取公开网页标题、摘要和候选链接，输出 `reports/fetched-raw-news.json`。`run-live-pipeline.js` 会在此基础上继续完成入库转换、标准化和日报生成。部分官网可能因为反爬、地区访问或页面脚本渲染失败，失败项会写入 `reports/fetch-failures.json`。
+`fetch-live-news.js` 会读取 `data/source-config.js` 中的来源 URL，抓取公开网页标题、摘要和候选链接，输出 `reports/fetched-raw-news.json`。
+
+`search-web-news.js` 会按关键词做全网新闻检索，输出 `reports/searched-raw-news.json`。脚本支持三种 provider：
+
+- `serpapi`：设置 `SERPAPI_API_KEY` 后使用 Google News 结果
+- `bing`：设置 `BING_SEARCH_API_KEY` 后使用 Bing News Search
+- `gdelt`：默认免费兜底，不需要 API key，但稳定性和中文检索质量弱于正式搜索 API
+
+服务器自动化建议优先配置 `SERPAPI_API_KEY` 或 `BING_SEARCH_API_KEY`，变量名可以参考 `.env.example`。本地临时测试也可以指定 provider：
+
+```bash
+node scripts/search-web-news.js --provider=bing
+node scripts/search-web-news.js --provider=serpapi
+node scripts/search-web-news.js --provider=gdelt
+```
+
+`run-live-pipeline.js` 会合并固定来源抓取和全网搜索结果，再完成入库转换、标准化和日报生成。部分官网可能因为反爬、地区访问或页面脚本渲染失败，失败项会写入 `reports/fetch-failures.json` 或 `reports/search-failures.json`。
 
 ## 后续接入自动化
 
