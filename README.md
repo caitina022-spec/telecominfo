@@ -6,6 +6,20 @@
 
 直接在浏览器打开 `index.html` 即可预览。
 
+## Netlify 部署
+
+这个项目是纯静态站点，可以直接部署到 Netlify：
+
+```text
+Netlify → Add new site → Import from Git
+选择 GitHub 仓库 telecominfo
+Build command 留空
+Publish directory 填 .
+Deploy
+```
+
+仓库里的 `netlify.toml` 已经配置好发布目录、基础安全响应头和静态资源缓存策略。后续每次推送到 GitHub，Netlify 会自动重新部署。
+
 ## 当前能力
 
 - 今日日报摘要：Top 5、影响判断、风险预警、机会建议
