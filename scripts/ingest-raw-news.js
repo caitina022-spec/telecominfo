@@ -5,7 +5,7 @@ const portalData = require("../data/portal-data.js");
 const sourceConfig = require("../data/source-config.js");
 const { scoreItem } = require("./normalize-news.js");
 
-const outputDir = path.join(__dirname, "..", "reports");
+const outputDir = path.join(__dirname, "..", process.env.PIPELINE_OUTPUT_DIR || "reports");
 
 function slugify(text) {
   return text

@@ -3,7 +3,7 @@ const path = require("path");
 const portalData = require("../data/portal-data.js");
 const { normalizeNews } = require("./normalize-news.js");
 
-const outputDir = path.join(__dirname, "..", "reports");
+const outputDir = path.join(__dirname, "..", process.env.PIPELINE_OUTPUT_DIR || "reports");
 
 function beijingDateLabel(date = new Date()) {
   return new Intl.DateTimeFormat("zh-CN", {

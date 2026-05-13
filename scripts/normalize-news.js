@@ -3,7 +3,7 @@ const path = require("path");
 const portalData = require("../data/portal-data.js");
 const sourceConfig = require("../data/source-config.js");
 
-const outputDir = path.join(__dirname, "..", "reports");
+const outputDir = path.join(__dirname, "..", process.env.PIPELINE_OUTPUT_DIR || "reports");
 
 const levelBaseScores = {
   高: 65,

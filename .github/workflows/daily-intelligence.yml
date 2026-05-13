@@ -1,0 +1,50 @@
+name: Daily Intelligence Pipeline
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-daily-intelligence:
+    runs-on: ubuntu-latest
+    env:
+      PIPELINE_OUTPUT_DIR: public-data
+      BING_SEARCH_API_KEY: ${{ secrets.BING_SEARCH_API_KEY }}
+      SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Validate data
+        run: node scripts/validate-data.js
+
+      - name: Fetch fixed public sources
+        run: node scripts/fetch-live-news.js --allow-empty
+
+      - name: Search web news
+        run: node scripts/search-web-news.js --allow-empty
+
+      - name: Ingest fetched and searched raw news
+        run: node scripts/ingest-raw-news.js public-data/fetched-raw-news.json public-data/searched-raw-news.json
+
+      - name: Normalize news records
+        run: node scripts/normalize-news.js
+
+      - name: Generate markdown daily report
+        run: node scripts/generate-daily-report.js
+
+      - name: Commit updated public data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update daily intelligence outputs"
+          file_pattern: "public-data/*.json public-data/*.md"

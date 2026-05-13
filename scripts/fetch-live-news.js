@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const sourceConfig = require("../data/source-config.js");
 
-const outputDir = path.join(__dirname, "..", "reports");
+const outputDir = path.join(__dirname, "..", process.env.PIPELINE_OUTPUT_DIR || "reports");
 const defaultTimeoutMs = 12000;
 
 function parseArgs(argv) {

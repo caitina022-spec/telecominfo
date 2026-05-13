@@ -129,16 +129,29 @@ node scripts/search-web-news.js --provider=gdelt
 
 ## 后续接入自动化
 
-建议服务端按以下链路接入：
+仓库已配置 GitHub Actions：`.github/workflows/daily-intelligence.yml`。
+
+- 每天北京时间 08:00 自动运行
+- 也可以在 GitHub Actions 页面手动触发
+- 输出文件写入 `public-data/`
+- 如果输出有变化，会自动提交 `Update daily intelligence outputs`
+- Netlify 连接 GitHub 后会自动重新部署
+
+当前自动化链路：
 
 ```text
 信息源抓取
 → 关键词和厂商词表过滤
 → 去重与可信源校验
-→ AI摘要、分类、标签、重要性评分
-→ 生成 08:00 日报
-→ 写入数据库并刷新网页
-→ 推送企业微信/飞书/邮件摘要
+→ 分类、标签、重要性评分
+→ 生成 08:00 Markdown 日报
+→ 更新 public-data
+→ Netlify 自动发布
 ```
 
-前端可以把 `data/portal-data.js` 里的示例 `news` 数据替换为接口返回，例如 `/api/daily?date=YYYY-MM-DD`。
+如果要提升全网搜索质量，可以在 GitHub 仓库 Settings → Secrets and variables → Actions 里配置：
+
+- `BING_SEARCH_API_KEY`
+- 或 `SERPAPI_API_KEY`
+
+前端后续可以把 `data/portal-data.js` 里的示例 `news` 数据替换为 `public-data/ingested-news.json` 或接口返回，例如 `/api/daily?date=YYYY-MM-DD`。

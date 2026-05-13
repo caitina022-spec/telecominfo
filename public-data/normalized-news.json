@@ -1,0 +1,537 @@
+[
+  {
+    "id": "ct-cloud-network-intelligence",
+    "title": "中国电信发布新一轮云网融合与智算中心建设动向",
+    "category": "运营商动态",
+    "priority": "高",
+    "score": 100,
+    "source": {
+      "name": "运营商官网",
+      "region": "中国",
+      "time": "07:35",
+      "sourceGroups": [
+        "operators-cn",
+        "operators-global"
+      ]
+    },
+    "entities": {
+      "vendors": [
+        "中国电信",
+        "天翼云"
+      ],
+      "channels": [
+        "客户线",
+        "算力",
+        "服务"
+      ],
+      "tags": [
+        "中国电信",
+        "智算中心",
+        "云网融合",
+        "CAPEX"
+      ]
+    },
+    "summary": "围绕智算、云网融合、政企行业场景释放新一轮建设信号。",
+    "analysis": {
+      "why": "直接关联系统部客户经营节奏，适合形成客户交流材料和项目线索。",
+      "impact": "华为可围绕昇腾、数据中心网络、云服务和5G-A能力组织组合方案。"
+    }
+  },
+  {
+    "id": "telecom-service-sentiment-risk",
+    "title": "通信服务投诉在社交平台扩散，网络体验与客服响应成为舆情焦点",
+    "category": "舆情和负面信息",
+    "priority": "高",
+    "score": 92,
+    "source": {
+      "name": "舆情监测",
+      "region": "中国",
+      "time": "05:05",
+      "sourceGroups": [
+        "operators-cn"
+      ]
+    },
+    "entities": {
+      "vendors": [
+        "中国电信",
+        "运营商"
+      ],
+      "channels": [
+        "服务",
+        "客户线",
+        "Marketing"
+      ],
+      "tags": [
+        "客户投诉",
+        "宽带体验",
+        "客服",
+        "风险预警"
+      ]
+    },
+    "summary": "个别地区用户围绕宽带体验、套餐解释和客服处理效率集中讨论。",
+    "analysis": {
+      "why": "虽未形成重大事件，但可能影响客户经营和服务改进议题。",
+      "impact": "建议服务和客户线跟踪传播范围，准备网络体验优化与客服AI辅助方案。"
+    }
+  },
+  {
+    "id": "operator-foundation-model-competition",
+    "title": "三大运营商大模型进入行业应用比拼阶段",
+    "category": "AI服务商动态",
+    "priority": "高",
+    "score": 83,
+    "source": {
+      "name": "行业媒体",
+      "region": "中国",
+      "time": "03:20",
+      "sourceGroups": [
+        "operators-cn",
+        "operators-global",
+        "ai-model-providers"
+      ]
+    },
+    "entities": {
+      "vendors": [
+        "中国电信",
+        "中国移动",
+        "中国联通"
+      ],
+      "channels": [
+        "客户线",
+        "算力",
+        "服务",
+        "Marketing"
+      ],
+      "tags": [
+        "星辰",
+        "九天",
+        "元景",
+        "行业大模型"
+      ]
+    },
+    "summary": "星辰、九天、元景等运营商大模型持续面向政务、客服、网络运维和行业智能化拓展。",
+    "analysis": {
+      "why": "运营商AI能力正在从内部提效工具转为政企市场竞争资产。",
+      "impact": "系统部需要跟踪中国电信星辰差异化，结合云、网、算力形成闭环方案。"
+    }
+  },
+  {
+    "id": "operator-ai-customer-service",
+    "title": "海外主流运营商扩大AI客服与网络智能化投入",
+    "category": "运营商动态",
+    "priority": "高",
+    "score": 83,
+    "source": {
+      "name": "行业媒体",
+      "region": "欧洲",
+      "time": "07:10",
+      "sourceGroups": [
+        "operators-cn",
+        "operators-global"
+      ]
+    },
+    "entities": {
+      "vendors": [
+        "Orange",
+        "Vodafone"
+      ],
+      "channels": [
+        "Marketing",
+        "客户线",
+        "服务"
+      ],
+      "tags": [
+        "运营商AI",
+        "AIOps",
+        "企业服务"
+      ]
+    },
+    "summary": "运营商把生成式AI从客服试点推进到网络运维和企业服务。",
+    "analysis": {
+      "why": "说明AI已进入运营商运营效率和政企收入两个主战场。",
+      "impact": "可作为中国电信星辰大模型、AIOps和政企AI方案的对标案例。"
+    }
+  },
+  {
+    "id": "multimodal-agent-models",
+    "title": "新一代多模态模型强化实时语音与智能体能力",
+    "category": "AI服务商动态",
+    "priority": "高",
+    "score": 80,
+    "source": {
+      "name": "公司Blog",
+      "region": "美国",
+      "time": "06:50",
+      "sourceGroups": [
+        "operators-global",
+        "ai-model-providers"
+      ]
+    },
+    "entities": {
+      "vendors": [
+        "OpenAI",
+        "Google",
+        "Anthropic"
+      ],
+      "channels": [
+        "Marketing",
+        "客户线",
+        "算力"
+      ],
+      "tags": [
+        "大模型",
+        "智能体",
+        "多模态",
+        "API"
+      ]
+    },
+    "summary": "大模型能力继续向低延迟、多模态、工具调用和企业工作流渗透。",
+    "analysis": {
+      "why": "模型形态变化会牵引运营商AI平台、数据治理和算力服务重构。",
+      "impact": "星辰大模型需突出行业知识、可信部署和云网协同优势。"
+    }
+  },
+  {
+    "id": "domestic-ai-chip-liquid-cooling",
+    "title": "国产AI芯片和液冷服务器供给加速，智算集群成本成为竞争焦点",
+    "category": "AI/算力设备商动态",
+    "priority": "高",
+    "score": 71,
+    "source": {
+      "name": "科技媒体",
+      "region": "中国",
+      "time": "06:20",
+      "sourceGroups": [
+        "compute-and-ct-vendors"
+      ]
+    },
+    "entities": {
+      "vendors": [
+        "寒武纪",
+        "海光",
+        "昇腾",
+        "曙光"
+      ],
+      "channels": [
+        "算力",
+        "客户线",
+        "Marketing"
+      ],
+      "tags": [
+        "国产算力",
+        "液冷",
+        "智算集群",
+        "推理成本"
+      ]
+    },
+    "summary": "国产算力生态围绕训练、推理、液冷和集群互联持续发力。",
+    "analysis": {
+      "why": "算力供给结构变化会影响运营商智算采购和国产化路线。",
+      "impact": "华为需要在昇腾生态、云服务、网络互联和能效指标上保持组合竞争力。"
+    }
+  },
+  {
+    "id": "industry-model-finance-manufacturing",
+    "title": "金融与制造企业加速落地行业大模型，专线、云和算力需求同步增长",
+    "category": "其他行业热点",
+    "priority": "中",
+    "score": 57,
+    "source": {
+      "name": "行业研究",
+      "region": "中国",
+      "time": "04:50",
+      "sourceGroups": [
+        "ai-model-providers",
+        "macro-policy-and-events"
+      ]
+    },
+    "entities": {
+      "vendors": [
+        "金融机构",
+        "制造企业"
+      ],
+      "channels": [
+        "客户线",
+        "算力",
+        "固网"
+      ],
+      "tags": [
+        "金融AI",
+        "制造AI",
+        "政企专线",
+        "行业大模型"
+      ]
+    },
+    "summary": "行业AI项目从试验走向生产，关注私有化部署、数据安全和推理成本。",
+    "analysis": {
+      "why": "这是运营商政企收入和云网融合方案的重要增量场景。",
+      "impact": "可联合中国电信输出金融AI、制造AI专线和智算一体化解决方案。"
+    }
+  },
+  {
+    "id": "overseas-5ga-core-contract",
+    "title": "海外设备商获得5G-A与核心网升级合同",
+    "category": "CT设备商动态",
+    "priority": "中",
+    "score": 57,
+    "source": {
+      "name": "公司Newsroom",
+      "region": "中东",
+      "time": "05:45",
+      "sourceGroups": [
+        "operators-global",
+        "compute-and-ct-vendors"
+      ]
+    },
+    "entities": {
+      "vendors": [
+        "Nokia",
+        "Ericsson"
+      ],
+      "channels": [
+        "无线",
+        "核心网",
+        "Marketing"
+      ],
+      "tags": [
+        "5G-A",
+        "核心网",
+        "网络自动化",
+        "友商"
+      ]
+    },
+    "summary": "海外运营商继续围绕5G-A、核心网云化和网络自动化进行升级。",
+    "analysis": {
+      "why": "友商标杆项目会影响中国电信对技术路线和商业价值的判断。",
+      "impact": "无线、核心网和Marketing需准备5G-A商业案例与竞品对比材料。"
+    }
+  },
+  {
+    "id": "ai-regulation-data-compliance",
+    "title": "AI监管与数据跨境政策持续收紧，企业部署更重视可信与合规",
+    "category": "全球宏观热点",
+    "priority": "中",
+    "score": 54,
+    "source": {
+      "name": "政策网站",
+      "region": "全球",
+      "time": "05:30",
+      "sourceGroups": [
+        "macro-policy-and-events"
+      ]
+    },
+    "entities": {
+      "vendors": [
+        "监管机构"
+      ],
+      "channels": [
+        "Marketing",
+        "客户线",
+        "服务"
+      ],
+      "tags": [
+        "AI监管",
+        "数据安全",
+        "跨境数据",
+        "合规"
+      ]
+    },
+    "summary": "多地更新AI治理、数据安全和跨境数据规则，对企业AI部署提出约束。",
+    "analysis": {
+      "why": "政策变化会直接影响运营商政企AI、云和数据服务合规边界。",
+      "impact": "华为与中国电信的本地化、可信云和行业合规方案价值上升。"
+    }
+  },
+  {
+    "id": "all-optical-green-network",
+    "title": "全光网与绿色节能成为新一轮网络升级高频关键词",
+    "category": "CT设备商动态",
+    "priority": "中",
+    "score": 51,
+    "source": {
+      "name": "行业媒体",
+      "region": "中国",
+      "time": "03:55",
+      "sourceGroups": [
+        "operators-global",
+        "compute-and-ct-vendors"
+      ]
+    },
+    "entities": {
+      "vendors": [
+        "华为",
+        "中兴",
+        "烽火通信"
+      ],
+      "channels": [
+        "固网",
+        "服务",
+        "客户线"
+      ],
+      "tags": [
+        "全光网",
+        "绿色节能",
+        "政企网络"
+      ]
+    },
+    "summary": "运营商和设备商围绕全光底座、园区网络和节能改造持续发布方案。",
+    "analysis": {
+      "why": "网络节能与高品质连接会影响中国电信固网和政企专线建设。",
+      "impact": "固网、服务和客户线可梳理全光品质专线与绿色网络价值主张。"
+    }
+  },
+  {
+    "id": "ai-glasses-phone-edge",
+    "title": "AI眼镜与AI手机新品密集预热，端云协同需求升温",
+    "category": "AI产品商品",
+    "priority": "中",
+    "score": 51,
+    "source": {
+      "name": "消费电子媒体",
+      "region": "全球",
+      "time": "06:05",
+      "sourceGroups": [
+        "ai-model-providers",
+        "compute-and-ct-vendors"
+      ]
+    },
+    "entities": {
+      "vendors": [
+        "Meta",
+        "小米",
+        "Rokid",
+        "华为"
+      ],
+      "channels": [
+        "无线",
+        "固网",
+        "算力",
+        "Marketing"
+      ],
+      "tags": [
+        "AI眼镜",
+        "AI手机",
+        "边缘AI",
+        "5G"
+      ]
+    },
+    "summary": "AI终端从单点功能转向全天候助手，强调语音、视觉和低功耗连接。",
+    "analysis": {
+      "why": "终端普及可能带动5G套餐、家庭入口、边缘AI和云服务需求。",
+      "impact": "可面向中国电信包装AI终端连接套餐、家庭智能入口和边缘推理场景。"
+    }
+  },
+  {
+    "id": "mwc-waic-ai-native-network",
+    "title": "MWC与WAIC议题前瞻集中指向AI原生网络和智能终端",
+    "category": "全球宏观热点",
+    "priority": "中",
+    "score": 48,
+    "source": {
+      "name": "展会观察",
+      "region": "全球",
+      "time": "03:35",
+      "sourceGroups": [
+        "macro-policy-and-events"
+      ]
+    },
+    "entities": {
+      "vendors": [
+        "GSMA",
+        "WAIC",
+        "运营商"
+      ],
+      "channels": [
+        "Marketing",
+        "客户线",
+        "无线",
+        "算力"
+      ],
+      "tags": [
+        "MWC",
+        "WAIC",
+        "展会洞察",
+        "AI原生网络"
+      ]
+    },
+    "summary": "大会核心议题从连接能力展示转向AI原生网络、智能终端、算力底座和行业落地。",
+    "analysis": {
+      "why": "展会是客户高层交流和对外叙事的重要窗口，需要提前储备观点。",
+      "impact": "Marketing可形成展会洞察包，客户线可准备中国电信高层交流话题。"
+    }
+  },
+  {
+    "id": "low-altitude-integrated-sensing",
+    "title": "低空经济试点扩大，通信感知一体与边缘算力成为基础设施议题",
+    "category": "全球宏观热点",
+    "priority": "中",
+    "score": 48,
+    "source": {
+      "name": "政府公告",
+      "region": "中国",
+      "time": "04:30",
+      "sourceGroups": [
+        "macro-policy-and-events"
+      ]
+    },
+    "entities": {
+      "vendors": [
+        "地方政府",
+        "运营商"
+      ],
+      "channels": [
+        "无线",
+        "固网",
+        "算力",
+        "客户线"
+      ],
+      "tags": [
+        "低空经济",
+        "5G-A",
+        "边缘云",
+        "专网"
+      ]
+    },
+    "summary": "地方低空经济政策密集出台，对网络覆盖、感知、调度和数据平台提出需求。",
+    "analysis": {
+      "why": "低空经济把5G-A、边缘云、专网和行业平台拉到同一张方案图上。",
+      "impact": "无线、固网、算力可联动准备低空通信感知一体化客户话题。"
+    }
+  },
+  {
+    "id": "ai-ad-automation",
+    "title": "AI广告投放自动化继续压缩制作与投放周期",
+    "category": "其他行业热点",
+    "priority": "低",
+    "score": 24,
+    "source": {
+      "name": "科技媒体",
+      "region": "美国",
+      "time": "04:10",
+      "sourceGroups": [
+        "ai-model-providers",
+        "macro-policy-and-events"
+      ]
+    },
+    "entities": {
+      "vendors": [
+        "Meta",
+        "Google"
+      ],
+      "channels": [
+        "Marketing",
+        "客户线"
+      ],
+      "tags": [
+        "广告AI",
+        "工作流",
+        "云服务"
+      ]
+    },
+    "summary": "广告平台把生成式AI用于素材生成、受众匹配和投放优化。",
+    "analysis": {
+      "why": "传统行业数字化正从工具采购走向AI工作流重构。",
+      "impact": "适合转化为运营商云、边缘内容分发和行业AI解决方案话题。"
+    }
+  }
+]

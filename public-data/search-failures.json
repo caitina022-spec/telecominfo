@@ -1,0 +1,8 @@
+[
+  {
+    "query": "china-telecom-cloud-ai",
+    "name": "中国电信云网算与AI",
+    "provider": "bing",
+    "error": "BING_SEARCH_API_KEY is not set."
+  }
+]
