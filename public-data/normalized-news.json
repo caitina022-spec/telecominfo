@@ -7,6 +7,7 @@
     "score": 100,
     "source": {
       "name": "运营商官网",
+      "url": "https://www.chinatelecom.com.cn",
       "region": "中国",
       "time": "07:35",
       "sourceGroups": [
@@ -45,6 +46,7 @@
     "score": 92,
     "source": {
       "name": "舆情监测",
+      "url": "https://www.chinatelecom.com.cn",
       "region": "中国",
       "time": "05:05",
       "sourceGroups": [
@@ -82,6 +84,7 @@
     "score": 83,
     "source": {
       "name": "行业媒体",
+      "url": "",
       "region": "中国",
       "time": "03:20",
       "sourceGroups": [
@@ -123,6 +126,7 @@
     "score": 83,
     "source": {
       "name": "行业媒体",
+      "url": "https://www.orange.com/en/newsroom",
       "region": "欧洲",
       "time": "07:10",
       "sourceGroups": [
@@ -160,6 +164,7 @@
     "score": 80,
     "source": {
       "name": "公司Blog",
+      "url": "https://openai.com/news",
       "region": "美国",
       "time": "06:50",
       "sourceGroups": [
@@ -199,6 +204,7 @@
     "score": 71,
     "source": {
       "name": "科技媒体",
+      "url": "https://www.huawei.com/cn/news",
       "region": "中国",
       "time": "06:20",
       "sourceGroups": [
@@ -238,6 +244,7 @@
     "score": 57,
     "source": {
       "name": "行业研究",
+      "url": "",
       "region": "中国",
       "time": "04:50",
       "sourceGroups": [
@@ -276,6 +283,7 @@
     "score": 57,
     "source": {
       "name": "公司Newsroom",
+      "url": "",
       "region": "中东",
       "time": "05:45",
       "sourceGroups": [
@@ -314,6 +322,7 @@
     "score": 54,
     "source": {
       "name": "政策网站",
+      "url": "",
       "region": "全球",
       "time": "05:30",
       "sourceGroups": [
@@ -350,6 +359,7 @@
     "score": 51,
     "source": {
       "name": "行业媒体",
+      "url": "",
       "region": "中国",
       "time": "03:55",
       "sourceGroups": [
@@ -388,6 +398,7 @@
     "score": 51,
     "source": {
       "name": "消费电子媒体",
+      "url": "",
       "region": "全球",
       "time": "06:05",
       "sourceGroups": [
@@ -429,6 +440,7 @@
     "score": 48,
     "source": {
       "name": "展会观察",
+      "url": "",
       "region": "全球",
       "time": "03:35",
       "sourceGroups": [
@@ -468,6 +480,7 @@
     "score": 48,
     "source": {
       "name": "政府公告",
+      "url": "",
       "region": "中国",
       "time": "04:30",
       "sourceGroups": [
@@ -506,6 +519,7 @@
     "score": 24,
     "source": {
       "name": "科技媒体",
+      "url": "",
       "region": "美国",
       "time": "04:10",
       "sourceGroups": [
