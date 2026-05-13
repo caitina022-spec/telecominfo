@@ -4,7 +4,7 @@
     "title": "中国电信 最新动态",
     "category": "AI服务商动态",
     "source": "中国电信",
-    "time": "09:38",
+    "time": "09:48",
     "region": "中国",
     "vendors": [
       "星辰",
@@ -23,5 +23,526 @@
       "大模型"
     ],
     "level": "高"
+  },
+  {
+    "id": "live-operators-global-Orange",
+    "title": "Loading site please wait...",
+    "category": "全球宏观热点",
+    "source": "Orange",
+    "time": "09:48",
+    "region": "全球",
+    "vendors": [
+      "运营商",
+      "Orange"
+    ],
+    "summary": "Orange。海外运营商动态",
+    "why": "命中全球宏观热点词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线"
+    ],
+    "tags": [
+      "全球宏观热点"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "live-operators-global-Deutsche-Telekom",
+    "title": "Videos (Youtube @DT_IR)",
+    "category": "全球宏观热点",
+    "source": "Deutsche Telekom",
+    "time": "09:48",
+    "region": "全球",
+    "vendors": [
+      "运营商",
+      "DT",
+      "Deutsche Telekom"
+    ],
+    "summary": "Deutsche Telekom is one of the world's leading integrated teleco。",
+    "why": "命中全球宏观热点词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线"
+    ],
+    "tags": [
+      "全球宏观热点"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "live-operators-global-Telefonica",
+    "title": "Telefónica: compañía líder en telecomunicaciones",
+    "category": "全球宏观热点",
+    "source": "Telefonica",
+    "time": "09:48",
+    "region": "全球",
+    "vendors": [
+      "运营商",
+      "Telefonica"
+    ],
+    "summary": "Telefónica, empresa multinacional de telecomunicaciones, con sed。",
+    "why": "命中全球宏观热点词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线"
+    ],
+    "tags": [
+      "全球宏观热点"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "live-operators-global-SK-Telecom",
+    "title": "Instagram 일상에 영감을 더하다, SKT 인스타그램​",
+    "category": "舆情和负面信息",
+    "source": "SK Telecom",
+    "time": "09:48",
+    "region": "全球",
+    "vendors": [
+      "运营商",
+      "SKT",
+      "SK Telecom",
+      "KT"
+    ],
+    "summary": "자강과 협력을 통한 ‘Global AI Company’로의 도약。Instagram 일상에 영감을 더하다, SKT 인。",
+    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线"
+    ],
+    "tags": [
+      "AI"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "live-operators-global-KT",
+    "title": "K intelligence Suite 기업의 성공적인 AX 전환을 이끌 K intelligence의 full stack AI 기술 AI.KT.com 에서 확인하기",
+    "category": "舆情和负面信息",
+    "source": "KT",
+    "time": "09:48",
+    "region": "全球",
+    "vendors": [
+      "运营商",
+      "KT"
+    ],
+    "summary": "[회사소개] 메인 - 국민의 편익을 도모하는 최고의 국민기업 KT。K intelligence Suite 기업의 성공。",
+    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线"
+    ],
+    "tags": [
+      "AI"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "live-operators-global-STC",
+    "title": "stc KSA | stc KSA Internet Packages | stc Personal Packages",
+    "category": "全球宏观热点",
+    "source": "STC",
+    "time": "09:48",
+    "region": "全球",
+    "vendors": [
+      "运营商",
+      "STC"
+    ],
+    "summary": "Discover stc KSA telecom services for home & personal use. stc S。",
+    "why": "命中全球宏观热点词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线"
+    ],
+    "tags": [
+      "全球宏观热点"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "live-ai-model-providers-Google-AI",
+    "title": "Google Ads & Commerce blog",
+    "category": "AI服务商动态",
+    "source": "Google AI",
+    "time": "09:48",
+    "region": "中国",
+    "vendors": [
+      "Google",
+      "Gemini"
+    ],
+    "summary": "Explore the cutting-edge work Google is doing in AI and machine 。",
+    "why": "命中AI服务商动态词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "服务",
+      "Marketing"
+    ],
+    "tags": [
+      "大模型"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "live-ai-model-providers-Anthropic",
+    "title": "Announcements Apr 7, 2026 Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, the Linux Foundation, Microsoft, NVIDIA, and Palo Alto Networks in an effort to secure the world&#x27;s most critical software.",
+    "category": "AI服务商动态",
+    "source": "Anthropic",
+    "time": "09:48",
+    "region": "中国",
+    "vendors": [
+      "Google",
+      "Anthropic",
+      "NVIDIA",
+      "Cisco"
+    ],
+    "summary": "Anthropic is an AI safety and research company that&#x27;s worki。",
+    "why": "命中AI服务商动态词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "服务",
+      "Marketing"
+    ],
+    "tags": [
+      "大模型"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "live-ai-model-providers-Meta-AI",
+    "title": "How Alta Daily Uses Meta’s Segment Anything to Reimagine the Digital Closet",
+    "category": "AI服务商动态",
+    "source": "Meta AI",
+    "time": "09:48",
+    "region": "中国",
+    "vendors": [
+      "Meta",
+      "Llama"
+    ],
+    "summary": "Stay up to date on the latest artificial intelligence news from 。",
+    "why": "命中AI服务商动态词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "服务",
+      "Marketing"
+    ],
+    "tags": [
+      "大模型"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "live-ai-model-providers-DeepSeek",
+    "title": "🎉 DeepSeek-V4 预览版本发布，具备世界顶级推理性能，Agent 能力大幅提高，已在网页端、APP 和 API 上线，点击查看详情。",
+    "category": "AI服务商动态",
+    "source": "DeepSeek",
+    "time": "09:48",
+    "region": "中国",
+    "vendors": [
+      "DeepSeek"
+    ],
+    "summary": "深度求索（DeepSeek），成立于2023年，专注于研究世界领先的通用人工智能底层模型与技术，挑战人工智能前沿性难题。基于自研。",
+    "why": "命中AI服务商动态词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "算力",
+      "服务",
+      "Marketing"
+    ],
+    "tags": [
+      "大模型",
+      "API"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "live-ai-model-providers-阿里云",
+    "title": "Alibaba Cloud: AI and Cloud Computing Services",
+    "category": "AI服务商动态",
+    "source": "阿里云",
+    "time": "09:49",
+    "region": "中国",
+    "vendors": [
+      "通义千问",
+      "阿里"
+    ],
+    "summary": "Alibaba Cloud is one of the world。Hi, I'm Alibaba Cloud AI Assis。",
+    "why": "命中AI服务商动态词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "服务",
+      "Marketing"
+    ],
+    "tags": [
+      "大模型"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "live-ai-model-providers-腾讯云",
+    "title": "腾讯云 产业智变·云启未来 - 腾讯",
+    "category": "AI服务商动态",
+    "source": "腾讯云",
+    "time": "09:49",
+    "region": "中国",
+    "vendors": [
+      "混元",
+      "腾讯"
+    ],
+    "summary": "腾讯云(tencent cloud)为数百万的企业和开发者提供安全稳定的云计算服务，涵盖云服务器、云数据库、云存储、视频与CDN。",
+    "why": "命中AI服务商动态词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线",
+      "服务",
+      "Marketing"
+    ],
+    "tags": [
+      "大模型"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "live-ai-model-providers-百度智能云",
+    "title": "文心5.0正式版-原生全模态大模型 LMArena Text 榜、Vision 榜国内第一，原生全模态统一建模技术，全模态理解与生成能力，通过百度千帆对企业客户及开发者提供服务 了解详情",
+    "category": "AI服务商动态",
+    "source": "百度智能云",
+    "time": "09:49",
+    "region": "中国",
+    "vendors": [
+      "文心",
+      "百度"
+    ],
+    "summary": "百度智能云致力于为企业和开发者提供全球领先的人工智能、大数据和云计算服务，加速产业智能化转型升级。文心5.0正式版-原生全模态大。",
+    "why": "命中AI服务商动态词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线",
+      "服务",
+      "Marketing"
+    ],
+    "tags": [
+      "大模型"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "live-ai-model-providers-月之暗面",
+    "title": "2026-04-20 Kimi K2.6",
+    "category": "AI服务商动态",
+    "source": "月之暗面",
+    "time": "09:49",
+    "region": "中国",
+    "vendors": [
+      "Kimi",
+      "月之暗面"
+    ],
+    "summary": "欢迎探索月之暗面，寻求将能源转化为智能的最优解。2026-04-20 Kimi K2.6。Kimi、月之暗面。AI服务商与大模型。",
+    "why": "命中AI服务商动态词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "服务",
+      "Marketing"
+    ],
+    "tags": [
+      "大模型"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "live-ai-model-providers-智谱AI",
+    "title": "Z.ai - Inspiring AGI to Benefit Humanity",
+    "category": "AI服务商动态",
+    "source": "智谱AI",
+    "time": "09:49",
+    "region": "中国",
+    "vendors": [
+      "智谱"
+    ],
+    "summary": "智谱推出 AutoClaw（澳龙）——国内首款一键安装的本地 OpenClaw 客户端。内置50+Skills，集成 AutoG。",
+    "why": "命中AI服务商动态词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线",
+      "服务",
+      "Marketing"
+    ],
+    "tags": [
+      "大模型"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "live-compute-and-ct-vendors-华为",
+    "title": "HiSuite华为手机助手",
+    "category": "AI产品商品",
+    "source": "华为",
+    "time": "09:49",
+    "region": "中国",
+    "vendors": [
+      "华为",
+      "昇腾"
+    ],
+    "summary": "华为官方发布的最新动态或消息，为您提供关于华为公司的第一手资讯。。HiSuite华为手机助手。华为、昇腾。IT/CT设备商动态",
+    "why": "命中AI产品商品词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "Marketing"
+    ],
+    "tags": [
+      "AI产品商品"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "live-compute-and-ct-vendors-中兴通讯",
+    "title": "GoogleBrowser",
+    "category": "AI服务商动态",
+    "source": "中兴通讯",
+    "time": "09:49",
+    "region": "中国",
+    "vendors": [
+      "Google",
+      "中兴",
+      "中兴珠峰"
+    ],
+    "summary": "With innovative technologies and product solutions, ZTE serves g。",
+    "why": "命中AI服务商动态词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线",
+      "Marketing"
+    ],
+    "tags": [
+      "AI服务商动态"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "live-compute-and-ct-vendors-Cisco",
+    "title": "View all People@Cisco View all People@Cisco",
+    "category": "CT设备商动态",
+    "source": "Cisco",
+    "time": "09:49",
+    "region": "中国",
+    "vendors": [
+      "Cisco"
+    ],
+    "summary": "Cisco's hub for news, thought leadership, features, events, repo。",
+    "why": "命中CT设备商动态词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "Marketing",
+      "客户线"
+    ],
+    "tags": [
+      "CT设备商动态"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "live-compute-and-ct-vendors-Ciena",
+    "title": "About Ciena",
+    "category": "CT设备商动态",
+    "source": "Ciena",
+    "time": "09:49",
+    "region": "中国",
+    "vendors": [
+      "Ciena"
+    ],
+    "summary": "Be in the know with insights on the hottest technology topics, l。",
+    "why": "命中CT设备商动态词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "无线"
+    ],
+    "tags": [
+      "CT设备商动态"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "live-macro-policy-and-events-工信部",
+    "title": "中华人民共和国工业和信息化部",
+    "category": "全球宏观热点",
+    "source": "工信部",
+    "time": "09:49",
+    "region": "全球",
+    "vendors": [
+      "工信部"
+    ],
+    "summary": "《道路机动车辆生产企业及产品》（第405批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第八十四批）、《减免车辆。",
+    "why": "命中全球宏观热点词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "Marketing"
+    ],
+    "tags": [
+      "政策"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "live-macro-policy-and-events-国家数据局",
+    "title": "国家数据局",
+    "category": "全球宏观热点",
+    "source": "国家数据局",
+    "time": "09:49",
+    "region": "全球",
+    "vendors": [
+      "国家数据局"
+    ],
+    "summary": "国家数据局。宏观政策与展会",
+    "why": "命中全球宏观热点词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "Marketing"
+    ],
+    "tags": [
+      "政策"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "live-macro-policy-and-events-GSMA",
+    "title": "GSMA Capacity Building",
+    "category": "全球宏观热点",
+    "source": "GSMA",
+    "time": "09:49",
+    "region": "全球",
+    "vendors": [
+      "GSMA",
+      "MWC"
+    ],
+    "summary": "The latest news from GSMA GSMA Intelligence for journalists Need。",
+    "why": "命中全球宏观热点词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "Marketing"
+    ],
+    "tags": [
+      "政策"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "live-macro-policy-and-events-WAIC",
+    "title": "世界人工智能大会",
+    "category": "全球宏观热点",
+    "source": "WAIC",
+    "time": "09:49",
+    "region": "全球",
+    "vendors": [
+      "WAIC"
+    ],
+    "summary": "WAIC。宏观政策与展会",
+    "why": "命中全球宏观热点词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "Marketing"
+    ],
+    "tags": [
+      "政策"
+    ],
+    "level": "低"
   }
 ]

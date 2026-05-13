@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "source": "中国移动",
+    "url": "https://www.chinamobileltd.com",
+    "error": "HTTP 403"
+  },
+  {
+    "source": "中国联通",
+    "url": "https://www.chinaunicom.com.cn",
+    "error": "fetch failed"
+  },
+  {
+    "source": "Vodafone",
+    "url": "https://www.vodafone.com",
+    "error": "HTTP 403"
+  },
+  {
+    "source": "Zain",
+    "url": "https://www.zain.com",
+    "error": "HTTP 307"
+  },
+  {
+    "source": "OpenAI",
+    "url": "https://openai.com/news",
+    "error": "HTTP 403"
+  },
+  {
+    "source": "字节跳动火山引擎",
+    "url": "https://www.volcengine.com",
+    "error": "This operation was aborted"
+  },
+  {
+    "source": "NVIDIA",
+    "url": "https://www.nvidia.com/en-us/about-nvidia/newsroom",
+    "error": "HTTP 404"
+  },
+  {
+    "source": "AMD",
+    "url": "https://www.amd.com/en/newsroom",
+    "error": "This operation was aborted"
+  },
+  {
+    "source": "Ericsson",
+    "url": "https://www.ericsson.com/en/newsroom",
+    "error": "HTTP 403"
+  },
+  {
+    "source": "Nokia",
+    "url": "https://www.nokia.com/about-us/newsroom",
+    "error": "HTTP 403"
+  }
+]
