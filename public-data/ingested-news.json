@@ -4,6 +4,7 @@
     "title": "中国电信 最新动态",
     "category": "AI服务商动态",
     "source": "中国电信",
+    "sourceUrl": "https://www.chinatelecom.com.cn",
     "time": "09:48",
     "region": "中国",
     "vendors": [
@@ -29,6 +30,7 @@
     "title": "Loading site please wait...",
     "category": "全球宏观热点",
     "source": "Orange",
+    "sourceUrl": "https://www.orange.com",
     "time": "09:48",
     "region": "全球",
     "vendors": [
@@ -51,6 +53,7 @@
     "title": "Videos (Youtube @DT_IR)",
     "category": "全球宏观热点",
     "source": "Deutsche Telekom",
+    "sourceUrl": "https://www.youtube.com/channel/UCt5ngfCsXQvQLNY2YdYlc_g",
     "time": "09:48",
     "region": "全球",
     "vendors": [
@@ -74,6 +77,7 @@
     "title": "Telefónica: compañía líder en telecomunicaciones",
     "category": "全球宏观热点",
     "source": "Telefonica",
+    "sourceUrl": "https://www.telefonica.com/es/accionistas-inversores/informacion-financiera/registro-en-organismos-reguladores-extranjeros/",
     "time": "09:48",
     "region": "全球",
     "vendors": [
@@ -96,6 +100,7 @@
     "title": "Instagram 일상에 영감을 더하다, SKT 인스타그램​",
     "category": "舆情和负面信息",
     "source": "SK Telecom",
+    "sourceUrl": "https://www.instagram.com/sktelecom/",
     "time": "09:48",
     "region": "全球",
     "vendors": [
@@ -120,6 +125,7 @@
     "title": "K intelligence Suite 기업의 성공적인 AX 전환을 이끌 K intelligence의 full stack AI 기술 AI.KT.com 에서 확인하기",
     "category": "舆情和负面信息",
     "source": "KT",
+    "sourceUrl": "https://ai.kt.com/?utm_source=kt&utm_medium=banner&utm_campaign=ktcorp&utm_id=set&utm_term=inside&utm_content=ktcon",
     "time": "09:48",
     "region": "全球",
     "vendors": [
@@ -142,6 +148,7 @@
     "title": "stc KSA | stc KSA Internet Packages | stc Personal Packages",
     "category": "全球宏观热点",
     "source": "STC",
+    "sourceUrl": "https://www.stc.com.sa/content/stc/sa/en/personal/mobile/packages/mofawtar-prime.html",
     "time": "09:48",
     "region": "全球",
     "vendors": [
@@ -164,6 +171,7 @@
     "title": "Google Ads & Commerce blog",
     "category": "AI服务商动态",
     "source": "Google AI",
+    "sourceUrl": "https://blog.google/products/ads-commerce/",
     "time": "09:48",
     "region": "中国",
     "vendors": [
@@ -187,6 +195,7 @@
     "title": "Announcements Apr 7, 2026 Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, the Linux Foundation, Microsoft, NVIDIA, and Palo Alto Networks in an effort to secure the world&#x27;s most critical software.",
     "category": "AI服务商动态",
     "source": "Anthropic",
+    "sourceUrl": "https://www.anthropic.com/glasswing",
     "time": "09:48",
     "region": "中国",
     "vendors": [
@@ -212,6 +221,7 @@
     "title": "How Alta Daily Uses Meta’s Segment Anything to Reimagine the Digital Closet",
     "category": "AI服务商动态",
     "source": "Meta AI",
+    "sourceUrl": "https://ai.meta.com/blog/alta-daily-fashion-app-segment-anything/",
     "time": "09:48",
     "region": "中国",
     "vendors": [
@@ -235,6 +245,7 @@
     "title": "🎉 DeepSeek-V4 预览版本发布，具备世界顶级推理性能，Agent 能力大幅提高，已在网页端、APP 和 API 上线，点击查看详情。",
     "category": "AI服务商动态",
     "source": "DeepSeek",
+    "sourceUrl": "https://mp.weixin.qq.com/s/8bxXqS2R8Fx5-1TLDBiEDg",
     "time": "09:48",
     "region": "中国",
     "vendors": [
@@ -259,6 +270,7 @@
     "title": "Alibaba Cloud: AI and Cloud Computing Services",
     "category": "AI服务商动态",
     "source": "阿里云",
+    "sourceUrl": "https://www.alibabacloud.com/ai-assistant?displayMode=widget",
     "time": "09:49",
     "region": "中国",
     "vendors": [
@@ -282,6 +294,7 @@
     "title": "腾讯云 产业智变·云启未来 - 腾讯",
     "category": "AI服务商动态",
     "source": "腾讯云",
+    "sourceUrl": "https://cloud.tencent.com",
     "time": "09:49",
     "region": "中国",
     "vendors": [
@@ -306,6 +319,7 @@
     "title": "文心5.0正式版-原生全模态大模型 LMArena Text 榜、Vision 榜国内第一，原生全模态统一建模技术，全模态理解与生成能力，通过百度千帆对企业客户及开发者提供服务 了解详情",
     "category": "AI服务商动态",
     "source": "百度智能云",
+    "sourceUrl": "https://console.bce.baidu.com/qianfan/modelcenter/model/buildIn/detail/am-3c0d4ca1f067",
     "time": "09:49",
     "region": "中国",
     "vendors": [
@@ -330,6 +344,7 @@
     "title": "2026-04-20 Kimi K2.6",
     "category": "AI服务商动态",
     "source": "月之暗面",
+    "sourceUrl": "https://www.kimi.com/blog/kimi-k2-6",
     "time": "09:49",
     "region": "中国",
     "vendors": [
@@ -353,6 +368,7 @@
     "title": "Z.ai - Inspiring AGI to Benefit Humanity",
     "category": "AI服务商动态",
     "source": "智谱AI",
+    "sourceUrl": "https://beian.miit.gov.cn/",
     "time": "09:49",
     "region": "中国",
     "vendors": [
@@ -376,6 +392,7 @@
     "title": "HiSuite华为手机助手",
     "category": "AI产品商品",
     "source": "华为",
+    "sourceUrl": "https://consumer.huawei.com/cn/support/hisuite/",
     "time": "09:49",
     "region": "中国",
     "vendors": [
@@ -398,6 +415,7 @@
     "title": "GoogleBrowser",
     "category": "AI服务商动态",
     "source": "中兴通讯",
+    "sourceUrl": "https://www.google.cn/chrome/index.html",
     "time": "09:49",
     "region": "中国",
     "vendors": [
@@ -422,6 +440,7 @@
     "title": "View all People@Cisco View all People@Cisco",
     "category": "CT设备商动态",
     "source": "Cisco",
+    "sourceUrl": "https://newsroom.cisco.com/people.html",
     "time": "09:49",
     "region": "中国",
     "vendors": [
@@ -444,6 +463,7 @@
     "title": "About Ciena",
     "category": "CT设备商动态",
     "source": "Ciena",
+    "sourceUrl": "https://www.ciena.com/about",
     "time": "09:49",
     "region": "中国",
     "vendors": [
@@ -465,6 +485,7 @@
     "title": "中华人民共和国工业和信息化部",
     "category": "全球宏观热点",
     "source": "工信部",
+    "sourceUrl": "http://www.miit.gov.cn/zwgk/zcwj/wjfb/gg/art/2026/art_3bfb3733b9e04e63b24feb4dd70a2d8e.html",
     "time": "09:49",
     "region": "全球",
     "vendors": [
@@ -486,6 +507,7 @@
     "title": "国家数据局",
     "category": "全球宏观热点",
     "source": "国家数据局",
+    "sourceUrl": "https://www.nda.gov.cn",
     "time": "09:49",
     "region": "全球",
     "vendors": [
@@ -507,6 +529,7 @@
     "title": "GSMA Capacity Building",
     "category": "全球宏观热点",
     "source": "GSMA",
+    "sourceUrl": "https://www.gsmatraining.com/",
     "time": "09:49",
     "region": "全球",
     "vendors": [
@@ -529,6 +552,7 @@
     "title": "世界人工智能大会",
     "category": "全球宏观热点",
     "source": "WAIC",
+    "sourceUrl": "https://www.worldaic.com.cn",
     "time": "09:49",
     "region": "全球",
     "vendors": [

@@ -60,6 +60,9 @@ function validateNews() {
     assert(Array.isArray(item.vendors) && item.vendors.length > 0, `${item.id} must include at least one vendor.`);
     assert(Array.isArray(item.channels) && item.channels.length > 0, `${item.id} must include at least one channel.`);
     assert(Array.isArray(item.tags) && item.tags.length > 0, `${item.id} must include at least one tag.`);
+    if (item.sourceUrl) {
+      assert(/^https?:\/\//.test(item.sourceUrl), `${item.id} sourceUrl must be an HTTP(S) URL.`);
+    }
   });
 }
 

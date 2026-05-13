@@ -61,6 +61,7 @@ function normalizeItem(item) {
     score,
     source: {
       name: item.source,
+      url: item.sourceUrl || "",
       region: item.region,
       time: item.time,
       sourceGroups: inferSourceGroups(item),

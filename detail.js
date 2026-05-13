@@ -8,6 +8,24 @@ const levelClass = {
 
 const $ = (selector) => document.querySelector(selector);
 
+function escapeHtml(value = "") {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+function sourceLink(item) {
+  if (!item.sourceUrl) return escapeHtml(item.source);
+  return `<a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.source)} · 打开原文</a>`;
+}
+
+function tagList(tags) {
+  return tags.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("");
+}
+
 function getParams() {
   const params = new URLSearchParams(window.location.search);
   return {
@@ -36,13 +54,15 @@ function getDetail(type, value) {
       eyebrow: "Intelligence Detail",
       title: item.title,
       summary: item.summary,
-      items: [`为什么重要：${item.why}`, `对中国电信/华为的影响：${item.impact}`, `来源信息：${item.source} / ${item.time} / ${item.region}`],
-      actions: item.channels.map((channel) => `${channel}：跟进${item.category}相关机会和风险`),
+      item,
+      items: buildItemAnalysis(item),
+      actions: buildItemActions(item),
       related: detailNews.filter((newsItem) => newsItem.category === item.category && newsItem.id !== item.id).slice(0, 4),
       meta: [
         ["频道类型", "单条情报"],
         ["情报板块", item.category],
         ["重要级别", item.level],
+        ["来源", item.source],
       ],
     };
   }
@@ -78,6 +98,82 @@ function getDetail(type, value) {
   };
 }
 
+function buildItemAnalysis(item) {
+  const vendors = item.vendors.join("、");
+  const channels = item.channels.join("、");
+  return [
+    {
+      title: "核心摘要",
+      body: item.summary,
+      extra: `来源：${item.source} / ${item.time} / ${item.region}`,
+    },
+    {
+      title: "为什么重要",
+      body: item.why,
+      extra: `命中板块：${item.category}；涉及厂商/主体：${vendors}`,
+    },
+    {
+      title: "对中国电信/华为的影响",
+      body: item.impact,
+      extra: `建议关注部门：${channels}`,
+    },
+    {
+      title: "客户经营启示",
+      body: customerImplication(item),
+      extra: `优先级：${item.level}`,
+    },
+    {
+      title: "建议跟进问题",
+      body: followUpQuestions(item).join("；"),
+      extra: `标签：${item.tags.join("、")}`,
+    },
+  ];
+}
+
+function customerImplication(item) {
+  if (item.category === "舆情和负面信息") {
+    return "优先判断事件是否涉及重点省份、重点客户或高传播平台，必要时形成服务风险日报条目和回应口径。";
+  }
+  if (item.category.includes("AI") || item.tags.some((tag) => tag.includes("大模型") || tag.includes("智算"))) {
+    return "适合转化为云、网、算、模一体化客户交流话题，重点判断是否能带出天翼云、星辰大模型或昇腾生态机会。";
+  }
+  if (item.category.includes("设备商") || item.tags.some((tag) => tag.includes("5G") || tag.includes("核心网"))) {
+    return "适合进入竞品和技术路线对比材料，关注客户是否会用友商案例倒推建设节奏和指标要求。";
+  }
+  if (item.category === "运营商动态") {
+    return "适合对照中国电信战略、网络建设和政企业务节奏，判断是否需要客户线准备高层交流材料。";
+  }
+  return "适合沉淀为趋势观察和客户交流素材，后续结合行业、区域和客户投资方向判断行动优先级。";
+}
+
+function followUpQuestions(item) {
+  const questions = [
+    `这条动态是否影响中国电信在${item.category}上的近期投入或口径`,
+    `是否需要为${item.channels[0] || "相关团队"}准备一页客户交流材料`,
+  ];
+
+  if (item.vendors.length > 0) {
+    questions.push(`是否要补充${item.vendors[0]}与华为方案的对比`);
+  }
+
+  return questions;
+}
+
+function buildItemActions(item) {
+  const baseActions = item.channels.map((channel) => ({
+    title: `${channel}跟进`,
+    body: `围绕${item.category}整理客户影响、机会点和风险项。`,
+  }));
+
+  return [
+    ...baseActions,
+    {
+      title: "材料沉淀",
+      body: "将核心摘要、客户经营启示和原文链接沉淀到日报或专题资料库。",
+    },
+  ];
+}
+
 function relatedNews(type, value) {
   if (type === "telecom") {
     return detailNews.filter((item) => item.title.includes("中国电信") || item.vendors.includes("中国电信"));
@@ -108,19 +204,32 @@ function renderDetail() {
     .map(([label, valueText]) => `<span><strong>${label}</strong>${valueText}</span>`)
     .join("");
 
+  if (type === "item" && detail.item) {
+    $("#detailMeta").insertAdjacentHTML(
+      "beforeend",
+      `<span><strong>原文链接</strong>${sourceLink(detail.item)}</span>`,
+    );
+  }
+
   $("#detailItems").innerHTML = detail.items
     .map(
       (item) => `
         <article class="detail-item">
-          <strong>${item.split("：")[0]}</strong>
-          <p>${item.includes("：") ? item.split("：").slice(1).join("：") : item}</p>
+          <strong>${escapeHtml(typeof item === "string" ? item.split("：")[0] : item.title)}</strong>
+          <p>${escapeHtml(typeof item === "string" ? (item.includes("：") ? item.split("：").slice(1).join("：") : item) : item.body)}</p>
+          ${typeof item === "string" || !item.extra ? "" : `<small>${escapeHtml(item.extra)}</small>`}
+          ${typeof item === "string" || !item.tags ? "" : `<div class="tag-row">${tagList(item.tags)}</div>`}
         </article>
       `,
     )
     .join("");
 
   $("#detailActions").innerHTML = detail.actions
-    .map((action) => `<div class="mini-item"><strong>${action}</strong><p>建议进入日常跟踪和客户材料沉淀。</p></div>`)
+    .map((action) => {
+      const title = typeof action === "string" ? action : action.title;
+      const body = typeof action === "string" ? "建议进入日常跟踪和客户材料沉淀。" : action.body;
+      return `<div class="mini-item"><strong>${escapeHtml(title)}</strong><p>${escapeHtml(body)}</p></div>`;
+    })
     .join("");
 
   $("#relatedCount").textContent = `${detail.related.length} 条相关`;
@@ -147,6 +256,7 @@ function relatedCard(item) {
       </div>
       <div class="news-meta">${item.category} / ${item.vendors.join("、")}</div>
       <p>${item.summary}</p>
+      ${item.sourceUrl ? `<a class="source-link" href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noopener noreferrer">打开原文</a>` : ""}
       <div class="tag-row">
         ${item.channels.map((channel) => `<span class="tag">${channel}</span>`).join("")}
       </div>

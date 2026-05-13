@@ -112,6 +112,7 @@ function toPortalNews(rawItem) {
     title: rawItem.title,
     category,
     source: rawItem.sourceName,
+    sourceUrl: rawItem.sourceUrl || "",
     time,
     region: rawItem.region || "全球",
     vendors,

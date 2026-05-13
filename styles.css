@@ -808,6 +808,18 @@ h3 {
   color: var(--blue);
 }
 
+.detail-meta a,
+.source-link {
+  color: var(--blue);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.detail-meta a:hover,
+.source-link:hover {
+  text-decoration: underline;
+}
+
 .detail-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.4fr) minmax(300px, 0.8fr);
@@ -852,6 +864,24 @@ h3 {
   color: var(--muted);
   font-size: 13px;
   line-height: 1.65;
+}
+
+.detail-item small {
+  display: block;
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.detail-item .tag-row {
+  margin-top: 10px;
+}
+
+.source-link {
+  display: inline-flex;
+  width: fit-content;
+  font-size: 12px;
 }
 
 @media (max-width: 1180px) {
