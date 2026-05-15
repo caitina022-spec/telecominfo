@@ -3,7 +3,7 @@
     "query": "operator-ai-network",
     "name": "运营商AI与网络智能化",
     "provider": "gdelt",
-    "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. "
+    "error": "fetch failed"
   },
   {
     "query": "frontier-model-agents",
@@ -15,7 +15,7 @@
     "query": "ai-devices-robots",
     "name": "AI终端与机器人",
     "provider": "gdelt",
-    "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. "
+    "error": "Unexpected token 'Q', \"Queries co\"... is not valid JSON"
   },
   {
     "query": "ai-compute-infrastructure",
@@ -27,7 +27,7 @@
     "query": "ct-vendors-network",
     "name": "CT设备商与网络演进",
     "provider": "gdelt",
-    "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. "
+    "error": "fetch failed"
   },
   {
     "query": "telecom-sentiment-risk",

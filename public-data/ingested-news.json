@@ -5,7 +5,7 @@
     "category": "AI服务商动态",
     "source": "中国电信",
     "sourceUrl": "https://www.chinatelecom.com.cn",
-    "time": "17:40",
+    "time": "18:01",
     "region": "中国",
     "vendors": [
       "星辰",
@@ -31,7 +31,7 @@
     "category": "全球宏观热点",
     "source": "Orange",
     "sourceUrl": "https://www.orange.com",
-    "time": "17:40",
+    "time": "18:01",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -54,7 +54,7 @@
     "category": "全球宏观热点",
     "source": "Deutsche Telekom",
     "sourceUrl": "https://www.youtube.com/channel/UCt5ngfCsXQvQLNY2YdYlc_g",
-    "time": "17:40",
+    "time": "18:01",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -78,7 +78,7 @@
     "category": "全球宏观热点",
     "source": "Telefonica",
     "sourceUrl": "https://www.telefonica.com/es/accionistas-inversores/informacion-financiera/registro-en-organismos-reguladores-extranjeros/",
-    "time": "17:40",
+    "time": "18:01",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -98,25 +98,24 @@
   {
     "id": "live-operators-global-SK-Telecom",
     "title": "Instagram 일상에 영감을 더하다, SKT 인스타그램​",
-    "category": "舆情和负面信息",
+    "category": "运营商动态",
     "source": "SK Telecom",
     "sourceUrl": "https://www.instagram.com/sktelecom/",
-    "time": "17:40",
+    "time": "18:01",
     "region": "全球",
     "vendors": [
-      "运营商",
+      "KT",
       "SKT",
-      "SK Telecom",
-      "KT"
+      "SK Telecom"
     ],
-    "summary": "자강과 협력을 통한 ‘Global AI Company’로의 도약。Instagram 일상에 영감을 더하다, SKT 인。",
-    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
+    "summary": "AX로 만들어가는 더 나은 내일。Instagram 일상에 영감을 더하다, SKT 인스타그램​。SKT、SK Telec。",
+    "why": "命中运营商动态词表，适合进入系统部每日情报池。",
     "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
     "channels": [
       "客户线"
     ],
     "tags": [
-      "AI"
+      "运营商动态"
     ],
     "level": "低"
   },
@@ -126,7 +125,7 @@
     "category": "舆情和负面信息",
     "source": "KT",
     "sourceUrl": "https://ai.kt.com/?utm_source=kt&utm_medium=banner&utm_campaign=ktcorp&utm_id=set&utm_term=inside&utm_content=ktcon",
-    "time": "17:40",
+    "time": "18:01",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -149,7 +148,7 @@
     "category": "全球宏观热点",
     "source": "STC",
     "sourceUrl": "https://www.stc.com.sa/content/stc/sa/en/personal/mobile/packages/mofawtar-prime.html",
-    "time": "17:40",
+    "time": "18:01",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -172,7 +171,7 @@
     "category": "AI服务商动态",
     "source": "Google AI",
     "sourceUrl": "https://blog.google/products/ads-commerce/",
-    "time": "17:40",
+    "time": "18:01",
     "region": "中国",
     "vendors": [
       "Google",
@@ -196,7 +195,7 @@
     "category": "AI服务商动态",
     "source": "Anthropic",
     "sourceUrl": "https://www.anthropic.com/glasswing",
-    "time": "17:40",
+    "time": "18:01",
     "region": "中国",
     "vendors": [
       "Google",
@@ -222,7 +221,7 @@
     "category": "AI服务商动态",
     "source": "Meta AI",
     "sourceUrl": "https://ai.meta.com/blog/alta-daily-fashion-app-segment-anything/",
-    "time": "17:40",
+    "time": "18:01",
     "region": "中国",
     "vendors": [
       "Meta",
@@ -246,7 +245,7 @@
     "category": "AI服务商动态",
     "source": "DeepSeek",
     "sourceUrl": "https://mp.weixin.qq.com/s/8bxXqS2R8Fx5-1TLDBiEDg",
-    "time": "17:40",
+    "time": "18:01",
     "region": "中国",
     "vendors": [
       "DeepSeek"
@@ -271,7 +270,7 @@
     "category": "AI服务商动态",
     "source": "阿里云",
     "sourceUrl": "https://www.alibabacloud.com/ai-assistant?displayMode=widget",
-    "time": "17:40",
+    "time": "18:01",
     "region": "中国",
     "vendors": [
       "通义千问",
@@ -295,7 +294,7 @@
     "category": "AI服务商动态",
     "source": "腾讯云",
     "sourceUrl": "https://cloud.tencent.com",
-    "time": "17:40",
+    "time": "18:01",
     "region": "中国",
     "vendors": [
       "混元",
@@ -320,7 +319,7 @@
     "category": "AI服务商动态",
     "source": "百度智能云",
     "sourceUrl": "https://console.bce.baidu.com/qianfan/modelcenter/model/buildIn/detail/am-3c0d4ca1f067",
-    "time": "17:40",
+    "time": "18:01",
     "region": "中国",
     "vendors": [
       "文心",
@@ -345,7 +344,7 @@
     "category": "AI服务商动态",
     "source": "月之暗面",
     "sourceUrl": "https://www.kimi.com/blog/kimi-k2-6",
-    "time": "17:40",
+    "time": "18:01",
     "region": "中国",
     "vendors": [
       "Kimi",
@@ -369,7 +368,7 @@
     "category": "AI服务商动态",
     "source": "字节跳动火山引擎",
     "sourceUrl": "https://www.volcengine.com/product/doubao",
-    "time": "17:40",
+    "time": "18:01",
     "region": "中国",
     "vendors": [
       "豆包",
@@ -393,7 +392,7 @@
     "category": "AI服务商动态",
     "source": "智谱AI",
     "sourceUrl": "https://beian.miit.gov.cn/",
-    "time": "17:40",
+    "time": "18:01",
     "region": "中国",
     "vendors": [
       "智谱"
@@ -417,7 +416,7 @@
     "category": "AI产品商品",
     "source": "华为",
     "sourceUrl": "https://consumer.huawei.com/cn/support/hisuite/",
-    "time": "17:41",
+    "time": "18:01",
     "region": "中国",
     "vendors": [
       "华为",
@@ -436,26 +435,26 @@
   },
   {
     "id": "live-compute-and-ct-vendors-中兴通讯",
-    "title": "GoogleBrowser",
-    "category": "AI服务商动态",
+    "title": "ZTE Showcases at GSMA M360 LATAM 2026, Driving Future Business Model Restructuring-AI & Network Two-Way Integration 2026-05-15",
+    "category": "舆情和负面信息",
     "source": "中兴通讯",
-    "sourceUrl": "https://www.google.cn/chrome/index.html",
-    "time": "17:41",
+    "sourceUrl": "https://www.zte.com.cn/content/zte-site/www-zte-com-cn/global/about/news/ZTE-Showcases-at-GSMA-LATAM-360-Summit,-Driving-Future-Business-Model-Restructuring-AI-Network-Two-Way-Integration.html",
+    "time": "18:01",
     "region": "中国",
     "vendors": [
-      "Google",
       "中兴",
-      "中兴珠峰"
+      "中兴珠峰",
+      "GSMA"
     ],
     "summary": "With innovative technologies and product solutions, ZTE serves g。",
-    "why": "命中AI服务商动态词表，适合进入系统部每日情报池。",
+    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
     "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
     "channels": [
       "客户线",
       "Marketing"
     ],
     "tags": [
-      "AI服务商动态"
+      "AI"
     ],
     "level": "低"
   },
@@ -465,7 +464,7 @@
     "category": "CT设备商动态",
     "source": "Cisco",
     "sourceUrl": "https://newsroom.cisco.com/people.html",
-    "time": "17:41",
+    "time": "18:01",
     "region": "中国",
     "vendors": [
       "Cisco"
@@ -488,7 +487,7 @@
     "category": "CT设备商动态",
     "source": "Ciena",
     "sourceUrl": "https://www.ciena.com/about",
-    "time": "17:41",
+    "time": "18:01",
     "region": "中国",
     "vendors": [
       "Ciena"
@@ -505,34 +504,12 @@
     "level": "低"
   },
   {
-    "id": "live-macro-policy-and-events-工信部",
-    "title": "中华人民共和国工业和信息化部",
-    "category": "全球宏观热点",
-    "source": "工信部",
-    "sourceUrl": "http://www.miit.gov.cn/zwgk/zcwj/wjfb/gg/art/2026/art_3bfb3733b9e04e63b24feb4dd70a2d8e.html",
-    "time": "17:41",
-    "region": "全球",
-    "vendors": [
-      "工信部"
-    ],
-    "summary": "《道路机动车辆生产企业及产品》（第405批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第八十四批）、《减免车辆。",
-    "why": "命中全球宏观热点词表，适合进入系统部每日情报池。",
-    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
-    "channels": [
-      "Marketing"
-    ],
-    "tags": [
-      "政策"
-    ],
-    "level": "低"
-  },
-  {
     "id": "live-macro-policy-and-events-国家数据局",
     "title": "国家数据局",
     "category": "全球宏观热点",
     "source": "国家数据局",
     "sourceUrl": "https://www.nda.gov.cn",
-    "time": "17:41",
+    "time": "18:01",
     "region": "全球",
     "vendors": [
       "国家数据局"
@@ -554,7 +531,7 @@
     "category": "全球宏观热点",
     "source": "GSMA",
     "sourceUrl": "https://www.gsmatraining.com/",
-    "time": "17:41",
+    "time": "18:01",
     "region": "全球",
     "vendors": [
       "GSMA",
@@ -577,7 +554,7 @@
     "category": "全球宏观热点",
     "source": "WAIC",
     "sourceUrl": "https://www.worldaic.com.cn",
-    "time": "17:41",
+    "time": "18:01",
     "region": "全球",
     "vendors": [
       "WAIC"
@@ -594,18 +571,18 @@
     "level": "低"
   },
   {
-    "id": "search-china-telecom-cloud-ai-0-4368696e6120",
-    "title": "China Telecom is Gaining Users but Losing the Margin War",
+    "id": "search-china-telecom-cloud-ai-0-4954204e6577",
+    "title": "IT News Online - China Telecom Leads ALC Submarine Cable Landing in Hong Kong",
     "category": "舆情和负面信息",
-    "source": "marketscreener.com",
-    "sourceUrl": "https://www.marketscreener.com/news/china-telecom-is-gaining-users-but-losing-the-margin-war-ce7f5bded88af021",
-    "time": "17:41",
+    "source": "itnewsonline.com",
+    "sourceUrl": "https://www.itnewsonline.com/news/China-Telecom-Leads-ALC-Submarine-Cable-Landing-in-Hong-Kong/36478",
+    "time": "18:02",
     "region": "全球",
     "vendors": [
       "中国电信",
       "电信"
     ],
-    "summary": "China Telecom is Gaining Users but Losing the Margin War。markets。",
+    "summary": "IT News Online - China Telecom Leads ALC Submarine Cable Landing。",
     "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
     "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
     "channels": [
@@ -617,12 +594,81 @@
     "level": "低"
   },
   {
-    "id": "search-china-telecom-cloud-ai-1-3230304d5020",
+    "id": "search-china-telecom-cloud-ai-1-4368696e6120",
+    "title": "China Telecom Leads ALC Submarine Cable Landing in Hong Kong",
+    "category": "舆情和负面信息",
+    "source": "businessdayghana.com",
+    "sourceUrl": "https://businessdayghana.com/china-telecom-leads-alc-submarine-cable-landing-in-hong-kong/",
+    "time": "18:02",
+    "region": "全球",
+    "vendors": [
+      "中国电信",
+      "电信"
+    ],
+    "summary": "China Telecom Leads ALC Submarine Cable Landing in Hong Kong。bus。",
+    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线"
+    ],
+    "tags": [
+      "AI"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "search-china-telecom-cloud-ai-2-4368696e6120",
+    "title": "China Telecom Leads ALC Submarine Cable Landing in Hong Kong – LiveNews . co . nz",
+    "category": "舆情和负面信息",
+    "source": "livenews.co.nz",
+    "sourceUrl": "https://livenews.co.nz/2026/05/14/china-telecom-leads-alc-submarine-cable-landing-in-hong-kong/",
+    "time": "18:02",
+    "region": "全球",
+    "vendors": [
+      "中国电信",
+      "电信"
+    ],
+    "summary": "China Telecom Leads ALC Submarine Cable Landing in Hong Kong – L。",
+    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线"
+    ],
+    "tags": [
+      "AI"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "search-china-telecom-cloud-ai-3-4368696e6120",
+    "title": "China Telecom Leads ALC Submarine Cable Landing in Hong Kong",
+    "category": "舆情和负面信息",
+    "source": "thailand-business-news.com",
+    "sourceUrl": "https://www.thailand-business-news.com/pr-news/china-telecom-leads-alc-submarine-cable-landing-in-hong-kong",
+    "time": "18:02",
+    "region": "全球",
+    "vendors": [
+      "中国电信",
+      "电信"
+    ],
+    "summary": "China Telecom Leads ALC Submarine Cable Landing in Hong Kong。tha。",
+    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线"
+    ],
+    "tags": [
+      "AI"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "search-china-telecom-cloud-ai-4-3230304d5020",
     "title": "200MP ক্যামেরা এবং 8000mAh ব্যাটারি সহ আসছে iQOO এর শক্তিশালী স্মার্টফোন , 20 মে হবে লঞ্চ",
     "category": "舆情和负面信息",
     "source": "digit.in",
     "sourceUrl": "https://www.digit.in/bn/news/mobile-phones/iqoo-15t-launching-on-may-20-with-200mp-camera-and-8000mah-battery.html",
-    "time": "17:41",
+    "time": "18:02",
     "region": "全球",
     "vendors": [
       "中国电信",
@@ -640,18 +686,18 @@
     "level": "低"
   },
   {
-    "id": "search-china-telecom-cloud-ai-2-69514f4f2031",
-    "title": "iQOO 15T with 2K 144Hz OLED display , Dimensity 9500 , 200MP camera , 8000mAh battery to be introduced on May 20",
+    "id": "search-china-telecom-cloud-ai-5-576861742075",
+    "title": "What up with … Bharti Airtel , China Telecom , Cerebras Systems , Digital Platforms and Services",
     "category": "舆情和负面信息",
-    "source": "fonearena.com",
-    "sourceUrl": "https://www.fonearena.com/blog/482350/iqoo-15t-launch-date.html",
-    "time": "17:41",
+    "source": "telecomtv.com",
+    "sourceUrl": "https://www.telecomtv.com/content/digital-platforms-services/what-s-up-with-bharti-airtel-china-telecom-cerebras-systems-55475/",
+    "time": "18:02",
     "region": "全球",
     "vendors": [
       "中国电信",
       "电信"
     ],
-    "summary": "iQOO 15T with 2K 144Hz OLED display , Dimensity 9500 , 200MP cam。",
+    "summary": "What up with … Bharti Airtel , China Telecom , Cerebras Systems 。",
     "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
     "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
     "channels": [
@@ -663,64 +709,18 @@
     "level": "低"
   },
   {
-    "id": "search-china-telecom-cloud-ai-3-466564657261",
-    "title": "Federal Communications Commission : FCC Allows Chinese Drones and Routers to Receive Software Updates Through 2028 Amid National Security Concerns , ETTelecom",
-    "category": "舆情和负面信息",
-    "source": "telecom.economictimes.indiatimes.com",
-    "sourceUrl": "https://telecom.economictimes.indiatimes.com/news/policy/fcc-allows-chinese-drones-and-routers-to-receive-software-updates-through-2028-amid-national-security-concerns/131052680",
-    "time": "17:41",
-    "region": "全球",
-    "vendors": [
-      "中国电信",
-      "电信"
-    ],
-    "summary": "Federal Communications Commission : FCC Allows Chinese Drones an。",
-    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
-    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
-    "channels": [
-      "客户线"
-    ],
-    "tags": [
-      "AI"
-    ],
-    "level": "低"
-  },
-  {
-    "id": "search-china-telecom-cloud-ai-4-476c6f62616c",
+    "id": "search-china-telecom-cloud-ai-6-476c6f62616c",
     "title": "Global Asset Management",
     "category": "舆情和负面信息",
     "source": "gam.newspim.com",
     "sourceUrl": "https://gam.newspim.com/news/view/20260514000173",
-    "time": "17:41",
+    "time": "18:02",
     "region": "全球",
     "vendors": [
       "中国电信",
       "电信"
     ],
     "summary": "Global Asset Management。gam.newspim.com。中国电信云网算与AI。\"China Teleco。",
-    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
-    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
-    "channels": [
-      "客户线"
-    ],
-    "tags": [
-      "AI"
-    ],
-    "level": "低"
-  },
-  {
-    "id": "search-china-telecom-cloud-ai-5-496e76657374",
-    "title": "Investors say Trump and Xi to keep trade tensions on backburner in meeting",
-    "category": "舆情和负面信息",
-    "source": "bnnbloomberg.ca",
-    "sourceUrl": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/05/12/investors-say-they-want-trump-and-xi-to-stay-out-of-ais-way/",
-    "time": "17:41",
-    "region": "全球",
-    "vendors": [
-      "中国电信",
-      "电信"
-    ],
-    "summary": "Investors say Trump and Xi to keep trade tensions on backburner 。",
     "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
     "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
     "channels": [
