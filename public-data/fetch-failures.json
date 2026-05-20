@@ -43,5 +43,10 @@
     "source": "Nokia",
     "url": "https://www.nokia.com/about-us/newsroom",
     "error": "HTTP 403"
+  },
+  {
+    "source": "Ciena",
+    "url": "https://www.ciena.com/about/newsroom",
+    "error": "HTTP 403"
   }
 ]

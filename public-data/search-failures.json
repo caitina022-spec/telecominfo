@@ -21,19 +21,19 @@
     "query": "ai-compute-infrastructure",
     "name": "智算与AI芯片",
     "provider": "gdelt",
-    "error": "fetch failed"
+    "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. "
   },
   {
     "query": "ct-vendors-network",
     "name": "CT设备商与网络演进",
     "provider": "gdelt",
-    "error": "fetch failed"
+    "error": "Unexpected token 'Q', \"Queries co\"... is not valid JSON"
   },
   {
     "query": "telecom-sentiment-risk",
     "name": "通信舆情与负面风险",
     "provider": "gdelt",
-    "error": "fetch failed"
+    "error": "Unexpected token 'Q', \"Queries co\"... is not valid JSON"
   },
   {
     "query": "ai-industry-impact",
