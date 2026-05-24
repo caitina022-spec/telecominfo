@@ -15,19 +15,19 @@
     "query": "frontier-model-agents",
     "name": "大模型与智能体",
     "provider": "gdelt",
-    "error": "fetch failed"
+    "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. "
   },
   {
     "query": "ai-devices-robots",
     "name": "AI终端与机器人",
     "provider": "gdelt",
-    "error": "fetch failed"
+    "error": "Unexpected token 'Q', \"Queries co\"... is not valid JSON"
   },
   {
     "query": "ai-compute-infrastructure",
     "name": "智算与AI芯片",
     "provider": "gdelt",
-    "error": "fetch failed"
+    "error": "Unexpected token 'Q', \"Queries co\"... is not valid JSON"
   },
   {
     "query": "ct-vendors-network",
@@ -45,6 +45,6 @@
     "query": "ai-industry-impact",
     "name": "AI赋能传统行业",
     "provider": "gdelt",
-    "error": "Unexpected token 'Q', \"Queries co\"... is not valid JSON"
+    "error": "fetch failed"
   }
 ]
