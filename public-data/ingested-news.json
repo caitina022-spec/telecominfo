@@ -5,7 +5,7 @@
     "category": "AI服务商动态",
     "source": "中国电信",
     "sourceUrl": "https://www.chinatelecom.com.cn",
-    "time": "19:36",
+    "time": "19:51",
     "region": "中国",
     "vendors": [
       "星辰",
@@ -31,7 +31,7 @@
     "category": "全球宏观热点",
     "source": "Orange",
     "sourceUrl": "https://www.orange.com",
-    "time": "19:36",
+    "time": "19:51",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -49,36 +49,12 @@
     "level": "低"
   },
   {
-    "id": "live-operators-global-Deutsche-Telekom",
-    "title": "Videos (Youtube @DT_IR)",
-    "category": "全球宏观热点",
-    "source": "Deutsche Telekom",
-    "sourceUrl": "https://www.youtube.com/channel/UCt5ngfCsXQvQLNY2YdYlc_g",
-    "time": "19:36",
-    "region": "全球",
-    "vendors": [
-      "运营商",
-      "DT",
-      "Deutsche Telekom"
-    ],
-    "summary": "Deutsche Telekom is one of the world's leading integrated teleco。",
-    "why": "命中全球宏观热点词表，适合进入系统部每日情报池。",
-    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
-    "channels": [
-      "客户线"
-    ],
-    "tags": [
-      "全球宏观热点"
-    ],
-    "level": "低"
-  },
-  {
     "id": "live-operators-global-Telefonica",
     "title": "Telefónica: compañía líder en telecomunicaciones",
     "category": "全球宏观热点",
     "source": "Telefonica",
     "sourceUrl": "https://www.telefonica.com/es/accionistas-inversores/informacion-financiera/registro-en-organismos-reguladores-extranjeros/",
-    "time": "19:36",
+    "time": "19:51",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -101,7 +77,7 @@
     "category": "运营商动态",
     "source": "SK Telecom",
     "sourceUrl": "https://www.instagram.com/sktelecom/",
-    "time": "19:36",
+    "time": "19:51",
     "region": "全球",
     "vendors": [
       "KT",
@@ -120,35 +96,12 @@
     "level": "低"
   },
   {
-    "id": "live-operators-global-KT",
-    "title": "K intelligence Suite 기업의 성공적인 AX 전환을 이끌 K intelligence의 full stack AI 기술 AI.KT.com 에서 확인하기",
-    "category": "舆情和负面信息",
-    "source": "KT",
-    "sourceUrl": "https://ai.kt.com/?utm_source=kt&utm_medium=banner&utm_campaign=ktcorp&utm_id=set&utm_term=inside&utm_content=ktcon",
-    "time": "19:36",
-    "region": "全球",
-    "vendors": [
-      "运营商",
-      "KT"
-    ],
-    "summary": "[회사소개] 메인 - 국민의 편익을 도모하는 최고의 국민기업 KT。K intelligence Suite 기업의 성공。",
-    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
-    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
-    "channels": [
-      "客户线"
-    ],
-    "tags": [
-      "AI"
-    ],
-    "level": "低"
-  },
-  {
     "id": "live-operators-global-STC",
     "title": "stc KSA | stc KSA Internet Packages | stc Personal Packages",
     "category": "全球宏观热点",
     "source": "STC",
     "sourceUrl": "https://www.stc.com.sa/content/stc/sa/en/personal/mobile/packages/mofawtar-prime.html",
-    "time": "19:36",
+    "time": "19:51",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -171,7 +124,7 @@
     "category": "AI服务商动态",
     "source": "Google AI",
     "sourceUrl": "https://blog.google/products/ads-commerce/",
-    "time": "19:36",
+    "time": "19:51",
     "region": "中国",
     "vendors": [
       "Google",
@@ -195,7 +148,7 @@
     "category": "AI服务商动态",
     "source": "Anthropic",
     "sourceUrl": "https://www.anthropic.com/glasswing",
-    "time": "19:36",
+    "time": "19:51",
     "region": "中国",
     "vendors": [
       "Google",
@@ -221,7 +174,7 @@
     "category": "AI服务商动态",
     "source": "Meta AI",
     "sourceUrl": "https://ai.meta.com/blog/alta-daily-fashion-app-segment-anything/",
-    "time": "19:36",
+    "time": "19:51",
     "region": "中国",
     "vendors": [
       "Meta",
@@ -241,26 +194,24 @@
   },
   {
     "id": "live-ai-model-providers-DeepSeek",
-    "title": "🎉 DeepSeek-V4 预览版本发布，具备世界顶级推理性能，Agent 能力大幅提高，已在网页端、APP 和 API 上线，点击查看详情。",
+    "title": "DeepSeek 最新动态",
     "category": "AI服务商动态",
     "source": "DeepSeek",
-    "sourceUrl": "https://mp.weixin.qq.com/s/8bxXqS2R8Fx5-1TLDBiEDg",
-    "time": "19:36",
+    "sourceUrl": "https://www.deepseek.com",
+    "time": "19:51",
     "region": "中国",
     "vendors": [
       "DeepSeek"
     ],
-    "summary": "深度求索（DeepSeek），成立于2023年，专注于研究世界领先的通用人工智能底层模型与技术，挑战人工智能前沿性难题。基于自研。",
+    "summary": "DeepSeek。AI服务商与大模型动态",
     "why": "命中AI服务商动态词表，适合进入系统部每日情报池。",
     "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
     "channels": [
-      "算力",
       "服务",
       "Marketing"
     ],
     "tags": [
-      "大模型",
-      "API"
+      "大模型"
     ],
     "level": "低"
   },
@@ -270,7 +221,7 @@
     "category": "AI服务商动态",
     "source": "阿里云",
     "sourceUrl": "https://www.alibabacloud.com/ai-assistant?displayMode=widget",
-    "time": "19:36",
+    "time": "19:51",
     "region": "中国",
     "vendors": [
       "通义千问",
@@ -294,7 +245,7 @@
     "category": "AI服务商动态",
     "source": "腾讯云",
     "sourceUrl": "https://cloud.tencent.com",
-    "time": "19:36",
+    "time": "19:51",
     "region": "中国",
     "vendors": [
       "混元",
@@ -319,7 +270,7 @@
     "category": "AI服务商动态",
     "source": "百度智能云",
     "sourceUrl": "https://console.bce.baidu.com/qianfan/modelcenter/model/buildIn/detail/am-3c0d4ca1f067",
-    "time": "19:36",
+    "time": "19:51",
     "region": "中国",
     "vendors": [
       "文心",
@@ -344,7 +295,7 @@
     "category": "AI服务商动态",
     "source": "月之暗面",
     "sourceUrl": "https://www.kimi.com/blog/kimi-k2-6",
-    "time": "19:37",
+    "time": "19:51",
     "region": "中国",
     "vendors": [
       "Kimi",
@@ -363,12 +314,36 @@
     "level": "低"
   },
   {
+    "id": "live-ai-model-providers-字节跳动火山引擎",
+    "title": "豆包大模型 HOT 字节跳动自研大模型",
+    "category": "AI服务商动态",
+    "source": "字节跳动火山引擎",
+    "sourceUrl": "https://www.volcengine.com/product/doubao",
+    "time": "19:51",
+    "region": "中国",
+    "vendors": [
+      "豆包",
+      "字节跳动"
+    ],
+    "summary": "火山引擎是字节跳动旗下的云与AI服务平台。在AI时代，聚焦豆包大模型和AI云原生技术，为企业提供从 Agent 开发到部署的一站。",
+    "why": "命中AI服务商动态词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "服务",
+      "Marketing"
+    ],
+    "tags": [
+      "大模型"
+    ],
+    "level": "低"
+  },
+  {
     "id": "live-ai-model-providers-智谱AI",
     "title": "Z.ai - Inspiring AGI to Benefit Humanity",
     "category": "AI服务商动态",
     "source": "智谱AI",
     "sourceUrl": "https://beian.mps.gov.cn/#/query/webSearch",
-    "time": "19:37",
+    "time": "19:51",
     "region": "中国",
     "vendors": [
       "智谱"
@@ -392,7 +367,7 @@
     "category": "AI产品商品",
     "source": "华为",
     "sourceUrl": "https://consumer.huawei.com/cn/support/hisuite/",
-    "time": "19:37",
+    "time": "19:52",
     "region": "中国",
     "vendors": [
       "华为",
@@ -415,7 +390,7 @@
     "category": "AI服务商动态",
     "source": "中兴通讯",
     "sourceUrl": "https://www.google.cn/chrome/index.html",
-    "time": "19:37",
+    "time": "19:52",
     "region": "中国",
     "vendors": [
       "Google",
@@ -440,7 +415,7 @@
     "category": "CT设备商动态",
     "source": "Cisco",
     "sourceUrl": "https://newsroom.cisco.com/people.html",
-    "time": "19:37",
+    "time": "19:52",
     "region": "中国",
     "vendors": [
       "Cisco"
@@ -458,34 +433,12 @@
     "level": "低"
   },
   {
-    "id": "live-macro-policy-and-events-工信部",
-    "title": "中华人民共和国工业和信息化部",
-    "category": "全球宏观热点",
-    "source": "工信部",
-    "sourceUrl": "https://www.miit.gov.cn/xwfb/szyw/art/2026/art_d65931ba79ab4b969517bbd5fd063f4a.html",
-    "time": "19:37",
-    "region": "全球",
-    "vendors": [
-      "工信部"
-    ],
-    "summary": "党的十八大以来，以习近平同志为核心的党中央把握时代大势，顺应历史潮流，统筹国内国际两个大局，推进高水平对外开放，我国对外贸易取得。",
-    "why": "命中全球宏观热点词表，适合进入系统部每日情报池。",
-    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
-    "channels": [
-      "Marketing"
-    ],
-    "tags": [
-      "政策"
-    ],
-    "level": "低"
-  },
-  {
     "id": "live-macro-policy-and-events-国家数据局",
     "title": "国家数据局",
     "category": "全球宏观热点",
     "source": "国家数据局",
     "sourceUrl": "https://www.nda.gov.cn",
-    "time": "19:37",
+    "time": "19:52",
     "region": "全球",
     "vendors": [
       "国家数据局"
@@ -507,7 +460,7 @@
     "category": "全球宏观热点",
     "source": "GSMA",
     "sourceUrl": "https://www.gsmatraining.com/",
-    "time": "19:37",
+    "time": "19:52",
     "region": "全球",
     "vendors": [
       "GSMA",
@@ -530,7 +483,7 @@
     "category": "全球宏观热点",
     "source": "WAIC",
     "sourceUrl": "https://www.worldaic.com.cn",
-    "time": "19:37",
+    "time": "19:52",
     "region": "全球",
     "vendors": [
       "WAIC"
@@ -543,6 +496,75 @@
     ],
     "tags": [
       "政策"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "search-china-telecom-cloud-ai-0-4368696e6120",
+    "title": "China issues approvals to 166 foreign - invested enterprises for value - added telecom services _ Guangming Online",
+    "category": "舆情和负面信息",
+    "source": "en.gmw.cn",
+    "sourceUrl": "https://en.gmw.cn/2026-06/04/content_38811160.htm",
+    "time": "19:52",
+    "region": "中国",
+    "vendors": [
+      "中国电信",
+      "电信"
+    ],
+    "summary": "China issues approvals to 166 foreign - invested enterprises for。",
+    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线"
+    ],
+    "tags": [
+      "AI"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "search-china-telecom-cloud-ai-1-4368696e6120",
+    "title": "China issues approvals to 166 foreign - invested enterprises for value - added telecom services",
+    "category": "舆情和负面信息",
+    "source": "en.people.cn",
+    "sourceUrl": "http://en.people.cn/n3/2026/0604/c90000-20463707.html",
+    "time": "19:52",
+    "region": "中国",
+    "vendors": [
+      "中国电信",
+      "电信"
+    ],
+    "summary": "China issues approvals to 166 foreign - invested enterprises for。",
+    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线"
+    ],
+    "tags": [
+      "AI"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "search-china-telecom-cloud-ai-2-205b20476173",
+    "title": " [ Gasgoo News ] Zhao Changjiang reveals former Ferrari designer joins Luxeed ; Oil prices cut",
+    "category": "舆情和负面信息",
+    "source": "autonews.gasgoo.com",
+    "sourceUrl": "https://autonews.gasgoo.com/articles/news/gasgoo-news-zhao-changjiang-reveals-former-ferrari-designer-joins-luxeed-oil-prices-cut-2062802404121325568",
+    "time": "19:52",
+    "region": "全球",
+    "vendors": [
+      "中国电信",
+      "电信"
+    ],
+    "summary": " [ Gasgoo News ] Zhao Changjiang reveals former Ferrari designer。",
+    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线"
+    ],
+    "tags": [
+      "AI"
     ],
     "level": "低"
   }
