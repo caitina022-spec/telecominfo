@@ -1,11 +1,5 @@
 [
   {
-    "query": "china-telecom-cloud-ai",
-    "name": "中国电信云网算与AI",
-    "provider": "gdelt",
-    "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. "
-  },
-  {
     "query": "operator-ai-network",
     "name": "运营商AI与网络智能化",
     "provider": "gdelt",
@@ -27,13 +21,13 @@
     "query": "ai-compute-infrastructure",
     "name": "智算与AI芯片",
     "provider": "gdelt",
-    "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. "
+    "error": "Unexpected token 'Q', \"Queries co\"... is not valid JSON"
   },
   {
     "query": "ct-vendors-network",
     "name": "CT设备商与网络演进",
     "provider": "gdelt",
-    "error": "Unexpected token 'Q', \"Queries co\"... is not valid JSON"
+    "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. "
   },
   {
     "query": "telecom-sentiment-risk",
@@ -45,6 +39,6 @@
     "query": "ai-industry-impact",
     "name": "AI赋能传统行业",
     "provider": "gdelt",
-    "error": "Unexpected token 'Q', \"Queries co\"... is not valid JSON"
+    "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. "
   }
 ]
