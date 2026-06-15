@@ -53,10 +53,5 @@
     "source": "Ciena",
     "url": "https://www.ciena.com/about/newsroom",
     "error": "HTTP 403"
-  },
-  {
-    "source": "GSMA",
-    "url": "https://www.gsma.com/newsroom",
-    "error": "HTTP 403"
   }
 ]
