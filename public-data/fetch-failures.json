@@ -17,7 +17,7 @@
   {
     "source": "Zain",
     "url": "https://www.zain.com",
-    "error": "HTTP 403"
+    "error": "HTTP 307"
   },
   {
     "source": "OpenAI",
