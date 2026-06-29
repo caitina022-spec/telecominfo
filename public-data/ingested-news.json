@@ -5,7 +5,7 @@
     "category": "AI服务商动态",
     "source": "中国电信",
     "sourceUrl": "https://www.chinatelecom.com.cn",
-    "time": "11:42",
+    "time": "11:51",
     "region": "中国",
     "vendors": [
       "星辰",
@@ -31,7 +31,7 @@
     "category": "全球宏观热点",
     "source": "Deutsche Telekom",
     "sourceUrl": "https://www.youtube.com/channel/UCt5ngfCsXQvQLNY2YdYlc_g",
-    "time": "11:43",
+    "time": "11:51",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -55,7 +55,7 @@
     "category": "全球宏观热点",
     "source": "Telefonica",
     "sourceUrl": "https://www.telefonica.com/es/accionistas-inversores/informacion-financiera/registro-en-organismos-reguladores-extranjeros/",
-    "time": "11:43",
+    "time": "11:51",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -78,7 +78,7 @@
     "category": "运营商动态",
     "source": "SK Telecom",
     "sourceUrl": "https://www.instagram.com/sktelecom/",
-    "time": "11:43",
+    "time": "11:51",
     "region": "全球",
     "vendors": [
       "KT",
@@ -102,7 +102,7 @@
     "category": "舆情和负面信息",
     "source": "KT",
     "sourceUrl": "https://ai.kt.com/?utm_source=kt&utm_medium=banner&utm_campaign=ktcorp&utm_id=set&utm_term=inside&utm_content=ktcon",
-    "time": "11:43",
+    "time": "11:51",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -125,7 +125,7 @@
     "category": "全球宏观热点",
     "source": "STC",
     "sourceUrl": "https://www.stc.com.sa/content/stc/sa/en/personal/mobile/packages/mofawtar-prime.html",
-    "time": "11:43",
+    "time": "11:51",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -148,7 +148,7 @@
     "category": "AI服务商动态",
     "source": "Google AI",
     "sourceUrl": "https://blog.google/products/ads-commerce/",
-    "time": "11:43",
+    "time": "11:51",
     "region": "中国",
     "vendors": [
       "Google",
@@ -172,7 +172,7 @@
     "category": "AI服务商动态",
     "source": "Anthropic",
     "sourceUrl": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
-    "time": "11:43",
+    "time": "11:51",
     "region": "中国",
     "vendors": [
       "Anthropic"
@@ -195,7 +195,7 @@
     "category": "AI服务商动态",
     "source": "Meta AI",
     "sourceUrl": "https://ai.meta.com/blog/alta-daily-fashion-app-segment-anything/",
-    "time": "11:43",
+    "time": "11:51",
     "region": "中国",
     "vendors": [
       "Meta",
@@ -219,7 +219,7 @@
     "category": "AI服务商动态",
     "source": "DeepSeek",
     "sourceUrl": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/",
-    "time": "11:43",
+    "time": "11:51",
     "region": "中国",
     "vendors": [
       "DeepSeek",
@@ -245,7 +245,7 @@
     "category": "AI服务商动态",
     "source": "阿里云",
     "sourceUrl": "https://www.alibabacloud.com/ai-assistant?displayMode=widget",
-    "time": "11:43",
+    "time": "11:51",
     "region": "中国",
     "vendors": [
       "通义千问",
@@ -269,7 +269,7 @@
     "category": "AI服务商动态",
     "source": "腾讯云",
     "sourceUrl": "https://cloud.tencent.com",
-    "time": "11:43",
+    "time": "11:51",
     "region": "中国",
     "vendors": [
       "混元",
@@ -294,7 +294,7 @@
     "category": "AI服务商动态",
     "source": "百度智能云",
     "sourceUrl": "https://console.bce.baidu.com/qianfan/modelcenter/model/buildIn/detail/am-3c0d4ca1f067",
-    "time": "11:43",
+    "time": "11:51",
     "region": "中国",
     "vendors": [
       "文心",
@@ -319,7 +319,7 @@
     "category": "AI服务商动态",
     "source": "月之暗面",
     "sourceUrl": "https://www.kimi.com/blog/kimi-k2-6",
-    "time": "11:43",
+    "time": "11:51",
     "region": "中国",
     "vendors": [
       "Kimi",
@@ -338,12 +338,37 @@
     "level": "低"
   },
   {
+    "id": "live-ai-model-providers-字节跳动火山引擎",
+    "title": "用 数据智能体 打造企业 AI 数字专家",
+    "category": "AI服务商动态",
+    "source": "字节跳动火山引擎",
+    "sourceUrl": "https://www.volcengine.com/product/DataAgent",
+    "time": "11:51",
+    "region": "中国",
+    "vendors": [
+      "豆包",
+      "字节跳动"
+    ],
+    "summary": "火山引擎是字节跳动旗下的云与AI服务平台。在AI时代，聚焦豆包大模型和AI云原生技术，为企业提供从 Agent 开发到部署的一站。",
+    "why": "命中AI服务商动态词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "服务",
+      "Marketing"
+    ],
+    "tags": [
+      "大模型",
+      "智能体"
+    ],
+    "level": "低"
+  },
+  {
     "id": "live-ai-model-providers-智谱AI",
     "title": "Z.ai - Inspiring AGI to Benefit Humanity",
     "category": "AI服务商动态",
     "source": "智谱AI",
     "sourceUrl": "https://beian.mps.gov.cn/#/query/webSearch",
-    "time": "11:43",
+    "time": "11:51",
     "region": "中国",
     "vendors": [
       "智谱"
@@ -367,7 +392,7 @@
     "category": "AI产品商品",
     "source": "华为",
     "sourceUrl": "https://consumer.huawei.com/cn/support/hisuite/",
-    "time": "11:43",
+    "time": "11:51",
     "region": "中国",
     "vendors": [
       "华为",
@@ -390,7 +415,7 @@
     "category": "舆情和负面信息",
     "source": "中兴通讯",
     "sourceUrl": "https://www.zte.com.cn/content/zte-site/www-zte-com-cn/global/about/news/zte-showcases-practical-path-to-level-4-autonomous-networks-through-agentic-ai-and-cross-domain-innovation-at-dtw-ignite-2026.html",
-    "time": "11:43",
+    "time": "11:52",
     "region": "中国",
     "vendors": [
       "DT",
@@ -415,7 +440,7 @@
     "category": "CT设备商动态",
     "source": "Cisco",
     "sourceUrl": "https://newsroom.cisco.com/people.html",
-    "time": "11:43",
+    "time": "11:52",
     "region": "中国",
     "vendors": [
       "Cisco"
@@ -433,12 +458,34 @@
     "level": "低"
   },
   {
+    "id": "live-macro-policy-and-events-工信部",
+    "title": "中华人民共和国工业和信息化部",
+    "category": "全球宏观热点",
+    "source": "工信部",
+    "sourceUrl": "http://www.miit.gov.cn/xwfb/szyw/art/2026/art_2478165a854843cfae21157146211394.html",
+    "time": "11:52",
+    "region": "全球",
+    "vendors": [
+      "工信部"
+    ],
+    "summary": "习近平：中方愿同柬方一道，共守和平、共谋发展、共创繁荣，扎实推进中柬命运共同体建设，为推动构建人类命运共同体树立典范。工信部。宏。",
+    "why": "命中全球宏观热点词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "Marketing"
+    ],
+    "tags": [
+      "政策"
+    ],
+    "level": "低"
+  },
+  {
     "id": "live-macro-policy-and-events-国家数据局",
     "title": "国家数据局",
     "category": "全球宏观热点",
     "source": "国家数据局",
     "sourceUrl": "https://www.nda.gov.cn",
-    "time": "11:43",
+    "time": "11:52",
     "region": "全球",
     "vendors": [
       "国家数据局"
@@ -460,7 +507,7 @@
     "category": "全球宏观热点",
     "source": "GSMA",
     "sourceUrl": "https://www.gsmatraining.com/",
-    "time": "11:44",
+    "time": "11:52",
     "region": "全球",
     "vendors": [
       "GSMA",
@@ -482,112 +529,21 @@
     "title": "世界人工智能大会",
     "category": "全球宏观热点",
     "source": "WAIC",
-    "sourceUrl": "https://www.worldaic.com.cn",
-    "time": "11:44",
+    "sourceUrl": "https://beian.miit.gov.cn/",
+    "time": "11:52",
     "region": "全球",
     "vendors": [
       "WAIC"
     ],
-    "summary": "WAIC。宏观政策与展会",
+    "summary": "2026世界人工智能大会将于7月17-20日举办，大会以“智能伙伴 共创未来”为主题，汇聚全球专家、政企代表、高校学者、投资人，。",
     "why": "命中全球宏观热点词表，适合进入系统部每日情报池。",
     "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
     "channels": [
+      "客户线",
       "Marketing"
     ],
     "tags": [
       "政策"
-    ],
-    "level": "低"
-  },
-  {
-    "id": "search-china-telecom-cloud-ai-0-4f6e6547726f",
-    "title": "OneGrowth 2026 : Shared AI Token Era Ahead China Telecom Global Partner Conference Held",
-    "category": "舆情和负面信息",
-    "source": "businessdayghana.com",
-    "sourceUrl": "https://businessdayghana.com/onegrowth-2026-shared-ai-token-era-ahead-china-telecom-global-partner-conference-held/",
-    "time": "11:44",
-    "region": "全球",
-    "vendors": [
-      "中国电信",
-      "电信"
-    ],
-    "summary": "OneGrowth 2026 : Shared AI Token Era Ahead China Telecom Global 。",
-    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
-    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
-    "channels": [
-      "客户线"
-    ],
-    "tags": [
-      "AI"
-    ],
-    "level": "低"
-  },
-  {
-    "id": "search-china-telecom-cloud-ai-1-5a544520616e",
-    "title": "ZTE and Tianyi Digital Life jointly unveil flagship home AI router",
-    "category": "舆情和负面信息",
-    "source": "theregister.com",
-    "sourceUrl": "https://www.theregister.com/networks/2026/06/26/zte-and-tianyi-digital-life-jointly-unveil-flagship-home-ai-router/5263090",
-    "time": "11:44",
-    "region": "全球",
-    "vendors": [
-      "中国电信",
-      "电信"
-    ],
-    "summary": "ZTE and Tianyi Digital Life jointly unveil flagship home AI rout。",
-    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
-    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
-    "channels": [
-      "客户线"
-    ],
-    "tags": [
-      "AI"
-    ],
-    "level": "低"
-  },
-  {
-    "id": "search-china-telecom-cloud-ai-2-487561776569",
-    "title": "Huawei turns to tokens to help operators monetise AI",
-    "category": "舆情和负面信息",
-    "source": "telecomtv.com",
-    "sourceUrl": "https://www.telecomtv.com/content/ai/huawei-turns-to-tokens-to-help-operators-monetise-ai-55780/",
-    "time": "11:44",
-    "region": "全球",
-    "vendors": [
-      "中国电信",
-      "电信"
-    ],
-    "summary": "Huawei turns to tokens to help operators monetise AI。telecomtv.c。",
-    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
-    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
-    "channels": [
-      "客户线"
-    ],
-    "tags": [
-      "AI"
-    ],
-    "level": "低"
-  },
-  {
-    "id": "search-china-telecom-cloud-ai-3-504d20456469",
-    "title": "PM Edition : Top 10 Business Articles on LiveNews . co . nz for June 27 , 2026 – Full Text – LiveNews . co . nz",
-    "category": "舆情和负面信息",
-    "source": "livenews.co.nz",
-    "sourceUrl": "https://livenews.co.nz/2026/06/27/pm-edition-top-10-business-articles-on-livenews-co-nz-for-june-27-2026-full-text/",
-    "time": "11:44",
-    "region": "全球",
-    "vendors": [
-      "中国电信",
-      "电信"
-    ],
-    "summary": "PM Edition : Top 10 Business Articles on LiveNews . co . nz for 。",
-    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
-    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
-    "channels": [
-      "客户线"
-    ],
-    "tags": [
-      "AI"
     ],
     "level": "低"
   }
