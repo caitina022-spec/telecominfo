@@ -1,0 +1,101 @@
+.detail-hero {
+  padding: 28rpx;
+}
+
+.detail-topline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  display: block;
+  margin-top: 18rpx;
+  color: #102033;
+  font-size: 38rpx;
+  font-weight: 900;
+  line-height: 1.35;
+}
+
+.summary {
+  display: block;
+  margin-top: 14rpx;
+  color: #5f6f89;
+  font-size: 26rpx;
+  line-height: 1.7;
+}
+
+.meta-grid {
+  display: grid;
+  gap: 12rpx;
+  margin-top: 22rpx;
+}
+
+.meta-grid view {
+  display: flex;
+  justify-content: space-between;
+  gap: 20rpx;
+  padding: 14rpx 0;
+  border-top: 1rpx solid #e5edf8;
+  color: #5f6f89;
+  font-size: 24rpx;
+}
+
+.meta-grid text:last-child {
+  color: #102033;
+  font-weight: 800;
+  text-align: right;
+}
+
+.source-button {
+  margin-top: 22rpx;
+  border-radius: 999rpx;
+  background: #0052d9;
+  color: #ffffff;
+  font-size: 27rpx;
+  font-weight: 800;
+}
+
+.analysis-card {
+  margin-top: 18rpx;
+  padding: 24rpx;
+}
+
+.analysis-title {
+  display: block;
+  color: #102033;
+  font-size: 30rpx;
+  font-weight: 900;
+}
+
+.analysis-body {
+  display: block;
+  margin-top: 12rpx;
+  color: #45556f;
+  font-size: 25rpx;
+  line-height: 1.7;
+}
+
+.analysis-extra {
+  display: block;
+  margin-top: 12rpx;
+  color: #7a8aa3;
+  font-size: 22rpx;
+  line-height: 1.5;
+}
+
+.tag-panel {
+  margin-top: 18rpx;
+  padding: 24rpx;
+}
+
+.panel-title {
+  display: block;
+  color: #102033;
+  font-size: 28rpx;
+  font-weight: 900;
+}
+
+.panel-title.second {
+  margin-top: 18rpx;
+}

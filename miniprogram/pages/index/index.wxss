@@ -1,0 +1,121 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24rpx;
+  padding: 32rpx;
+  border-radius: 20rpx;
+  background: linear-gradient(135deg, #073b78, #0052d9);
+  color: #ffffff;
+}
+
+.hero .eyebrow {
+  color: #b9dcff;
+}
+
+.title {
+  display: block;
+  margin-top: 12rpx;
+  font-size: 48rpx;
+  font-weight: 900;
+}
+
+.subtitle {
+  display: block;
+  margin-top: 10rpx;
+  color: #dceeff;
+  font-size: 26rpx;
+}
+
+.date-pill {
+  display: grid;
+  gap: 6rpx;
+  padding: 14rpx 18rpx;
+  border: 1rpx solid rgba(255, 255, 255, 0.32);
+  border-radius: 999rpx;
+  color: #ffffff;
+  font-size: 22rpx;
+  text-align: center;
+}
+
+.section {
+  margin-top: 28rpx;
+}
+
+.section-head {
+  margin-bottom: 16rpx;
+}
+
+.section-title {
+  display: block;
+  margin-top: 6rpx;
+  font-size: 34rpx;
+  font-weight: 900;
+}
+
+.news-card {
+  margin-bottom: 18rpx;
+  padding: 24rpx;
+}
+
+.news-topline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rank {
+  color: #0052d9;
+  font-size: 28rpx;
+  font-weight: 900;
+}
+
+.news-title {
+  display: block;
+  margin-top: 16rpx;
+  font-size: 31rpx;
+  font-weight: 900;
+  line-height: 1.35;
+}
+
+.news-meta,
+.news-summary {
+  display: block;
+  margin-top: 12rpx;
+  color: #5f6f89;
+  font-size: 24rpx;
+  line-height: 1.6;
+}
+
+.tag-row {
+  margin-top: 12rpx;
+}
+
+.compact-grid {
+  display: grid;
+  gap: 18rpx;
+}
+
+.brief-card {
+  padding: 24rpx;
+}
+
+.brief-item {
+  padding: 18rpx 0;
+  border-top: 1rpx solid #e5edf8;
+}
+
+.brief-title {
+  display: block;
+  color: #102033;
+  font-size: 27rpx;
+  font-weight: 850;
+}
+
+.brief-body {
+  display: block;
+  margin-top: 8rpx;
+  color: #5f6f89;
+  font-size: 24rpx;
+  line-height: 1.6;
+}

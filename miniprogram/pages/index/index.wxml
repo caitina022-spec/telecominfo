@@ -1,0 +1,61 @@
+<view class="page">
+  <view class="hero">
+    <view>
+      <text class="eyebrow">Daily Briefing</text>
+      <text class="title">资讯速览</text>
+      <text class="subtitle">华为中国电信系统部每日情报</text>
+    </view>
+    <view class="date-pill">
+      <text>今日</text>
+      <text>{{today}}</text>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="section-head">
+      <text class="eyebrow">Top 5</text>
+      <text class="section-title">最值得行动的情报</text>
+    </view>
+    <view class="news-card card" wx:for="{{topNews}}" wx:key="id" data-id="{{item.id}}" bindtap="openDetail">
+      <view class="news-topline">
+        <text class="rank">{{item.rank}}</text>
+        <text class="level {{item.levelClass}}">{{item.level}}</text>
+      </view>
+      <text class="news-title">{{item.title}}</text>
+      <text class="news-meta">{{item.source}} / {{item.time}} / {{item.region}}</text>
+      <text class="news-summary">{{item.summary}}</text>
+      <view class="tag-row">
+        <text class="tag" wx:for="{{item.tags}}" wx:key="*this">{{item}}</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="section compact-grid">
+    <view class="brief-card card">
+      <text class="eyebrow">Impact</text>
+      <text class="section-title">影响判断</text>
+      <view class="brief-item" wx:for="{{impacts}}" wx:key="title">
+        <text class="brief-title">{{item.title}}</text>
+        <text class="brief-body">{{item.body}}</text>
+      </view>
+    </view>
+
+    <view class="brief-card card">
+      <text class="eyebrow">Risk</text>
+      <text class="section-title">风险预警</text>
+      <view class="brief-item" wx:for="{{risks}}" wx:key="title">
+        <text class="brief-title">{{item.title}}</text>
+        <text class="brief-body">{{item.body}}</text>
+      </view>
+    </view>
+
+    <view class="brief-card card">
+      <text class="eyebrow">Opportunity</text>
+      <text class="section-title">机会建议</text>
+      <view class="brief-item" wx:for="{{opportunities}}" wx:key="title">
+        <text class="brief-title">{{item.title}}</text>
+        <text class="brief-body">{{item.body}}</text>
+      </view>
+    </view>
+  </view>
+</view>

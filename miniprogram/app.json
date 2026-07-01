@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/categories/categories",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "navigationBarTitleText": "资讯速览",
+    "navigationBarBackgroundColor": "#0052d9",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#f3f7ff"
+  },
+  "tabBar": {
+    "color": "#5f6f89",
+    "selectedColor": "#0052d9",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "速览"
+      },
+      {
+        "pagePath": "pages/categories/categories",
+        "text": "板块"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

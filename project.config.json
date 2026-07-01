@@ -1,0 +1,15 @@
+{
+  "description": "资讯速览微信小程序",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "latest",
+  "appid": "touristappid",
+  "projectname": "资讯速览",
+  "miniprogramRoot": "miniprogram/"
+}

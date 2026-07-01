@@ -1,0 +1,49 @@
+<view class="page">
+  <view class="section-head">
+    <text class="eyebrow">Categories</text>
+    <text class="section-title">八大情报板块</text>
+  </view>
+
+  <scroll-view class="category-scroll" scroll-x="true" enhanced="true" show-scrollbar="false">
+    <view
+      class="category-chip {{activeCategory === item.name ? 'active' : ''}}"
+      wx:for="{{categories}}"
+      wx:key="name"
+      data-name="{{item.name}}"
+      bindtap="switchCategory"
+    >
+      <text>{{item.name}}</text>
+      <text>{{item.count}} 条</text>
+    </view>
+  </scroll-view>
+
+  <view class="profile card">
+    <text class="profile-title">{{activeCategory}}</text>
+    <text class="profile-desc">{{activeProfile.description}}</text>
+    <view class="action-list">
+      <text class="tag" wx:for="{{activeProfile.actions}}" wx:key="*this">{{item}}</text>
+    </view>
+  </view>
+
+  <view class="empty card" wx:if="{{filteredNews.length === 0}}">
+    <text>当前板块暂无情报，后续自动抓取后会补齐。</text>
+  </view>
+
+  <view
+    class="news-card card"
+    wx:for="{{filteredNews}}"
+    wx:key="id"
+    data-id="{{item.id}}"
+    bindtap="openDetail"
+  >
+    <view class="news-topline">
+      <text class="level {{item.levelClass}}">{{item.level}}</text>
+      <text class="news-meta">{{item.source}} / {{item.time}}</text>
+    </view>
+    <text class="news-title">{{item.title}}</text>
+    <text class="news-summary">{{item.summary}}</text>
+    <view class="tag-row">
+      <text class="tag" wx:for="{{item.tags}}" wx:key="*this">{{item}}</text>
+    </view>
+  </view>
+</view>

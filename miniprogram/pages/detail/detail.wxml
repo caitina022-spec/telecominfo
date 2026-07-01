@@ -1,0 +1,42 @@
+<view class="page" wx:if="{{item}}">
+  <view class="detail-hero card">
+    <view class="detail-topline">
+      <text class="eyebrow">Intelligence Detail</text>
+      <text class="level {{levelClass}}">{{item.level}}</text>
+    </view>
+    <text class="title">{{item.title}}</text>
+    <text class="summary">{{item.summary}}</text>
+    <view class="meta-grid">
+      <view>
+        <text>来源</text>
+        <text>{{item.source}}</text>
+      </view>
+      <view>
+        <text>板块</text>
+        <text>{{item.category}}</text>
+      </view>
+      <view>
+        <text>时间</text>
+        <text>{{item.time}} / {{item.region}}</text>
+      </view>
+    </view>
+    <button class="source-button" bindtap="copySourceUrl">复制原文链接</button>
+  </view>
+
+  <view class="analysis-card card" wx:for="{{analysis}}" wx:key="title">
+    <text class="analysis-title">{{item.title}}</text>
+    <text class="analysis-body">{{item.body}}</text>
+    <text class="analysis-extra">{{item.extra}}</text>
+  </view>
+
+  <view class="card tag-panel">
+    <text class="panel-title">涉及主体</text>
+    <view>
+      <text class="tag" wx:for="{{item.vendors}}" wx:key="*this">{{item}}</text>
+    </view>
+    <text class="panel-title second">关注部门</text>
+    <view>
+      <text class="tag" wx:for="{{item.channels}}" wx:key="*this">{{item}}</text>
+    </view>
+  </view>
+</view>
