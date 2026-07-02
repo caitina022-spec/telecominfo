@@ -5,7 +5,7 @@
     "category": "AI服务商动态",
     "source": "中国电信",
     "sourceUrl": "https://www.chinatelecom.com.cn",
-    "time": "11:45",
+    "time": "11:30",
     "region": "中国",
     "vendors": [
       "星辰",
@@ -31,7 +31,7 @@
     "category": "全球宏观热点",
     "source": "Deutsche Telekom",
     "sourceUrl": "https://www.youtube.com/channel/UCt5ngfCsXQvQLNY2YdYlc_g",
-    "time": "11:45",
+    "time": "11:31",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -55,7 +55,7 @@
     "category": "全球宏观热点",
     "source": "Telefonica",
     "sourceUrl": "https://www.telefonica.com/es/accionistas-inversores/informacion-financiera/registro-en-organismos-reguladores-extranjeros/",
-    "time": "11:45",
+    "time": "11:31",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -78,7 +78,7 @@
     "category": "运营商动态",
     "source": "SK Telecom",
     "sourceUrl": "https://www.instagram.com/sktelecom/",
-    "time": "11:45",
+    "time": "11:31",
     "region": "全球",
     "vendors": [
       "KT",
@@ -97,12 +97,35 @@
     "level": "低"
   },
   {
+    "id": "live-operators-global-KT",
+    "title": "K intelligence Suite 기업의 성공적인 AX 전환을 이끌 K intelligence의 full stack AI 기술 AI.KT.com 에서 확인하기",
+    "category": "舆情和负面信息",
+    "source": "KT",
+    "sourceUrl": "https://ai.kt.com/?utm_source=kt&utm_medium=banner&utm_campaign=ktcorp&utm_id=set&utm_term=inside&utm_content=ktcon",
+    "time": "11:31",
+    "region": "全球",
+    "vendors": [
+      "运营商",
+      "KT"
+    ],
+    "summary": "[회사소개] 메인 - 국민의 편익을 도모하는 최고의 국민기업 KT。K intelligence Suite 기업의 성공。",
+    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线"
+    ],
+    "tags": [
+      "AI"
+    ],
+    "level": "低"
+  },
+  {
     "id": "live-operators-global-STC",
     "title": "stc KSA | stc KSA Internet Packages | stc Personal Packages",
     "category": "全球宏观热点",
     "source": "STC",
     "sourceUrl": "https://www.stc.com.sa/content/stc/sa/en/personal/mobile/packages/mofawtar-prime.html",
-    "time": "11:46",
+    "time": "11:31",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -125,7 +148,7 @@
     "category": "AI服务商动态",
     "source": "Google AI",
     "sourceUrl": "https://blog.google/products/ads-commerce/",
-    "time": "11:46",
+    "time": "11:31",
     "region": "中国",
     "vendors": [
       "Google",
@@ -145,13 +168,14 @@
   },
   {
     "id": "live-ai-model-providers-Anthropic",
-    "title": "Jun 17, 2026 Announcements Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
+    "title": "Redeploying Fable 5 Announcements Jun 30, 2026 Fable 5 returns globally July 1. We&#x27;re also proposing an industry-wide framework for scoring jailbreak severity, together with Amazon, Microsoft, Google, and other Glasswing partners.",
     "category": "AI服务商动态",
     "source": "Anthropic",
-    "sourceUrl": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
-    "time": "11:46",
+    "sourceUrl": "https://www.anthropic.com/news/redeploying-fable-5",
+    "time": "11:31",
     "region": "中国",
     "vendors": [
+      "Google",
       "Anthropic"
     ],
     "summary": "Anthropic is an AI safety and research company that&#x27;s worki。",
@@ -172,7 +196,7 @@
     "category": "AI服务商动态",
     "source": "Meta AI",
     "sourceUrl": "https://ai.meta.com/blog/alta-daily-fashion-app-segment-anything/",
-    "time": "11:46",
+    "time": "11:31",
     "region": "中国",
     "vendors": [
       "Meta",
@@ -196,7 +220,7 @@
     "category": "AI服务商动态",
     "source": "DeepSeek",
     "sourceUrl": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/",
-    "time": "11:46",
+    "time": "11:31",
     "region": "中国",
     "vendors": [
       "DeepSeek",
@@ -222,7 +246,7 @@
     "category": "AI服务商动态",
     "source": "阿里云",
     "sourceUrl": "https://www.alibabacloud.com/ai-assistant?displayMode=widget",
-    "time": "11:46",
+    "time": "11:31",
     "region": "中国",
     "vendors": [
       "通义千问",
@@ -246,7 +270,7 @@
     "category": "AI服务商动态",
     "source": "腾讯云",
     "sourceUrl": "https://cloud.tencent.com",
-    "time": "11:46",
+    "time": "11:31",
     "region": "中国",
     "vendors": [
       "混元",
@@ -271,7 +295,7 @@
     "category": "AI服务商动态",
     "source": "百度智能云",
     "sourceUrl": "https://console.bce.baidu.com/qianfan/modelcenter/model/buildIn/detail/am-3c0d4ca1f067",
-    "time": "11:46",
+    "time": "11:31",
     "region": "中国",
     "vendors": [
       "文心",
@@ -296,7 +320,7 @@
     "category": "AI服务商动态",
     "source": "月之暗面",
     "sourceUrl": "https://www.kimi.com/blog/kimi-k2-6",
-    "time": "11:46",
+    "time": "11:31",
     "region": "中国",
     "vendors": [
       "Kimi",
@@ -320,7 +344,7 @@
     "category": "AI服务商动态",
     "source": "字节跳动火山引擎",
     "sourceUrl": "https://www.volcengine.com/product/DataAgent",
-    "time": "11:46",
+    "time": "11:31",
     "region": "中国",
     "vendors": [
       "豆包",
@@ -340,12 +364,36 @@
     "level": "低"
   },
   {
+    "id": "live-ai-model-providers-智谱AI",
+    "title": "Z.ai - Inspiring AGI to Benefit Humanity",
+    "category": "AI服务商动态",
+    "source": "智谱AI",
+    "sourceUrl": "https://beian.mps.gov.cn/#/query/webSearch",
+    "time": "11:31",
+    "region": "中国",
+    "vendors": [
+      "智谱"
+    ],
+    "summary": "智谱推出 AutoClaw（澳龙）——国内首款一键安装的本地 OpenClaw 客户端。内置50+Skills，集成 AutoG。",
+    "why": "命中AI服务商动态词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线",
+      "服务",
+      "Marketing"
+    ],
+    "tags": [
+      "大模型"
+    ],
+    "level": "低"
+  },
+  {
     "id": "live-compute-and-ct-vendors-华为",
     "title": "HiSuite华为手机助手",
     "category": "AI产品商品",
     "source": "华为",
     "sourceUrl": "https://consumer.huawei.com/cn/support/hisuite/",
-    "time": "11:46",
+    "time": "11:31",
     "region": "中国",
     "vendors": [
       "华为",
@@ -368,7 +416,7 @@
     "category": "舆情和负面信息",
     "source": "中兴通讯",
     "sourceUrl": "https://www.zte.com.cn/content/zte-site/www-zte-com-cn/global/about/news/zte-showcases-full-stack-ai-capabilities-at-mwc-shanghai-2026-empowering-new-era-of-token-operations.html",
-    "time": "11:46",
+    "time": "11:31",
     "region": "中国",
     "vendors": [
       "中兴",
@@ -393,7 +441,7 @@
     "category": "CT设备商动态",
     "source": "Cisco",
     "sourceUrl": "https://newsroom.cisco.com/people.html",
-    "time": "11:46",
+    "time": "11:31",
     "region": "中国",
     "vendors": [
       "Cisco"
@@ -411,12 +459,34 @@
     "level": "低"
   },
   {
+    "id": "live-macro-policy-and-events-工信部",
+    "title": "中华人民共和国工业和信息化部 商务部 海关总署 市场监管总局公告2026年第16号",
+    "category": "全球宏观热点",
+    "source": "工信部",
+    "sourceUrl": "http://www.miit.gov.cn/zwgk/zcwj/wjfb/gg/art/2026/art_301fff2dc3c3434f94f781026672b4ae.html",
+    "time": "11:31",
+    "region": "全球",
+    "vendors": [
+      "工信部"
+    ],
+    "summary": "中华人民共和国工业和信息化部 商务部 海关总署 市场监管总局公告2026年第16号。工信部。宏观政策与展会",
+    "why": "命中全球宏观热点词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "Marketing"
+    ],
+    "tags": [
+      "政策"
+    ],
+    "level": "低"
+  },
+  {
     "id": "live-macro-policy-and-events-国家数据局",
     "title": "国家数据局",
     "category": "全球宏观热点",
     "source": "国家数据局",
     "sourceUrl": "https://www.nda.gov.cn",
-    "time": "11:46",
+    "time": "11:31",
     "region": "全球",
     "vendors": [
       "国家数据局"
@@ -438,7 +508,7 @@
     "category": "全球宏观热点",
     "source": "GSMA",
     "sourceUrl": "https://www.gsmatraining.com/",
-    "time": "11:46",
+    "time": "11:31",
     "region": "全球",
     "vendors": [
       "GSMA",
@@ -461,7 +531,7 @@
     "category": "全球宏观热点",
     "source": "WAIC",
     "sourceUrl": "https://beian.miit.gov.cn/",
-    "time": "11:46",
+    "time": "11:31",
     "region": "全球",
     "vendors": [
       "WAIC"
@@ -475,100 +545,6 @@
     ],
     "tags": [
       "政策"
-    ],
-    "level": "低"
-  },
-  {
-    "id": "search-china-telecom-cloud-ai-0-576f726c6420",
-    "title": "World First Commercial Multimodal LLM for Cultural Tourism Enters Broad Application",
-    "category": "舆情和负面信息",
-    "source": "manilatimes.net",
-    "sourceUrl": "https://www.manilatimes.net/2026/06/29/tmt-newswire/media-outreach-newswire/worlds-first-commercial-multimodal-llm-for-cultural-tourism-enters-broad-application/2375086",
-    "time": "11:47",
-    "region": "全球",
-    "vendors": [
-      "中国电信",
-      "电信"
-    ],
-    "summary": "World First Commercial Multimodal LLM for Cultural Tourism Enter。",
-    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
-    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
-    "channels": [
-      "客户线"
-    ],
-    "tags": [
-      "AI"
-    ],
-    "level": "低"
-  },
-  {
-    "id": "search-china-telecom-cloud-ai-1-4d5743205368",
-    "title": "MWC Shanghai 2026 Reveals China AI Infrastructure Lead -- China Economic Net",
-    "category": "舆情和负面信息",
-    "source": "en.ce.cn",
-    "sourceUrl": "http://en.ce.cn/main/latest/202606/t20260629_3058744.shtml",
-    "time": "11:47",
-    "region": "中国",
-    "vendors": [
-      "中国电信",
-      "电信",
-      "MWC"
-    ],
-    "summary": "MWC Shanghai 2026 Reveals China AI Infrastructure Lead -- China 。",
-    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
-    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
-    "channels": [
-      "客户线"
-    ],
-    "tags": [
-      "AI"
-    ],
-    "level": "低"
-  },
-  {
-    "id": "search-china-telecom-cloud-ai-2-487561776569",
-    "title": "Huawei Unveils AI - OTN & AI - FAN Solutions to Build Networks for AI Era at MWC Shanghai 2026",
-    "category": "舆情和负面信息",
-    "source": "thefastmode.com",
-    "sourceUrl": "https://www.thefastmode.com/technology-solutions/49327-huawei-unveils-ai-otn-ai-fan-solutions-to-build-networks-for-ai-era-at-mwc-shanghai-2026",
-    "time": "11:47",
-    "region": "全球",
-    "vendors": [
-      "中国电信",
-      "电信",
-      "MWC"
-    ],
-    "summary": "Huawei Unveils AI - OTN & AI - FAN Solutions to Build Networks f。",
-    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
-    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
-    "channels": [
-      "客户线"
-    ],
-    "tags": [
-      "AI"
-    ],
-    "level": "低"
-  },
-  {
-    "id": "search-china-telecom-cloud-ai-3-5369676e706f",
-    "title": "Signpost : Meet the mobile network that runs itself – Gadget",
-    "category": "舆情和负面信息",
-    "source": "gadget.co.za",
-    "sourceUrl": "https://gadget.co.za/mwcshanghai26m/",
-    "time": "11:47",
-    "region": "全球",
-    "vendors": [
-      "中国电信",
-      "电信"
-    ],
-    "summary": "Signpost : Meet the mobile network that runs itself – Gadget。gad。",
-    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
-    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
-    "channels": [
-      "客户线"
-    ],
-    "tags": [
-      "AI"
     ],
     "level": "低"
   }
