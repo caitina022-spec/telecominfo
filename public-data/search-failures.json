@@ -1,11 +1,5 @@
 [
   {
-    "query": "china-telecom-cloud-ai",
-    "name": "中国电信云网算与AI",
-    "provider": "gdelt",
-    "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic us"
-  },
-  {
     "query": "operator-ai-network",
     "name": "运营商AI与网络智能化",
     "provider": "gdelt",
@@ -15,7 +9,7 @@
     "query": "frontier-model-agents",
     "name": "大模型与智能体",
     "provider": "gdelt",
-    "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic us"
+    "error": "fetch failed"
   },
   {
     "query": "ai-devices-robots",
@@ -33,18 +27,18 @@
     "query": "ct-vendors-network",
     "name": "CT设备商与网络演进",
     "provider": "gdelt",
-    "error": "fetch failed"
+    "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic us"
   },
   {
     "query": "telecom-sentiment-risk",
     "name": "通信舆情与负面风险",
     "provider": "gdelt",
-    "error": "fetch failed"
+    "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic us"
   },
   {
     "query": "ai-industry-impact",
     "name": "AI赋能传统行业",
     "provider": "gdelt",
-    "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic us"
+    "error": "Unexpected token 'Q', \"Queries co\"... is not valid JSON"
   }
 ]

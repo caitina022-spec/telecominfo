@@ -10,14 +10,14 @@
     "error": "fetch failed"
   },
   {
-    "source": "Orange",
-    "url": "https://www.orange.com",
-    "error": "fetch failed"
-  },
-  {
     "source": "Vodafone",
     "url": "https://www.vodafone.com",
     "error": "HTTP 403"
+  },
+  {
+    "source": "KT",
+    "url": "https://corp.kt.com",
+    "error": "fetch failed"
   },
   {
     "source": "Zain",
@@ -53,10 +53,5 @@
     "source": "Ciena",
     "url": "https://www.ciena.com/about/newsroom",
     "error": "HTTP 403"
-  },
-  {
-    "source": "工信部",
-    "url": "https://www.miit.gov.cn",
-    "error": "fetch failed"
   }
 ]
