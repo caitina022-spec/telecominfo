@@ -1,5 +1,11 @@
 [
   {
+    "query": "china-telecom-cloud-ai",
+    "name": "中国电信云网算与AI",
+    "provider": "gdelt",
+    "error": "fetch failed"
+  },
+  {
     "query": "operator-ai-network",
     "name": "运营商AI与网络智能化",
     "provider": "gdelt",
@@ -9,7 +15,7 @@
     "query": "frontier-model-agents",
     "name": "大模型与智能体",
     "provider": "gdelt",
-    "error": "fetch failed"
+    "error": "Unexpected token 'Q', \"Queries co\"... is not valid JSON"
   },
   {
     "query": "ai-devices-robots",
@@ -39,6 +45,6 @@
     "query": "ai-industry-impact",
     "name": "AI赋能传统行业",
     "provider": "gdelt",
-    "error": "Unexpected token 'Q', \"Queries co\"... is not valid JSON"
+    "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic us"
   }
 ]
