@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "raw-search-china-telecom-cloud-ai-0-446173736175",
+    "title": "Dassault Systeme business in China expands",
+    "sourceName": "usa.chinadaily.com.cn",
+    "sourceUrl": "http://usa.chinadaily.com.cn/a/202607/09/WS6a4ef171a310986e2b46443e.html",
+    "publishedAt": "2026-07-09T02:55:50.501Z",
+    "region": "中国",
+    "body": "Dassault Systeme business in China expands。usa.chinadaily.com.cn。中国电信云网算与AI。\"China Telecom\"",
+    "categoryBias": "运营商动态"
+  },
+  {
+    "id": "raw-search-china-telecom-cloud-ai-1-576861742075",
+    "title": "What up with … T - Mobile US , Telenor , VMO2 , Access Evolution",
+    "sourceName": "telecomtv.com",
+    "sourceUrl": "https://www.telecomtv.com/content/access-evolution/what-s-up-with-t-mobile-us-telenor-vmo2-55837/",
+    "publishedAt": "2026-07-09T02:55:50.501Z",
+    "region": "全球",
+    "body": "What up with … T - Mobile US , Telenor , VMO2 , Access Evolution。telecomtv.com。中国电信云网算与AI。\"China Telecom\"",
+    "categoryBias": "运营商动态"
+  },
+  {
+    "id": "raw-search-china-telecom-cloud-ai-2-4368696e6120",
+    "title": "China New Cyber Strategy : Moving From Interconnected  Smart Citie to Regional War Footing",
+    "sourceName": "chinatechnews.com",
+    "sourceUrl": "https://www.chinatechnews.com/2026/07/07/125047-chinas-new-cyber-strategy-moving-from-interconnected-smart-cities-to-regional-war-footing",
+    "publishedAt": "2026-07-09T02:55:50.501Z",
+    "region": "全球",
+    "body": "China New Cyber Strategy : Moving From Interconnected  Smart Citie to Regional War Footing。chinatechnews.com。中国电信云网算与AI。\"China Telecom\"",
+    "categoryBias": "运营商动态"
+  },
+  {
+    "id": "raw-search-china-telecom-cloud-ai-3-4d6f73742035",
+    "title": "Most 5G networks arent ready for conversational agentic AI : Ookla",
+    "sourceName": "developingtelecoms.com",
+    "sourceUrl": "https://www.developingtelecoms.com/telecom-business/operator-news/20492-most-5g-networks-arent-ready-for-conversational-agentic-ai-ookla.html",
+    "publishedAt": "2026-07-09T02:55:50.501Z",
+    "region": "全球",
+    "body": "Most 5G networks arent ready for conversational agentic AI : Ookla。developingtelecoms.com。中国电信云网算与AI。\"China Telecom\"",
+    "categoryBias": "运营商动态"
+  }
+]
