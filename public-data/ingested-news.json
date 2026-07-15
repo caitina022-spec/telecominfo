@@ -5,7 +5,7 @@
     "category": "AI服务商动态",
     "source": "中国电信",
     "sourceUrl": "https://www.chinatelecom.com.cn",
-    "time": "10:24",
+    "time": "10:23",
     "region": "中国",
     "vendors": [
       "星辰",
@@ -31,7 +31,7 @@
     "category": "全球宏观热点",
     "source": "Orange",
     "sourceUrl": "https://www.orange.com",
-    "time": "10:25",
+    "time": "10:23",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -54,7 +54,7 @@
     "category": "全球宏观热点",
     "source": "Deutsche Telekom",
     "sourceUrl": "https://www.youtube.com/channel/UCt5ngfCsXQvQLNY2YdYlc_g",
-    "time": "10:25",
+    "time": "10:23",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -78,7 +78,7 @@
     "category": "全球宏观热点",
     "source": "Telefonica",
     "sourceUrl": "https://www.telefonica.com/es/accionistas-inversores/informacion-financiera/registro-en-organismos-reguladores-extranjeros/",
-    "time": "10:25",
+    "time": "10:23",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -101,7 +101,7 @@
     "category": "运营商动态",
     "source": "SK Telecom",
     "sourceUrl": "https://www.instagram.com/sktelecom/",
-    "time": "10:25",
+    "time": "10:23",
     "region": "全球",
     "vendors": [
       "KT",
@@ -125,7 +125,7 @@
     "category": "全球宏观热点",
     "source": "STC",
     "sourceUrl": "https://www.stc.com.sa/content/stc/sa/en/personal/mobile/packages/mofawtar-prime.html",
-    "time": "10:25",
+    "time": "10:23",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -148,7 +148,7 @@
     "category": "AI服务商动态",
     "source": "Google AI",
     "sourceUrl": "https://blog.google/products/ads-commerce/",
-    "time": "10:25",
+    "time": "10:23",
     "region": "中国",
     "vendors": [
       "Google",
@@ -172,7 +172,7 @@
     "category": "AI服务商动态",
     "source": "Anthropic",
     "sourceUrl": "https://www.anthropic.com/news/redeploying-fable-5",
-    "time": "10:25",
+    "time": "10:23",
     "region": "中国",
     "vendors": [
       "Google",
@@ -196,7 +196,7 @@
     "category": "AI服务商动态",
     "source": "Meta AI",
     "sourceUrl": "https://ai.meta.com/about",
-    "time": "10:25",
+    "time": "10:23",
     "region": "中国",
     "vendors": [
       "Meta",
@@ -220,7 +220,7 @@
     "category": "AI服务商动态",
     "source": "DeepSeek",
     "sourceUrl": "https://talent.deepseek.com/",
-    "time": "10:25",
+    "time": "10:23",
     "region": "中国",
     "vendors": [
       "DeepSeek",
@@ -246,7 +246,7 @@
     "category": "AI服务商动态",
     "source": "阿里云",
     "sourceUrl": "https://www.alibabacloud.com/ai-assistant?displayMode=widget",
-    "time": "10:25",
+    "time": "10:23",
     "region": "中国",
     "vendors": [
       "通义千问",
@@ -270,7 +270,7 @@
     "category": "AI服务商动态",
     "source": "腾讯云",
     "sourceUrl": "https://cloud.tencent.com",
-    "time": "10:25",
+    "time": "10:23",
     "region": "中国",
     "vendors": [
       "混元",
@@ -295,7 +295,7 @@
     "category": "AI服务商动态",
     "source": "百度智能云",
     "sourceUrl": "https://console.bce.baidu.com/qianfan/modelcenter/model/buildIn/detail/am-3c0d4ca1f067",
-    "time": "10:25",
+    "time": "10:23",
     "region": "中国",
     "vendors": [
       "文心",
@@ -320,7 +320,7 @@
     "category": "AI服务商动态",
     "source": "月之暗面",
     "sourceUrl": "https://www.kimi.com/blog/kimi-k2-6",
-    "time": "10:25",
+    "time": "10:23",
     "region": "中国",
     "vendors": [
       "Kimi",
@@ -339,12 +339,37 @@
     "level": "低"
   },
   {
+    "id": "live-ai-model-providers-字节跳动火山引擎",
+    "title": "用 数据智能体 打造企业 AI 数字专家",
+    "category": "AI服务商动态",
+    "source": "字节跳动火山引擎",
+    "sourceUrl": "https://www.volcengine.com/product/DataAgent",
+    "time": "10:23",
+    "region": "中国",
+    "vendors": [
+      "豆包",
+      "字节跳动"
+    ],
+    "summary": "火山引擎是字节跳动旗下的云与AI服务平台。在AI时代，聚焦豆包大模型和AI云原生技术，为企业提供从 Agent 开发到部署的一站。",
+    "why": "命中AI服务商动态词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "服务",
+      "Marketing"
+    ],
+    "tags": [
+      "大模型",
+      "智能体"
+    ],
+    "level": "低"
+  },
+  {
     "id": "live-ai-model-providers-智谱AI",
     "title": "Z.ai - Inspiring AGI to Benefit Humanity",
     "category": "AI服务商动态",
     "source": "智谱AI",
     "sourceUrl": "https://beian.mps.gov.cn/#/query/webSearch",
-    "time": "10:25",
+    "time": "10:23",
     "region": "中国",
     "vendors": [
       "智谱"
@@ -368,7 +393,7 @@
     "category": "AI产品商品",
     "source": "华为",
     "sourceUrl": "https://consumer.huawei.com/cn/support/hisuite/",
-    "time": "10:26",
+    "time": "10:24",
     "region": "中国",
     "vendors": [
       "华为",
@@ -391,7 +416,7 @@
     "category": "AI/算力设备商动态",
     "source": "中兴通讯",
     "sourceUrl": "https://www.zte.com.cn/content/zte-site/www-zte-com-cn/global/about/exhibition/mwcs26.html",
-    "time": "10:26",
+    "time": "10:24",
     "region": "中国",
     "vendors": [
       "中兴珠峰",
@@ -416,7 +441,7 @@
     "category": "CT设备商动态",
     "source": "Cisco",
     "sourceUrl": "https://newsroom.cisco.com/people.html",
-    "time": "10:26",
+    "time": "10:24",
     "region": "中国",
     "vendors": [
       "Cisco"
@@ -439,7 +464,7 @@
     "category": "全球宏观热点",
     "source": "国家数据局",
     "sourceUrl": "https://www.nda.gov.cn",
-    "time": "10:26",
+    "time": "10:24",
     "region": "全球",
     "vendors": [
       "国家数据局"
@@ -461,7 +486,7 @@
     "category": "全球宏观热点",
     "source": "GSMA",
     "sourceUrl": "https://www.gsmatraining.com/",
-    "time": "10:26",
+    "time": "10:24",
     "region": "全球",
     "vendors": [
       "GSMA",
@@ -484,7 +509,7 @@
     "category": "全球宏观热点",
     "source": "WAIC",
     "sourceUrl": "https://beian.miit.gov.cn/",
-    "time": "10:26",
+    "time": "10:24",
     "region": "全球",
     "vendors": [
       "WAIC"
@@ -498,6 +523,52 @@
     ],
     "tags": [
       "政策"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "search-china-telecom-cloud-ai-0-497320474453",
+    "title": "Is GDS Holdings Limited ( GDS ) Among the Best AI Stocks to Buy and Hold for the Next 5 Years ? ",
+    "category": "舆情和负面信息",
+    "source": "insidermonkey.com",
+    "sourceUrl": "https://www.insidermonkey.com/blog/is-gds-holdings-limited-gds-among-the-best-ai-stocks-to-buy-and-hold-for-the-next-5-years-1801356/",
+    "time": "10:24",
+    "region": "全球",
+    "vendors": [
+      "中国电信",
+      "电信"
+    ],
+    "summary": "Is GDS Holdings Limited ( GDS ) Among the Best AI Stocks to Buy 。",
+    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线"
+    ],
+    "tags": [
+      "AI"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "search-china-telecom-cloud-ai-1-d8a8d98ad8b4",
+    "title": "بيشكيك تشهد فعالية ترويج للمجلد الخامس من كتاب  شي جين بينغ : حوكمة الصين  ",
+    "category": "舆情和负面信息",
+    "source": "arabic.people.com.cn",
+    "sourceUrl": "https://arabic.people.com.cn/n3/2026/0714/c31660-20477384.html",
+    "time": "10:24",
+    "region": "中国",
+    "vendors": [
+      "中国电信",
+      "电信"
+    ],
+    "summary": "بيشكيك تشهد فعالية ترويج للمجلد الخامس من كتاب  شي جين بينغ : حو。",
+    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线"
+    ],
+    "tags": [
+      "AI"
     ],
     "level": "低"
   }
