@@ -30,11 +30,6 @@
     "error": "HTTP 403"
   },
   {
-    "source": "字节跳动火山引擎",
-    "url": "https://www.volcengine.com",
-    "error": "This operation was aborted"
-  },
-  {
     "source": "NVIDIA",
     "url": "https://www.nvidia.com/en-us/about-nvidia/newsroom",
     "error": "HTTP 404"
@@ -58,10 +53,5 @@
     "source": "Ciena",
     "url": "https://www.ciena.com/about/newsroom",
     "error": "HTTP 403"
-  },
-  {
-    "source": "工信部",
-    "url": "https://www.miit.gov.cn",
-    "error": "fetch failed"
   }
 ]
