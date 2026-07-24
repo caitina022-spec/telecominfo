@@ -10,6 +10,11 @@
     "error": "fetch failed"
   },
   {
+    "source": "Orange",
+    "url": "https://www.orange.com",
+    "error": "fetch failed"
+  },
+  {
     "source": "Vodafone",
     "url": "https://www.vodafone.com",
     "error": "HTTP 403"
