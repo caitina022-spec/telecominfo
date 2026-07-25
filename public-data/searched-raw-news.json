@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "raw-search-china-telecom-cloud-ai-0-c387696e202c",
+    "title": "Çin , telekom dolandırıcılığına karşı uluslararası ittifak başlatıyor",
+    "sourceName": "haberler.com",
+    "sourceUrl": "https://www.haberler.com/guncel/cin-telekomunikasyon-ve-internet-dolandiriciligina-20082720-haberi/",
+    "publishedAt": "2026-07-25T02:34:26.946Z",
+    "region": "全球",
+    "body": "Çin , telekom dolandırıcılığına karşı uluslararası ittifak başlatıyor。haberler.com。中国电信云网算与AI。\"China Telecom\"",
+    "categoryBias": "运营商动态"
+  },
+  {
+    "id": "raw-search-china-telecom-cloud-ai-1-456e67696e65",
+    "title": "Engineering scales new heights in Guizhou",
+    "sourceName": "europe.chinadaily.com.cn",
+    "sourceUrl": "http://europe.chinadaily.com.cn/a/202607/24/WS6a62c88ca310986e2b467179.html",
+    "publishedAt": "2026-07-25T02:34:26.946Z",
+    "region": "中国",
+    "body": "Engineering scales new heights in Guizhou。europe.chinadaily.com.cn。中国电信云网算与AI。\"China Telecom\"",
+    "categoryBias": "运营商动态"
+  },
+  {
+    "id": "raw-search-china-telecom-cloud-ai-2-456e67696e65",
+    "title": "Engineering scales new heights in Guizhou",
+    "sourceName": "global.chinadaily.com.cn",
+    "sourceUrl": "http://global.chinadaily.com.cn/a/202607/24/WS6a62c88ca310986e2b467179.html",
+    "publishedAt": "2026-07-25T02:34:26.946Z",
+    "region": "中国",
+    "body": "Engineering scales new heights in Guizhou。global.chinadaily.com.cn。中国电信云网算与AI。\"China Telecom\"",
+    "categoryBias": "运营商动态"
+  }
+]
