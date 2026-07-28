@@ -10,11 +10,6 @@
     "error": "fetch failed"
   },
   {
-    "source": "Orange",
-    "url": "https://www.orange.com",
-    "error": "fetch failed"
-  },
-  {
     "source": "Vodafone",
     "url": "https://www.vodafone.com",
     "error": "HTTP 403"
@@ -23,11 +18,6 @@
     "source": "KT",
     "url": "https://corp.kt.com",
     "error": "fetch failed"
-  },
-  {
-    "source": "Zain",
-    "url": "https://www.zain.com",
-    "error": "HTTP 307"
   },
   {
     "source": "OpenAI",
