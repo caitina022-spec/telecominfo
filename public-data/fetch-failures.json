@@ -15,9 +15,9 @@
     "error": "HTTP 403"
   },
   {
-    "source": "KT",
-    "url": "https://corp.kt.com",
-    "error": "fetch failed"
+    "source": "Zain",
+    "url": "https://www.zain.com",
+    "error": "HTTP 307"
   },
   {
     "source": "OpenAI",
