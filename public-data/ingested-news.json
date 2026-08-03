@@ -5,7 +5,7 @@
     "category": "AI服务商动态",
     "source": "中国电信",
     "sourceUrl": "https://www.chinatelecom.com.cn",
-    "time": "10:40",
+    "time": "10:41",
     "region": "中国",
     "vendors": [
       "星辰",
@@ -31,7 +31,7 @@
     "category": "全球宏观热点",
     "source": "Orange",
     "sourceUrl": "https://www.orange.com",
-    "time": "10:40",
+    "time": "10:42",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -54,7 +54,7 @@
     "category": "全球宏观热点",
     "source": "Deutsche Telekom",
     "sourceUrl": "https://www.youtube.com/channel/UCt5ngfCsXQvQLNY2YdYlc_g",
-    "time": "10:40",
+    "time": "10:42",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -78,7 +78,7 @@
     "category": "全球宏观热点",
     "source": "Telefonica",
     "sourceUrl": "https://www.telefonica.com/es/accionistas-inversores/informacion-financiera/registro-en-organismos-reguladores-extranjeros/",
-    "time": "10:40",
+    "time": "10:42",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -101,7 +101,7 @@
     "category": "运营商动态",
     "source": "SK Telecom",
     "sourceUrl": "https://www.instagram.com/sktelecom/",
-    "time": "10:40",
+    "time": "10:42",
     "region": "全球",
     "vendors": [
       "KT",
@@ -120,35 +120,12 @@
     "level": "低"
   },
   {
-    "id": "live-operators-global-KT",
-    "title": "숫자로 보는 KT",
-    "category": "全球宏观热点",
-    "source": "KT",
-    "sourceUrl": "https://corp.kt.com/#trigger1",
-    "time": "10:40",
-    "region": "全球",
-    "vendors": [
-      "运营商",
-      "KT"
-    ],
-    "summary": "[회사소개] 메인 - 국민의 편익을 도모하는 최고의 국민기업 KT。숫자로 보는 KT。KT。海外运营商动态",
-    "why": "命中全球宏观热点词表，适合进入系统部每日情报池。",
-    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
-    "channels": [
-      "客户线"
-    ],
-    "tags": [
-      "全球宏观热点"
-    ],
-    "level": "低"
-  },
-  {
     "id": "live-operators-global-STC",
     "title": "stc KSA | stc KSA Internet Packages | stc Personal Packages",
     "category": "全球宏观热点",
     "source": "STC",
     "sourceUrl": "https://www.stc.com.sa/content/stc/sa/en/personal/mobile/packages/mofawtar-prime.html",
-    "time": "10:40",
+    "time": "10:42",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -166,36 +143,12 @@
     "level": "低"
   },
   {
-    "id": "live-ai-model-providers-Google-AI",
-    "title": "I/O 2026: Welcome to the agentic Gemini era The latest from Google I/O: See how we’re helping you get more done with Gemini.",
-    "category": "AI服务商动态",
-    "source": "Google AI",
-    "sourceUrl": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
-    "time": "10:40",
-    "region": "中国",
-    "vendors": [
-      "Google",
-      "Gemini"
-    ],
-    "summary": "Explore the cutting-edge work Google is doing in AI and machine 。",
-    "why": "命中AI服务商动态词表，适合进入系统部每日情报池。",
-    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
-    "channels": [
-      "服务",
-      "Marketing"
-    ],
-    "tags": [
-      "大模型"
-    ],
-    "level": "低"
-  },
-  {
     "id": "live-ai-model-providers-Anthropic",
     "title": "Announcements Jun 30, 2026 Redeploying Fable 5 Fable 5 returns globally July 1. We&#x27;re also proposing an industry-wide framework for scoring jailbreak severity, together with Amazon, Microsoft, Google, and other Glasswing partners.",
     "category": "AI服务商动态",
     "source": "Anthropic",
     "sourceUrl": "https://www.anthropic.com/news/redeploying-fable-5",
-    "time": "10:40",
+    "time": "10:42",
     "region": "中国",
     "vendors": [
       "Google",
@@ -219,7 +172,7 @@
     "category": "AI服务商动态",
     "source": "Meta AI",
     "sourceUrl": "https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/",
-    "time": "10:40",
+    "time": "10:42",
     "region": "中国",
     "vendors": [
       "Meta",
@@ -243,7 +196,7 @@
     "category": "AI服务商动态",
     "source": "DeepSeek",
     "sourceUrl": "https://talent.deepseek.com/",
-    "time": "10:40",
+    "time": "10:42",
     "region": "中国",
     "vendors": [
       "DeepSeek",
@@ -269,7 +222,7 @@
     "category": "AI服务商动态",
     "source": "阿里云",
     "sourceUrl": "https://www.alibabacloud.com/ai-assistant?displayMode=widget",
-    "time": "10:40",
+    "time": "10:42",
     "region": "中国",
     "vendors": [
       "通义千问",
@@ -293,7 +246,7 @@
     "category": "AI服务商动态",
     "source": "腾讯云",
     "sourceUrl": "https://cloud.tencent.com",
-    "time": "10:40",
+    "time": "10:42",
     "region": "中国",
     "vendors": [
       "混元",
@@ -318,7 +271,7 @@
     "category": "AI服务商动态",
     "source": "百度智能云",
     "sourceUrl": "https://console.bce.baidu.com/qianfan/modelcenter/model/buildIn/detail/am-3c0d4ca1f067",
-    "time": "10:40",
+    "time": "10:42",
     "region": "中国",
     "vendors": [
       "文心",
@@ -343,7 +296,7 @@
     "category": "AI服务商动态",
     "source": "月之暗面",
     "sourceUrl": "https://www.kimi.com/blog/kimi-k2-6",
-    "time": "10:40",
+    "time": "10:42",
     "region": "中国",
     "vendors": [
       "Kimi",
@@ -367,7 +320,7 @@
     "category": "AI服务商动态",
     "source": "字节跳动火山引擎",
     "sourceUrl": "https://www.volcengine.com/product/DataAgent",
-    "time": "10:40",
+    "time": "10:42",
     "region": "中国",
     "vendors": [
       "豆包",
@@ -387,36 +340,12 @@
     "level": "低"
   },
   {
-    "id": "live-ai-model-providers-智谱AI",
-    "title": "Z.ai - Inspiring AGI to Benefit Humanity",
-    "category": "AI服务商动态",
-    "source": "智谱AI",
-    "sourceUrl": "https://beian.mps.gov.cn/#/query/webSearch",
-    "time": "10:40",
-    "region": "中国",
-    "vendors": [
-      "智谱"
-    ],
-    "summary": "智谱推出 AutoClaw（澳龙）——国内首款一键安装的本地 OpenClaw 客户端。内置50+Skills，集成 AutoG。",
-    "why": "命中AI服务商动态词表，适合进入系统部每日情报池。",
-    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
-    "channels": [
-      "客户线",
-      "服务",
-      "Marketing"
-    ],
-    "tags": [
-      "大模型"
-    ],
-    "level": "低"
-  },
-  {
     "id": "live-compute-and-ct-vendors-华为",
     "title": "HiSuite华为手机助手",
     "category": "AI产品商品",
     "source": "华为",
     "sourceUrl": "https://consumer.huawei.com/cn/support/hisuite/",
-    "time": "10:41",
+    "time": "10:43",
     "region": "中国",
     "vendors": [
       "华为",
@@ -439,7 +368,7 @@
     "category": "AI/算力设备商动态",
     "source": "中兴通讯",
     "sourceUrl": "https://www.zte.com.cn/content/zte-site/www-zte-com-cn/global/about/exhibition/mwcs26.html",
-    "time": "10:41",
+    "time": "10:43",
     "region": "中国",
     "vendors": [
       "中兴珠峰",
@@ -464,7 +393,7 @@
     "category": "CT设备商动态",
     "source": "Cisco",
     "sourceUrl": "https://newsroom.cisco.com/people.html",
-    "time": "10:41",
+    "time": "10:43",
     "region": "中国",
     "vendors": [
       "Cisco"
@@ -487,7 +416,7 @@
     "category": "全球宏观热点",
     "source": "工信部",
     "sourceUrl": "http://www.miit.gov.cn/xwfb/gxdt/sjdt/art/2026/art_e4d9035769cb4b6b8e6f7fb81d2a7205.html",
-    "time": "10:41",
+    "time": "10:43",
     "region": "全球",
     "vendors": [
       "工信部"
@@ -509,7 +438,7 @@
     "category": "全球宏观热点",
     "source": "国家数据局",
     "sourceUrl": "https://www.nda.gov.cn",
-    "time": "10:41",
+    "time": "10:43",
     "region": "全球",
     "vendors": [
       "国家数据局"
@@ -531,7 +460,7 @@
     "category": "全球宏观热点",
     "source": "GSMA",
     "sourceUrl": "https://www.gsmatraining.com/",
-    "time": "10:41",
+    "time": "10:43",
     "region": "全球",
     "vendors": [
       "GSMA",
@@ -554,7 +483,7 @@
     "category": "全球宏观热点",
     "source": "WAIC",
     "sourceUrl": "https://beian.miit.gov.cn/",
-    "time": "10:41",
+    "time": "10:43",
     "region": "全球",
     "vendors": [
       "WAIC"
@@ -577,7 +506,7 @@
     "category": "舆情和负面信息",
     "source": "theregister.com",
     "sourceUrl": "https://www.theregister.com/off-prem/2026/08/01/enterprise-cloud-infrastructure-uptake-shows-no-sign-of-slowing/5281835",
-    "time": "10:41",
+    "time": "10:43",
     "region": "全球",
     "vendors": [
       "中国电信",

@@ -15,6 +15,11 @@
     "error": "HTTP 403"
   },
   {
+    "source": "KT",
+    "url": "https://corp.kt.com",
+    "error": "fetch failed"
+  },
+  {
     "source": "Zain",
     "url": "https://www.zain.com",
     "error": "HTTP 307"
@@ -23,6 +28,16 @@
     "source": "OpenAI",
     "url": "https://openai.com/news",
     "error": "HTTP 403"
+  },
+  {
+    "source": "Google AI",
+    "url": "https://blog.google/technology/ai",
+    "error": "This operation was aborted"
+  },
+  {
+    "source": "智谱AI",
+    "url": "https://www.zhipuai.cn",
+    "error": "fetch failed"
   },
   {
     "source": "NVIDIA",
