@@ -5,7 +5,7 @@
     "category": "AI服务商动态",
     "source": "中国电信",
     "sourceUrl": "https://www.chinatelecom.com.cn",
-    "time": "10:27",
+    "time": "10:36",
     "region": "中国",
     "vendors": [
       "星辰",
@@ -31,7 +31,7 @@
     "category": "全球宏观热点",
     "source": "Orange",
     "sourceUrl": "https://www.orange.com",
-    "time": "10:28",
+    "time": "10:36",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -54,7 +54,7 @@
     "category": "全球宏观热点",
     "source": "Deutsche Telekom",
     "sourceUrl": "https://www.youtube.com/channel/UCt5ngfCsXQvQLNY2YdYlc_g",
-    "time": "10:28",
+    "time": "10:36",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -78,7 +78,7 @@
     "category": "全球宏观热点",
     "source": "Telefonica",
     "sourceUrl": "https://www.telefonica.com/es/accionistas-inversores/informacion-financiera/registro-en-organismos-reguladores-extranjeros/",
-    "time": "10:28",
+    "time": "10:36",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -101,7 +101,7 @@
     "category": "运营商动态",
     "source": "SK Telecom",
     "sourceUrl": "https://www.instagram.com/sktelecom/",
-    "time": "10:28",
+    "time": "10:36",
     "region": "全球",
     "vendors": [
       "KT",
@@ -125,7 +125,7 @@
     "category": "全球宏观热点",
     "source": "STC",
     "sourceUrl": "https://www.stc.com.sa/content/stc/sa/en/personal/mobile/packages/mofawtar-prime.html",
-    "time": "10:28",
+    "time": "10:36",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -148,7 +148,7 @@
     "category": "AI服务商动态",
     "source": "Google AI",
     "sourceUrl": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
-    "time": "10:28",
+    "time": "10:36",
     "region": "中国",
     "vendors": [
       "Google",
@@ -172,7 +172,7 @@
     "category": "AI服务商动态",
     "source": "Anthropic",
     "sourceUrl": "https://www.anthropic.com/news/redeploying-fable-5",
-    "time": "10:28",
+    "time": "10:36",
     "region": "中国",
     "vendors": [
       "Google",
@@ -196,7 +196,7 @@
     "category": "AI服务商动态",
     "source": "Meta AI",
     "sourceUrl": "https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/",
-    "time": "10:28",
+    "time": "10:36",
     "region": "中国",
     "vendors": [
       "Meta",
@@ -220,7 +220,7 @@
     "category": "AI服务商动态",
     "source": "DeepSeek",
     "sourceUrl": "https://talent.deepseek.com/",
-    "time": "10:28",
+    "time": "10:36",
     "region": "中国",
     "vendors": [
       "DeepSeek",
@@ -246,7 +246,7 @@
     "category": "AI服务商动态",
     "source": "阿里云",
     "sourceUrl": "https://www.alibabacloud.com/ai-assistant?displayMode=widget",
-    "time": "10:28",
+    "time": "10:36",
     "region": "中国",
     "vendors": [
       "通义千问",
@@ -270,7 +270,7 @@
     "category": "AI服务商动态",
     "source": "腾讯云",
     "sourceUrl": "https://cloud.tencent.com",
-    "time": "10:28",
+    "time": "10:36",
     "region": "中国",
     "vendors": [
       "混元",
@@ -295,7 +295,7 @@
     "category": "AI服务商动态",
     "source": "百度智能云",
     "sourceUrl": "https://console.bce.baidu.com/qianfan/modelcenter/model/buildIn/detail/am-3c0d4ca1f067",
-    "time": "10:28",
+    "time": "10:36",
     "region": "中国",
     "vendors": [
       "文心",
@@ -320,7 +320,7 @@
     "category": "AI服务商动态",
     "source": "月之暗面",
     "sourceUrl": "https://www.kimi.com/blog/kimi-k2-6",
-    "time": "10:28",
+    "time": "10:36",
     "region": "中国",
     "vendors": [
       "Kimi",
@@ -344,7 +344,7 @@
     "category": "AI服务商动态",
     "source": "字节跳动火山引擎",
     "sourceUrl": "https://www.volcengine.com/product/DataAgent",
-    "time": "10:28",
+    "time": "10:36",
     "region": "中国",
     "vendors": [
       "豆包",
@@ -364,36 +364,12 @@
     "level": "低"
   },
   {
-    "id": "live-ai-model-providers-智谱AI",
-    "title": "Z.ai - Inspiring AGI to Benefit Humanity",
-    "category": "AI服务商动态",
-    "source": "智谱AI",
-    "sourceUrl": "https://beian.mps.gov.cn/#/query/webSearch",
-    "time": "10:28",
-    "region": "中国",
-    "vendors": [
-      "智谱"
-    ],
-    "summary": "智谱推出 AutoClaw（澳龙）——国内首款一键安装的本地 OpenClaw 客户端。内置50+Skills，集成 AutoG。",
-    "why": "命中AI服务商动态词表，适合进入系统部每日情报池。",
-    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
-    "channels": [
-      "客户线",
-      "服务",
-      "Marketing"
-    ],
-    "tags": [
-      "大模型"
-    ],
-    "level": "低"
-  },
-  {
     "id": "live-compute-and-ct-vendors-华为",
     "title": "HiSuite华为手机助手",
     "category": "AI产品商品",
     "source": "华为",
     "sourceUrl": "https://consumer.huawei.com/cn/support/hisuite/",
-    "time": "10:28",
+    "time": "10:37",
     "region": "中国",
     "vendors": [
       "华为",
@@ -416,7 +392,7 @@
     "category": "AI/算力设备商动态",
     "source": "中兴通讯",
     "sourceUrl": "https://www.zte.com.cn/content/zte-site/www-zte-com-cn/global/about/exhibition/mwcs26.html",
-    "time": "10:28",
+    "time": "10:37",
     "region": "中国",
     "vendors": [
       "中兴珠峰",
@@ -441,7 +417,7 @@
     "category": "CT设备商动态",
     "source": "Cisco",
     "sourceUrl": "https://newsroom.cisco.com/people.html",
-    "time": "10:28",
+    "time": "10:37",
     "region": "中国",
     "vendors": [
       "Cisco"
@@ -459,12 +435,34 @@
     "level": "低"
   },
   {
+    "id": "live-macro-policy-and-events-工信部",
+    "title": "中华人民共和国工业和信息化部",
+    "category": "全球宏观热点",
+    "source": "工信部",
+    "sourceUrl": "https://www.miit.gov.cn/xwfb/mtbd/wzbd/art/2026/art_554882d234694214bfa8a2a91cfaa3cd.html",
+    "time": "10:37",
+    "region": "全球",
+    "vendors": [
+      "工信部"
+    ],
+    "summary": "新时代以来，中国举办一系列主场外交活动，主题鲜明、成果丰硕、亮点纷呈，打造出中国特色大国外交新名片，成为推动构建人类命运共同体的。",
+    "why": "命中全球宏观热点词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "Marketing"
+    ],
+    "tags": [
+      "政策"
+    ],
+    "level": "低"
+  },
+  {
     "id": "live-macro-policy-and-events-国家数据局",
     "title": "国家数据局",
     "category": "全球宏观热点",
     "source": "国家数据局",
     "sourceUrl": "https://www.nda.gov.cn",
-    "time": "10:29",
+    "time": "10:37",
     "region": "全球",
     "vendors": [
       "国家数据局"
@@ -486,7 +484,7 @@
     "category": "全球宏观热点",
     "source": "GSMA",
     "sourceUrl": "https://www.gsmatraining.com/",
-    "time": "10:29",
+    "time": "10:37",
     "region": "全球",
     "vendors": [
       "GSMA",
@@ -509,7 +507,7 @@
     "category": "全球宏观热点",
     "source": "WAIC",
     "sourceUrl": "https://beian.miit.gov.cn/",
-    "time": "10:29",
+    "time": "10:37",
     "region": "全球",
     "vendors": [
       "WAIC"
@@ -523,6 +521,190 @@
     ],
     "tags": [
       "政策"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "search-china-telecom-cloud-ai-0-4368696e6573",
+    "title": "Chinese State - Owned Carriers Retained US Infrastructure After FCC Actions : House Report",
+    "category": "舆情和负面信息",
+    "source": "theepochtimes.com",
+    "sourceUrl": "https://www.theepochtimes.com/china/chinese-state-owned-carriers-retained-us-infrastructure-after-fcc-actions-house-report-6071875",
+    "time": "10:37",
+    "region": "全球",
+    "vendors": [
+      "中国电信",
+      "电信"
+    ],
+    "summary": "Chinese State - Owned Carriers Retained US Infrastructure After 。",
+    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线"
+    ],
+    "tags": [
+      "AI"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "search-china-telecom-cloud-ai-1-4368696e6573",
+    "title": "Chinese carriers were pushed out of US networks . A House report says they never left",
+    "category": "舆情和负面信息",
+    "source": "thenextweb.com",
+    "sourceUrl": "https://thenextweb.com/news/china-telecom-salt-typhoon-us-networks-house-report",
+    "time": "10:37",
+    "region": "全球",
+    "vendors": [
+      "中国电信",
+      "电信"
+    ],
+    "summary": "Chinese carriers were pushed out of US networks . A House report。",
+    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线"
+    ],
+    "tags": [
+      "AI"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "search-china-telecom-cloud-ai-2-555320486f75",
+    "title": "US House panel flags Chinese telecom presence in US network ecosystem , warns of cyber , security risks",
+    "category": "舆情和负面信息",
+    "source": "aninews.in",
+    "sourceUrl": "https://aninews.in/news/world/us-house-panel-flags-chinese-telecom-presence-in-us-network-ecosystem-warns-of-cyber-security-risks20260805113235/",
+    "time": "10:37",
+    "region": "全球",
+    "vendors": [
+      "中国电信",
+      "电信"
+    ],
+    "summary": "US House panel flags Chinese telecom presence in US network ecos。",
+    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线"
+    ],
+    "tags": [
+      "AI"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "search-china-telecom-cloud-ai-3-464343204261",
+    "title": "FCC Bans Failed to Remove Chinese Telecoms : China Mobile Routed Salt Typhoon Attack Traffic",
+    "category": "舆情和负面信息",
+    "source": "techtimes.com",
+    "sourceUrl": "https://www.techtimes.com/articles/323267/20260806/fcc-bans-failed-remove-chinese-telecoms-china-mobile-routed-salt-typhoon-attack-traffic.htm",
+    "time": "10:37",
+    "region": "全球",
+    "vendors": [
+      "中国电信",
+      "电信"
+    ],
+    "summary": "FCC Bans Failed to Remove Chinese Telecoms : China Mobile Routed。",
+    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线"
+    ],
+    "tags": [
+      "AI"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "search-china-telecom-cloud-ai-4-436f6e677265",
+    "title": "Congress Warns China  Deeply Embedded in the U . S . Internet Ecosystem  ",
+    "category": "舆情和负面信息",
+    "source": "breitbart.com",
+    "sourceUrl": "https://www.breitbart.com/tech/2026/08/05/congress-warns-china-deeply-embedded-u-s-internet-ecosystem/",
+    "time": "10:37",
+    "region": "全球",
+    "vendors": [
+      "中国电信",
+      "电信"
+    ],
+    "summary": "Congress Warns China  Deeply Embedded in the U . S . Internet Ec。",
+    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线"
+    ],
+    "tags": [
+      "AI"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "search-china-telecom-cloud-ai-5-555320486f75",
+    "title": "US House panel flags Chinese telecom presence in US network ecosystem , warns of cyber , security risks",
+    "category": "舆情和负面信息",
+    "source": "shanghaisun.com",
+    "sourceUrl": "http://www.shanghaisun.com/news/279223152/us-house-panel-flags-chinese-telecom-presence-in-us-network-ecosystem-warns-of-cyber-security-risks",
+    "time": "10:37",
+    "region": "全球",
+    "vendors": [
+      "中国电信",
+      "电信"
+    ],
+    "summary": "US House panel flags Chinese telecom presence in US network ecos。",
+    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线"
+    ],
+    "tags": [
+      "AI"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "search-china-telecom-cloud-ai-6-555320486f75",
+    "title": "US House panel flags Chinese telecom presence in US network ecosystem , warns of cyber , security risks",
+    "category": "舆情和负面信息",
+    "source": "beijingbulletin.com",
+    "sourceUrl": "http://www.beijingbulletin.com/news/279223152/us-house-panel-flags-chinese-telecom-presence-in-us-network-ecosystem-warns-of-cyber-security-risks",
+    "time": "10:37",
+    "region": "全球",
+    "vendors": [
+      "中国电信",
+      "电信"
+    ],
+    "summary": "US House panel flags Chinese telecom presence in US network ecos。",
+    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线"
+    ],
+    "tags": [
+      "AI"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "search-china-telecom-cloud-ai-7-446174612043",
+    "title": "Data Centers Exposed Carriers to China Hack , House Panel Says",
+    "category": "舆情和负面信息",
+    "source": "insurancejournal.com",
+    "sourceUrl": "https://www.insurancejournal.com/news/national/2026/08/05/880370.htm",
+    "time": "10:37",
+    "region": "全球",
+    "vendors": [
+      "中国电信",
+      "电信"
+    ],
+    "summary": "Data Centers Exposed Carriers to China Hack , House Panel Says。i。",
+    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线"
+    ],
+    "tags": [
+      "AI"
     ],
     "level": "低"
   }
