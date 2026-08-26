@@ -5,7 +5,7 @@
     "category": "AI服务商动态",
     "source": "中国电信",
     "sourceUrl": "https://www.chinatelecom.com.cn",
-    "time": "09:10",
+    "time": "09:12",
     "region": "中国",
     "vendors": [
       "星辰",
@@ -31,7 +31,7 @@
     "category": "全球宏观热点",
     "source": "Orange",
     "sourceUrl": "https://www.orange.com",
-    "time": "09:10",
+    "time": "09:12",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -54,7 +54,7 @@
     "category": "全球宏观热点",
     "source": "Deutsche Telekom",
     "sourceUrl": "https://www.youtube.com/channel/UCt5ngfCsXQvQLNY2YdYlc_g",
-    "time": "09:10",
+    "time": "09:12",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -78,7 +78,7 @@
     "category": "全球宏观热点",
     "source": "Telefonica",
     "sourceUrl": "https://www.telefonica.com/es/accionistas-inversores/informacion-financiera/registro-en-organismos-reguladores-extranjeros/",
-    "time": "09:10",
+    "time": "09:12",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -101,7 +101,7 @@
     "category": "运营商动态",
     "source": "SK Telecom",
     "sourceUrl": "https://www.instagram.com/sktelecom/",
-    "time": "09:10",
+    "time": "09:12",
     "region": "全球",
     "vendors": [
       "KT",
@@ -125,7 +125,7 @@
     "category": "全球宏观热点",
     "source": "KT",
     "sourceUrl": "https://corp.kt.com/#trigger1",
-    "time": "09:10",
+    "time": "09:12",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -148,7 +148,7 @@
     "category": "全球宏观热点",
     "source": "STC",
     "sourceUrl": "https://www.stc.com.sa/content/stc/sa/en/personal/mobile/packages/mofawtar-prime.html",
-    "time": "09:10",
+    "time": "09:12",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -171,7 +171,7 @@
     "category": "AI服务商动态",
     "source": "Google AI",
     "sourceUrl": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
-    "time": "09:10",
+    "time": "09:12",
     "region": "中国",
     "vendors": [
       "Google",
@@ -195,7 +195,7 @@
     "category": "AI服务商动态",
     "source": "Anthropic",
     "sourceUrl": "https://www.anthropic.com/features/making-of-claude-code",
-    "time": "09:10",
+    "time": "09:12",
     "region": "中国",
     "vendors": [
       "Anthropic"
@@ -218,7 +218,7 @@
     "category": "AI服务商动态",
     "source": "Meta AI",
     "sourceUrl": "https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/",
-    "time": "09:10",
+    "time": "09:12",
     "region": "中国",
     "vendors": [
       "Meta",
@@ -242,7 +242,7 @@
     "category": "AI服务商动态",
     "source": "DeepSeek",
     "sourceUrl": "https://talent.deepseek.com/",
-    "time": "09:10",
+    "time": "09:12",
     "region": "中国",
     "vendors": [
       "DeepSeek",
@@ -267,7 +267,7 @@
     "category": "AI服务商动态",
     "source": "阿里云",
     "sourceUrl": "https://www.alibabacloud.com/ai-assistant?displayMode=widget",
-    "time": "09:10",
+    "time": "09:13",
     "region": "中国",
     "vendors": [
       "通义千问",
@@ -291,7 +291,7 @@
     "category": "AI服务商动态",
     "source": "腾讯云",
     "sourceUrl": "https://cloud.tencent.com",
-    "time": "09:10",
+    "time": "09:13",
     "region": "中国",
     "vendors": [
       "混元",
@@ -316,7 +316,7 @@
     "category": "AI服务商动态",
     "source": "百度智能云",
     "sourceUrl": "https://console.bce.baidu.com/qianfan/modelcenter/model/buildIn/detail/am-3c0d4ca1f067",
-    "time": "09:10",
+    "time": "09:13",
     "region": "中国",
     "vendors": [
       "文心",
@@ -341,7 +341,7 @@
     "category": "AI服务商动态",
     "source": "月之暗面",
     "sourceUrl": "https://www.kimi.com/en/blog/kimi-k2-6",
-    "time": "09:11",
+    "time": "09:13",
     "region": "中国",
     "vendors": [
       "Kimi",
@@ -365,7 +365,7 @@
     "category": "AI服务商动态",
     "source": "字节跳动火山引擎",
     "sourceUrl": "https://www.volcengine.com/product/DataAgent",
-    "time": "09:11",
+    "time": "09:13",
     "region": "中国",
     "vendors": [
       "豆包",
@@ -385,36 +385,12 @@
     "level": "低"
   },
   {
-    "id": "live-ai-model-providers-智谱AI",
-    "title": "Z.ai - Inspiring AGI to Benefit Humanity",
-    "category": "AI服务商动态",
-    "source": "智谱AI",
-    "sourceUrl": "https://beian.mps.gov.cn/#/query/webSearch",
-    "time": "09:11",
-    "region": "中国",
-    "vendors": [
-      "智谱"
-    ],
-    "summary": "智谱推出 AutoClaw（澳龙）——国内首款一键安装的本地 OpenClaw 客户端。内置50+Skills，集成 AutoG。",
-    "why": "命中AI服务商动态词表，适合进入系统部每日情报池。",
-    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
-    "channels": [
-      "客户线",
-      "服务",
-      "Marketing"
-    ],
-    "tags": [
-      "大模型"
-    ],
-    "level": "低"
-  },
-  {
     "id": "live-compute-and-ct-vendors-华为",
     "title": "HiSuite华为手机助手",
     "category": "AI产品商品",
     "source": "华为",
     "sourceUrl": "https://consumer.huawei.com/cn/support/hisuite/",
-    "time": "09:11",
+    "time": "09:13",
     "region": "中国",
     "vendors": [
       "华为",
@@ -437,7 +413,7 @@
     "category": "AI/算力设备商动态",
     "source": "中兴通讯",
     "sourceUrl": "https://www.zte.com.cn/content/zte-site/www-zte-com-cn/global/about/exhibition/mwcs26.html",
-    "time": "09:11",
+    "time": "09:13",
     "region": "中国",
     "vendors": [
       "中兴珠峰",
@@ -462,7 +438,7 @@
     "category": "CT设备商动态",
     "source": "Cisco",
     "sourceUrl": "https://newsroom.cisco.com/people.html",
-    "time": "09:11",
+    "time": "09:13",
     "region": "中国",
     "vendors": [
       "Cisco"
@@ -484,13 +460,13 @@
     "title": "中华人民共和国工业和信息化部",
     "category": "全球宏观热点",
     "source": "工信部",
-    "sourceUrl": "http://www.miit.gov.cn/zwgk/zcwj/wjfb/gg/art/2026/art_00d965bfa9ea4bc89bc7613cf911c896.html",
-    "time": "09:11",
+    "sourceUrl": "https://www.miit.gov.cn/xwfb/szyw/art/2026/art_382284e7e221439baa45d852c80d0ddb.html",
+    "time": "09:13",
     "region": "全球",
     "vendors": [
       "工信部"
     ],
-    "summary": "《道路机动车辆生产企业及产品》（第409批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第八十八批）、《减免车辆。",
+    "summary": "中央党的建设工作领导小组24日召开会议，深入学习贯彻习近平总书记重要指示精神，总结树立和践行正确政绩观学习教育，研究部署巩固拓展。",
     "why": "命中全球宏观热点词表，适合进入系统部每日情报池。",
     "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
     "channels": [
@@ -507,7 +483,7 @@
     "category": "全球宏观热点",
     "source": "国家数据局",
     "sourceUrl": "https://www.nda.gov.cn",
-    "time": "09:11",
+    "time": "09:13",
     "region": "全球",
     "vendors": [
       "国家数据局"
@@ -529,7 +505,7 @@
     "category": "全球宏观热点",
     "source": "GSMA",
     "sourceUrl": "https://www.gsmatraining.com/",
-    "time": "09:11",
+    "time": "09:13",
     "region": "全球",
     "vendors": [
       "GSMA",
@@ -552,7 +528,7 @@
     "category": "全球宏观热点",
     "source": "WAIC",
     "sourceUrl": "https://beian.miit.gov.cn/",
-    "time": "09:11",
+    "time": "09:13",
     "region": "全球",
     "vendors": [
       "WAIC"
