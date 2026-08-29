@@ -48,15 +48,5 @@
     "source": "Ciena",
     "url": "https://www.ciena.com/about/newsroom",
     "error": "HTTP 403"
-  },
-  {
-    "source": "工信部",
-    "url": "https://www.miit.gov.cn",
-    "error": "fetch failed"
-  },
-  {
-    "source": "WAIC",
-    "url": "https://www.worldaic.com.cn",
-    "error": "This operation was aborted"
   }
 ]
