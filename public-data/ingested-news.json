@@ -31,7 +31,7 @@
     "category": "全球宏观热点",
     "source": "Orange",
     "sourceUrl": "https://www.orange.com",
-    "time": "11:03",
+    "time": "11:02",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -50,18 +50,18 @@
   },
   {
     "id": "live-operators-global-Deutsche-Telekom",
-    "title": "Videos (Youtube @DT_IR)",
+    "title": "Reasons to invest in Deutsche Telekom shares",
     "category": "全球宏观热点",
     "source": "Deutsche Telekom",
-    "sourceUrl": "https://www.youtube.com/channel/UCt5ngfCsXQvQLNY2YdYlc_g",
-    "time": "11:03",
+    "sourceUrl": "https://www.telekom.com/en/investor-relations/share/reasons-to-invest-in-deutsche-telekom-shares",
+    "time": "11:02",
     "region": "全球",
     "vendors": [
       "运营商",
       "DT",
       "Deutsche Telekom"
     ],
-    "summary": "Deutsche Telekom is one of the world's leading integrated teleco。",
+    "summary": "Reasons to invest in Deutsche Telekom shares。DT、Deutsche Telekom。",
     "why": "命中全球宏观热点词表，适合进入系统部每日情报池。",
     "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
     "channels": [
@@ -78,7 +78,7 @@
     "category": "全球宏观热点",
     "source": "Telefonica",
     "sourceUrl": "https://www.telefonica.com/es/accionistas-inversores/informacion-financiera/registro-en-organismos-reguladores-extranjeros/",
-    "time": "11:03",
+    "time": "11:02",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -101,7 +101,7 @@
     "category": "运营商动态",
     "source": "SK Telecom",
     "sourceUrl": "https://www.instagram.com/sktelecom/",
-    "time": "11:03",
+    "time": "11:02",
     "region": "全球",
     "vendors": [
       "KT",
@@ -125,7 +125,7 @@
     "category": "全球宏观热点",
     "source": "KT",
     "sourceUrl": "https://corp.kt.com/#trigger1",
-    "time": "11:03",
+    "time": "11:02",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -148,7 +148,7 @@
     "category": "全球宏观热点",
     "source": "STC",
     "sourceUrl": "https://www.stc.com.sa/content/stc/sa/en/personal/mobile/packages/mofawtar-prime.html",
-    "time": "11:03",
+    "time": "11:02",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -171,7 +171,7 @@
     "category": "AI服务商动态",
     "source": "Google AI",
     "sourceUrl": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
-    "time": "11:03",
+    "time": "11:02",
     "region": "中国",
     "vendors": [
       "Google",
@@ -195,7 +195,7 @@
     "category": "AI服务商动态",
     "source": "Anthropic",
     "sourceUrl": "https://www.anthropic.com/features/making-of-claude-code",
-    "time": "11:03",
+    "time": "11:02",
     "region": "中国",
     "vendors": [
       "Anthropic"
@@ -218,7 +218,7 @@
     "category": "AI服务商动态",
     "source": "Meta AI",
     "sourceUrl": "https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/",
-    "time": "11:03",
+    "time": "11:02",
     "region": "中国",
     "vendors": [
       "Meta",
@@ -242,7 +242,7 @@
     "category": "AI服务商动态",
     "source": "DeepSeek",
     "sourceUrl": "https://talent.deepseek.com/",
-    "time": "11:03",
+    "time": "11:02",
     "region": "中国",
     "vendors": [
       "DeepSeek",
