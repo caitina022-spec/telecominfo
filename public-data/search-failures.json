@@ -27,13 +27,13 @@
     "query": "ai-compute-infrastructure",
     "name": "智算与AI芯片",
     "provider": "gdelt",
-    "error": "fetch failed"
+    "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic us"
   },
   {
     "query": "ct-vendors-network",
     "name": "CT设备商与网络演进",
     "provider": "gdelt",
-    "error": "fetch failed"
+    "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic us"
   },
   {
     "query": "telecom-sentiment-risk",
