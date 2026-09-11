@@ -3,7 +3,7 @@
     "query": "china-telecom-cloud-ai",
     "name": "中国电信云网算与AI",
     "provider": "gdelt",
-    "error": "This operation was aborted"
+    "error": "fetch failed"
   },
   {
     "query": "operator-ai-network",
@@ -27,7 +27,7 @@
     "query": "ai-compute-infrastructure",
     "name": "智算与AI芯片",
     "provider": "gdelt",
-    "error": "fetch failed"
+    "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic us"
   },
   {
     "query": "ct-vendors-network",
@@ -45,6 +45,6 @@
     "query": "ai-industry-impact",
     "name": "AI赋能传统行业",
     "provider": "gdelt",
-    "error": "fetch failed"
+    "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic us"
   }
 ]
