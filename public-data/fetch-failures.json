@@ -2,7 +2,7 @@
   {
     "source": "中国移动",
     "url": "https://www.chinamobileltd.com",
-    "error": "fetch failed"
+    "error": "HTTP 403"
   },
   {
     "source": "中国联通",
@@ -13,11 +13,6 @@
     "source": "Vodafone",
     "url": "https://www.vodafone.com",
     "error": "HTTP 403"
-  },
-  {
-    "source": "KT",
-    "url": "https://corp.kt.com",
-    "error": "fetch failed"
   },
   {
     "source": "Zain",
