@@ -15,11 +15,6 @@
     "error": "HTTP 403"
   },
   {
-    "source": "STC",
-    "url": "https://www.stc.com.sa",
-    "error": "HTTP 403"
-  },
-  {
     "source": "Zain",
     "url": "https://www.zain.com",
     "error": "HTTP 307"
