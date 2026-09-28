@@ -31,7 +31,7 @@
     "category": "全球宏观热点",
     "source": "Orange",
     "sourceUrl": "https://www.orange.com",
-    "time": "11:49",
+    "time": "11:50",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -54,7 +54,7 @@
     "category": "全球宏观热点",
     "source": "Deutsche Telekom",
     "sourceUrl": "https://www.telekom.com/en/investor-relations/share/reasons-to-invest-in-deutsche-telekom-shares",
-    "time": "11:49",
+    "time": "11:50",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -78,7 +78,7 @@
     "category": "全球宏观热点",
     "source": "Telefonica",
     "sourceUrl": "https://www.telefonica.com/es/accionistas-inversores/informacion-financiera/registro-en-organismos-reguladores-extranjeros/",
-    "time": "11:49",
+    "time": "11:50",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -101,7 +101,7 @@
     "category": "运营商动态",
     "source": "SK Telecom",
     "sourceUrl": "https://www.instagram.com/sktelecom/",
-    "time": "11:49",
+    "time": "11:50",
     "region": "全球",
     "vendors": [
       "KT",
@@ -116,6 +116,29 @@
     ],
     "tags": [
       "运营商动态"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "live-operators-global-STC",
+    "title": "stc KSA | stc KSA Internet Packages | stc Personal Packages",
+    "category": "全球宏观热点",
+    "source": "STC",
+    "sourceUrl": "https://www.stc.com.sa/content/stc/sa/en/personal/mobile/packages/mofawtar-prime.html",
+    "time": "11:50",
+    "region": "全球",
+    "vendors": [
+      "运营商",
+      "STC"
+    ],
+    "summary": "Discover stc KSA telecom services for home & personal use. stc S。",
+    "why": "命中全球宏观热点词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "客户线"
+    ],
+    "tags": [
+      "全球宏观热点"
     ],
     "level": "低"
   },
@@ -431,28 +454,6 @@
     ],
     "tags": [
       "CT设备商动态"
-    ],
-    "level": "低"
-  },
-  {
-    "id": "live-macro-policy-and-events-工信部",
-    "title": "中华人民共和国工业和信息化部",
-    "category": "全球宏观热点",
-    "source": "工信部",
-    "sourceUrl": "http://www.miit.gov.cn/zwgk/zcwj/wjfb/gg/art/2026/art_6a09b92c25e947e2a0e90b66d608a7be.html",
-    "time": "11:50",
-    "region": "全球",
-    "vendors": [
-      "工信部"
-    ],
-    "summary": "《道路机动车辆生产企业及产品》（第410批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第八十九批）、《减免车辆。",
-    "why": "命中全球宏观热点词表，适合进入系统部每日情报池。",
-    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
-    "channels": [
-      "Marketing"
-    ],
-    "tags": [
-      "政策"
     ],
     "level": "低"
   },
