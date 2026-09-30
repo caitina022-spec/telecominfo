@@ -15,6 +15,16 @@
     "error": "HTTP 403"
   },
   {
+    "source": "KT",
+    "url": "https://corp.kt.com",
+    "error": "fetch failed"
+  },
+  {
+    "source": "STC",
+    "url": "https://www.stc.com.sa",
+    "error": "HTTP 403"
+  },
+  {
     "source": "Zain",
     "url": "https://www.zain.com",
     "error": "HTTP 307"
@@ -25,6 +35,11 @@
     "error": "HTTP 403"
   },
   {
+    "source": "智谱AI",
+    "url": "https://www.zhipuai.cn",
+    "error": "fetch failed"
+  },
+  {
     "source": "NVIDIA",
     "url": "https://www.nvidia.com/en-us/about-nvidia/newsroom",
     "error": "HTTP 404"
@@ -32,11 +47,6 @@
   {
     "source": "AMD",
     "url": "https://www.amd.com/en/newsroom",
-    "error": "This operation was aborted"
-  },
-  {
-    "source": "中兴通讯",
-    "url": "https://www.zte.com.cn",
     "error": "This operation was aborted"
   },
   {
@@ -53,5 +63,10 @@
     "source": "Ciena",
     "url": "https://www.ciena.com/about/newsroom",
     "error": "HTTP 403"
+  },
+  {
+    "source": "工信部",
+    "url": "https://www.miit.gov.cn",
+    "error": "fetch failed"
   }
 ]
