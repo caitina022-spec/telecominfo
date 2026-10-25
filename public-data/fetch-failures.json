@@ -25,6 +25,11 @@
     "error": "HTTP 403"
   },
   {
+    "source": "智谱AI",
+    "url": "https://www.zhipuai.cn",
+    "error": "fetch failed"
+  },
+  {
     "source": "NVIDIA",
     "url": "https://www.nvidia.com/en-us/about-nvidia/newsroom",
     "error": "HTTP 404"
