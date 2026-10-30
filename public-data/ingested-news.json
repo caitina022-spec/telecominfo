@@ -31,7 +31,7 @@
     "category": "全球宏观热点",
     "source": "Orange",
     "sourceUrl": "https://www.orange.com",
-    "time": "12:31",
+    "time": "12:30",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -54,7 +54,7 @@
     "category": "全球宏观热点",
     "source": "Deutsche Telekom",
     "sourceUrl": "https://www.telekom.com/en/investor-relations/share/reasons-to-invest-in-deutsche-telekom-shares",
-    "time": "12:31",
+    "time": "12:30",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -78,7 +78,7 @@
     "category": "全球宏观热点",
     "source": "Telefonica",
     "sourceUrl": "https://www.telefonica.com/es/accionistas-inversores/informacion-financiera/registro-en-organismos-reguladores-extranjeros/",
-    "time": "12:31",
+    "time": "12:30",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -101,7 +101,7 @@
     "category": "运营商动态",
     "source": "SK Telecom",
     "sourceUrl": "https://www.instagram.com/sktelecom/",
-    "time": "12:31",
+    "time": "12:30",
     "region": "全球",
     "vendors": [
       "KT",
@@ -121,24 +121,24 @@
   },
   {
     "id": "live-operators-global-KT",
-    "title": "숫자로 보는 KT",
-    "category": "全球宏观热点",
+    "title": "AX Value Partner KT는 컨설팅부터 데이터 정비, 구축, 운영, 고도화까지 고객 AX 여정을 함께 합니다. Consulting 고객의 과제와 환경을 고려한 AX 전략 설계 Infra 클라우드와 AI 인프라를 제공 Data 데이터를 AI가 이해하고 활용할 수 있도록 정비 AI·Agent AI·Agent로 업무 자동화 구현 Managed AI·Cloud 서비스의 안정적 운영과 고도화 지원 Alliance & Expert 산업 전문가·기술 파트너와 협업해 AX 구현",
+    "category": "舆情和负面信息",
     "source": "KT",
-    "sourceUrl": "https://corp.kt.com/#trigger1",
-    "time": "12:31",
+    "sourceUrl": "https://ax.kt.com/",
+    "time": "12:30",
     "region": "全球",
     "vendors": [
       "运营商",
       "KT"
     ],
-    "summary": "[회사소개] 메인 - 국민의 편익을 도모하는 최고의 국민기업 KT。숫자로 보는 KT。KT。海外运营商动态",
-    "why": "命中全球宏观热点词表，适合进入系统部每日情报池。",
+    "summary": "[회사소개] 메인 - 국민의 편익을 도모하는 최고의 국민기업 KT。AX Value Partner KT는 컨설팅부터 。",
+    "why": "命中舆情和负面信息词表，适合进入系统部每日情报池。",
     "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
     "channels": [
       "客户线"
     ],
     "tags": [
-      "全球宏观热点"
+      "AI"
     ],
     "level": "低"
   },
@@ -148,7 +148,7 @@
     "category": "全球宏观热点",
     "source": "STC",
     "sourceUrl": "https://www.stc.com.sa/content/stc/sa/en/personal/mobile/packages/mofawtar-prime.html",
-    "time": "12:31",
+    "time": "12:30",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -167,11 +167,11 @@
   },
   {
     "id": "live-ai-model-providers-Google-AI",
-    "title": "The latest AI news we announced in September 2026 Here are Google’s latest AI updates from September 2026",
+    "title": "Google Ads & Commerce blog",
     "category": "AI服务商动态",
     "source": "Google AI",
-    "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
-    "time": "12:31",
+    "sourceUrl": "https://blog.google/products/ads-commerce/",
+    "time": "12:30",
     "region": "中国",
     "vendors": [
       "Google",
@@ -195,7 +195,7 @@
     "category": "AI服务商动态",
     "source": "Anthropic",
     "sourceUrl": "https://www.anthropic.com/news/s1-sec",
-    "time": "12:31",
+    "time": "12:30",
     "region": "中国",
     "vendors": [
       "Anthropic"
@@ -218,7 +218,7 @@
     "category": "AI服务商动态",
     "source": "Meta AI",
     "sourceUrl": "https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/",
-    "time": "12:31",
+    "time": "12:30",
     "region": "中国",
     "vendors": [
       "Meta",
@@ -242,7 +242,7 @@
     "category": "AI服务商动态",
     "source": "DeepSeek",
     "sourceUrl": "https://api-docs.deepseek.com/zh-cn/guides/search/",
-    "time": "12:31",
+    "time": "12:30",
     "region": "中国",
     "vendors": [
       "DeepSeek"
@@ -266,7 +266,7 @@
     "category": "AI服务商动态",
     "source": "阿里云",
     "sourceUrl": "https://www.alibabacloud.com/ai-assistant?displayMode=widget",
-    "time": "12:31",
+    "time": "12:30",
     "region": "中国",
     "vendors": [
       "通义千问",
@@ -290,7 +290,7 @@
     "category": "AI服务商动态",
     "source": "腾讯云",
     "sourceUrl": "https://cloud.tencent.com",
-    "time": "12:31",
+    "time": "12:30",
     "region": "中国",
     "vendors": [
       "混元",
@@ -476,28 +476,6 @@
     ],
     "tags": [
       "CT设备商动态"
-    ],
-    "level": "低"
-  },
-  {
-    "id": "live-macro-policy-and-events-工信部",
-    "title": "中华人民共和国工业和信息化部",
-    "category": "全球宏观热点",
-    "source": "工信部",
-    "sourceUrl": "https://www.miit.gov.cn/xwfb/szyw/art/2026/art_cc9757ffd6a5497eb4afb9e158874f11.html",
-    "time": "12:31",
-    "region": "全球",
-    "vendors": [
-      "工信部"
-    ],
-    "summary": "“我将无我，不负人民”，从中能读懂大党大国领袖不忘初心、牢记使命的情怀担当，持之以恒推进全面从严治党的战略远见。工信部。宏观政策。",
-    "why": "命中全球宏观热点词表，适合进入系统部每日情报池。",
-    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
-    "channels": [
-      "Marketing"
-    ],
-    "tags": [
-      "政策"
     ],
     "level": "低"
   },
