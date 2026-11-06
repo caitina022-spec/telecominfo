@@ -5,7 +5,7 @@
     "category": "AI服务商动态",
     "source": "中国电信",
     "sourceUrl": "https://www.chinatelecom.com.cn",
-    "time": "13:16",
+    "time": "13:15",
     "region": "中国",
     "vendors": [
       "星辰",
@@ -31,7 +31,7 @@
     "category": "全球宏观热点",
     "source": "Orange",
     "sourceUrl": "https://www.orange.com",
-    "time": "13:16",
+    "time": "13:15",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -54,7 +54,7 @@
     "category": "全球宏观热点",
     "source": "Deutsche Telekom",
     "sourceUrl": "https://www.telekom.com/en/investor-relations/share/reasons-to-invest-in-deutsche-telekom-shares",
-    "time": "13:16",
+    "time": "13:15",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -78,7 +78,7 @@
     "category": "全球宏观热点",
     "source": "Telefonica",
     "sourceUrl": "https://www.telefonica.com/es/accionistas-inversores/informacion-financiera/registro-en-organismos-reguladores-extranjeros/",
-    "time": "13:16",
+    "time": "13:15",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -262,7 +262,7 @@
   },
   {
     "id": "live-ai-model-providers-阿里云",
-    "title": "Alibaba Cloud: AI and Cloud Computing Services",
+    "title": "Empower Your Business in USA & Canada with Alibaba Cloud's Cloud Products & Services",
     "category": "AI服务商动态",
     "source": "阿里云",
     "sourceUrl": "https://www.alibabacloud.com/ai-assistant?displayMode=widget",
@@ -272,7 +272,7 @@
       "通义千问",
       "阿里"
     ],
-    "summary": "Alibaba Cloud is one of the world。Hi, I'm Alibaba Cloud AI Assis。",
+    "summary": "Alibaba Cloud offers integrated suite of cloud products and serv。",
     "why": "命中AI服务商动态词表，适合进入系统部每日情报池。",
     "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
     "channels": [
@@ -434,26 +434,24 @@
   },
   {
     "id": "live-compute-and-ct-vendors-中兴通讯",
-    "title": "2026 MWC ShangHai",
-    "category": "AI/算力设备商动态",
+    "title": "China Telecom, Rokid and ZTE Launch First Commercial 5G-A and AI-Glasses Powered Smart Tour Guide in Taizhou, Zhejiang 2026-11-06",
+    "category": "CT设备商动态",
     "source": "中兴通讯",
-    "sourceUrl": "https://www.zte.com.cn/content/zte-site/www-zte-com-cn/global/about/exhibition/mwcs26.html",
+    "sourceUrl": "https://www.zte.com.cn/content/zte-site/www-zte-com-cn/global/about/news/china-telecom-rokid-and-zte-launch-first-commercial-5g-a-and-ai-glasses-powered-smart-tour-guide-in-taizhou,zhejiang.html",
     "time": "13:16",
     "region": "中国",
     "vendors": [
-      "中兴珠峰",
       "中兴",
-      "MWC"
+      "中兴珠峰"
     ],
     "summary": "With innovative technologies and product solutions, ZTE serves g。",
-    "why": "命中AI/算力设备商动态词表，适合进入系统部每日情报池。",
+    "why": "命中CT设备商动态词表，适合进入系统部每日情报池。",
     "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
     "channels": [
-      "Marketing",
-      "客户线"
+      "无线"
     ],
     "tags": [
-      "AI/算力设备商动态"
+      "5G-A"
     ],
     "level": "低"
   },
@@ -477,6 +475,28 @@
     ],
     "tags": [
       "CT设备商动态"
+    ],
+    "level": "低"
+  },
+  {
+    "id": "live-macro-policy-and-events-工信部",
+    "title": "市场监管总局等五部门关于印发《重点产品碳足迹标准体系建设行动方案（2026—2028年）》的通知",
+    "category": "全球宏观热点",
+    "source": "工信部",
+    "sourceUrl": "https://www.miit.gov.cn/xwfb/gxdt/sjdt/art/2026/art_41fe313f626d4f38a93efe757a7eee99.html",
+    "time": "13:16",
+    "region": "全球",
+    "vendors": [
+      "工信部"
+    ],
+    "summary": "市场监管总局等五部门关于印发《重点产品碳足迹标准体系建设行动方案（2026—2028年）》的通知。工信部。宏观政策与展会",
+    "why": "命中全球宏观热点词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "Marketing"
+    ],
+    "tags": [
+      "政策"
     ],
     "level": "低"
   },
