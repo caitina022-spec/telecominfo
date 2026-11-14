@@ -2,7 +2,7 @@
   {
     "source": "中国移动",
     "url": "https://www.chinamobileltd.com",
-    "error": "HTTP 403"
+    "error": "fetch failed"
   },
   {
     "source": "中国联通",
@@ -23,6 +23,11 @@
     "source": "OpenAI",
     "url": "https://openai.com/news",
     "error": "HTTP 403"
+  },
+  {
+    "source": "智谱AI",
+    "url": "https://www.zhipuai.cn",
+    "error": "fetch failed"
   },
   {
     "source": "NVIDIA",
@@ -48,6 +53,11 @@
     "source": "Ciena",
     "url": "https://www.ciena.com/about/newsroom",
     "error": "HTTP 403"
+  },
+  {
+    "source": "工信部",
+    "url": "https://www.miit.gov.cn",
+    "error": "fetch failed"
   },
   {
     "source": "GSMA",
