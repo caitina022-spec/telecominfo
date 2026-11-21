@@ -5,7 +5,7 @@
     "category": "AI服务商动态",
     "source": "中国电信",
     "sourceUrl": "https://www.chinatelecom.com.cn",
-    "time": "13:49",
+    "time": "13:44",
     "region": "中国",
     "vendors": [
       "星辰",
@@ -31,7 +31,7 @@
     "category": "全球宏观热点",
     "source": "Orange",
     "sourceUrl": "https://www.orange.com",
-    "time": "13:49",
+    "time": "13:44",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -54,7 +54,7 @@
     "category": "全球宏观热点",
     "source": "Deutsche Telekom",
     "sourceUrl": "https://www.telekom.com/en/investor-relations/share/reasons-to-invest-in-deutsche-telekom-shares",
-    "time": "13:49",
+    "time": "13:44",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -78,7 +78,7 @@
     "category": "全球宏观热点",
     "source": "Telefonica",
     "sourceUrl": "https://www.telefonica.com/es/accionistas-inversores/informacion-financiera/registro-en-organismos-reguladores-extranjeros/",
-    "time": "13:49",
+    "time": "13:44",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -101,7 +101,7 @@
     "category": "运营商动态",
     "source": "SK Telecom",
     "sourceUrl": "https://www.instagram.com/sktelecom/",
-    "time": "13:49",
+    "time": "13:44",
     "region": "全球",
     "vendors": [
       "KT",
@@ -125,7 +125,7 @@
     "category": "舆情和负面信息",
     "source": "KT",
     "sourceUrl": "https://ax.kt.com/",
-    "time": "13:49",
+    "time": "13:44",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -148,7 +148,7 @@
     "category": "全球宏观热点",
     "source": "STC",
     "sourceUrl": "https://www.stc.com.sa/content/stc/sa/en/personal/mobile/packages/mofawtar-prime.html",
-    "time": "13:49",
+    "time": "13:44",
     "region": "全球",
     "vendors": [
       "运营商",
@@ -166,12 +166,35 @@
     "level": "低"
   },
   {
+    "id": "live-ai-model-providers-OpenAI",
+    "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT Company Nov 18, 2026",
+    "category": "AI服务商动态",
+    "source": "OpenAI",
+    "sourceUrl": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership/",
+    "time": "13:44",
+    "region": "中国",
+    "vendors": [
+      "OpenAI"
+    ],
+    "summary": "Stay up to speed on the rapid advancement of AI technology and t。",
+    "why": "命中AI服务商动态词表，适合进入系统部每日情报池。",
+    "impact": "建议结合中国电信客户经营、云网算能力和相关部门动作进一步研判。",
+    "channels": [
+      "服务",
+      "Marketing"
+    ],
+    "tags": [
+      "大模型"
+    ],
+    "level": "低"
+  },
+  {
     "id": "live-ai-model-providers-Google-AI",
     "title": "Google Ads & Commerce blog",
     "category": "AI服务商动态",
     "source": "Google AI",
     "sourceUrl": "https://blog.google/products/ads-commerce/",
-    "time": "13:49",
+    "time": "13:44",
     "region": "中国",
     "vendors": [
       "Google",
@@ -191,11 +214,11 @@
   },
   {
     "id": "live-ai-model-providers-Anthropic",
-    "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
+    "title": "Today Anthropic, PBC announced the closing of its initial public offering of an aggregate of 1,127,000,000 shares of its Class A common stock at a public offering price of $83.00 per share, including the full exercise by the underwriters of their option to purchase an additional 147,000,000 shares of Class A common stock from Anthropic at the initial public offering price.",
     "category": "AI服务商动态",
     "source": "Anthropic",
-    "sourceUrl": "https://www.anthropic.com/news/s1-sec",
-    "time": "13:49",
+    "sourceUrl": "https://www.anthropic.com/news/ipo-close",
+    "time": "13:44",
     "region": "中国",
     "vendors": [
       "Anthropic"
@@ -218,7 +241,7 @@
     "category": "AI服务商动态",
     "source": "Meta AI",
     "sourceUrl": "https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/",
-    "time": "13:49",
+    "time": "13:44",
     "region": "中国",
     "vendors": [
       "Meta",
@@ -242,7 +265,7 @@
     "category": "AI服务商动态",
     "source": "DeepSeek",
     "sourceUrl": "https://api-docs.deepseek.com/zh-cn/guides/search/",
-    "time": "13:49",
+    "time": "13:44",
     "region": "中国",
     "vendors": [
       "DeepSeek"
@@ -266,7 +289,7 @@
     "category": "AI服务商动态",
     "source": "阿里云",
     "sourceUrl": "https://www.alibabacloud.com/ai-assistant?displayMode=widget",
-    "time": "13:49",
+    "time": "13:44",
     "region": "中国",
     "vendors": [
       "通义千问",
@@ -290,7 +313,7 @@
     "category": "AI服务商动态",
     "source": "腾讯云",
     "sourceUrl": "https://cloud.tencent.com",
-    "time": "13:49",
+    "time": "13:44",
     "region": "中国",
     "vendors": [
       "混元",
@@ -315,7 +338,7 @@
     "category": "AI服务商动态",
     "source": "百度智能云",
     "sourceUrl": "https://cloud.baidu.com/product/qianfan_home/model_3.html",
-    "time": "13:49",
+    "time": "13:44",
     "region": "中国",
     "vendors": [
       "文心",
@@ -340,7 +363,7 @@
     "category": "AI服务商动态",
     "source": "月之暗面",
     "sourceUrl": "https://www.kimi.com/en/blog/kimi-k3-1-pro",
-    "time": "13:49",
+    "time": "13:45",
     "region": "中国",
     "vendors": [
       "Kimi",
@@ -364,7 +387,7 @@
     "category": "AI服务商动态",
     "source": "字节跳动火山引擎",
     "sourceUrl": "https://www.volcengine.com/product/DataAgent",
-    "time": "13:49",
+    "time": "13:45",
     "region": "中国",
     "vendors": [
       "豆包",
@@ -389,7 +412,7 @@
     "category": "AI服务商动态",
     "source": "智谱AI",
     "sourceUrl": "https://beian.mps.gov.cn/#/query/webSearch",
-    "time": "13:49",
+    "time": "13:45",
     "region": "中国",
     "vendors": [
       "智谱"
@@ -414,7 +437,7 @@
     "category": "AI产品商品",
     "source": "华为",
     "sourceUrl": "https://consumer.huawei.com/cn/support/hisuite/",
-    "time": "13:50",
+    "time": "13:45",
     "region": "中国",
     "vendors": [
       "华为",
@@ -437,7 +460,7 @@
     "category": "CT设备商动态",
     "source": "中兴通讯",
     "sourceUrl": "https://www.zte.com.cn/content/zte-site/www-zte-com-cn/global/about/news/china-telecom,sribd,zte-and-eye-hospital-of-wmu-launch-intelligent-patient-escort-service-with-5g-a-smart-wheelchair.html",
-    "time": "13:50",
+    "time": "13:45",
     "region": "中国",
     "vendors": [
       "中兴",
@@ -460,7 +483,7 @@
     "category": "CT设备商动态",
     "source": "Cisco",
     "sourceUrl": "https://newsroom.cisco.com/c/r/newsroom/en/us/blogs.html",
-    "time": "13:50",
+    "time": "13:45",
     "region": "中国",
     "vendors": [
       "Cisco"
@@ -483,7 +506,7 @@
     "category": "全球宏观热点",
     "source": "国家数据局",
     "sourceUrl": "https://www.nda.gov.cn",
-    "time": "13:50",
+    "time": "13:45",
     "region": "全球",
     "vendors": [
       "国家数据局"
@@ -505,7 +528,7 @@
     "category": "全球宏观热点",
     "source": "WAIC",
     "sourceUrl": "https://beian.miit.gov.cn/",
-    "time": "13:50",
+    "time": "13:45",
     "region": "全球",
     "vendors": [
       "WAIC"
